@@ -1,23 +1,29 @@
 # Lei 1 — Autoridade Canônica
 
 ## Objetivo
-Garantir que nenhuma alteração estrutural no software ocorra sem uma autorização formal, assegurando a integridade e a estabilidade do sistema.
+Estabelecer o princípio fundamental de legitimidade para qualquer alteração estrutural
+em sistemas governados por este código.
 
-## Artigos
+## Artigo 1 — Princípio da Autoridade
+Nenhuma modificação estrutural relevante em sistemas, regras ou arquitetura
+pode ocorrer sem autorização legítima.
 
-**Artigo 1.1:** Toda e qualquer modificação na arquitetura, nos design patterns ou nos componentes críticos do sistema deve ser submetida a um processo de revisão e aprovação.
+## Artigo 2 — Identificação de Responsável
+Toda alteração deve possuir um agente responsável claramente identificado,
+capaz de responder pelas consequências da modificação.
 
-**Artigo 1.2:** A autoridade para aprovar alterações estruturais é delegada a um comitê de arquitetura ou a um arquiteto líder, formalmente designado.
+## Artigo 3 — Validade Normativa
+Alterações executadas sem autorização válida são consideradas inválidas
+no contexto do sistema normativo.
 
-**Artigo 1.3:** Nenhuma alteração pode ser mesclada ao branch principal (`main`) sem a documentação de aprovação correspondente, registrada no sistema de controle de versão.
+## Artigo 4 — Escopo de Aplicação
+Esta lei aplica-se a:
 
-## Relação normativa
+- alterações de arquitetura
+- mudanças em leis
+- modificações estruturais de sistemas
+- decisões que impactem governança técnica
 
-- **Lei 3 (Procedimento de Mudança):** Esta lei estabelece a autoridade, enquanto a Lei 3 define o processo pelo qual essa autoridade é exercida.
-- **Lei 5 (Livro da Vida):** As decisões de autoridade devem ser registradas no Livro da Vida para garantir um histórico imutável.
-
-## Impacto
-
-- **Arquitetural:** Impede a degradação da arquitetura (architectural drift) e garante que o design do sistema permaneça coeso e intencional.
-- **Operacional:** Reduz o risco de falhas em produção causadas por alterações não autorizadas ou mal planejadas.
-- **Governança:** Estabelece uma clara linha de responsabilidade pelas decisões técnicas que afetam a estrutura do software.
+## Impacto Arquitetural
+Esta lei constitui o fundamento de governança do sistema.
+Sem ela, nenhuma outra lei possui validade operacional.

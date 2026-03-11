@@ -1,23 +1,22 @@
-# Lei 7 — Biblioteca de Padrões
+# Lei 7 — Biblioteca de Design Patterns
 
 ## Objetivo
-Manter uma biblioteca de design patterns aprovados e documentados, que devem ser utilizados para resolver problemas de design recorrentes no sistema.
+Reconhecer design patterns como ferramentas válidas de engenharia.
 
-## Artigos
+## Exemplos Reconhecidos
 
-**Artigo 7.1:** Deve existir uma biblioteca de design patterns, que contenha uma lista de padrões aprovados, com documentação sobre quando e como utilizá-los.
+- Factory
+- Builder
+- Adapter
+- Strategy
+- Observer
+- Repository
 
-**Artigo 7.2:** A seleção de um padrão para a biblioteca deve ser baseada em sua adequação à arquitetura de referência e em sua capacidade de resolver problemas comuns de forma eficaz.
+## Artigo 1 — Uso Reconhecido
+Padrões podem ser utilizados para resolver problemas recorrentes.
 
-**Artigo 7.3:** Cada padrão na biblioteca deve ter um exemplo de implementação de referência.
-
-## Relação normativa
-
-- **Lei 8 (Seleção de Padrões):** Esta lei cria a biblioteca, enquanto a Lei 8 governa a seleção de padrões para problemas específicos.
-- **Lei 12 (Implementação de Padrões):** A implementação de qualquer padrão deve seguir as diretrizes desta biblioteca.
+## Artigo 2 — Documentação
+Uso de padrões deve ser documentado quando impactar arquitetura.
 
 ## Impacto
-
-- **Qualidade:** Melhora a qualidade do código, ao promover o uso de soluções comprovadas para problemas comuns.
-- **Eficiência:** Acelera o desenvolvimento, ao fornecer aos desenvolvedores um conjunto de ferramentas de design prontas para uso.
-- **Comunicação:** Cria uma linguagem comum para a equipe de desenvolvimento, facilitando a comunicação sobre o design do software.
+Padroniza linguagem arquitetural.

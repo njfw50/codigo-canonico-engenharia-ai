@@ -1,29 +1,128 @@
 # Código Canônico de Engenharia de IA e Software
 
+Framework normativo para governança de sistemas digitais, arquitetura de software, segurança e experiência humana.
+
+Este projeto define um **sistema de leis técnicas** que organizam como sistemas de software devem ser projetados, modificados e governados.
+
 ## Introdução
-O Código Canônico de Engenharia de IA e Software é um sistema normativo projetado para a governança técnica de projetos de software e sistemas de inteligência artificial. Ele estabelece um conjunto de leis e princípios para garantir a consistência, a qualidade e a evolução controlada da arquitetura, do design e da implementação de software.
+
+O Código Canônico de Engenharia de IA e Software é um sistema normativo criado para estabelecer governança técnica sobre projetos de software e sistemas de inteligência artificial. Ele funciona como uma **constituição técnica**, definindo regras, procedimentos e princípios que garantem consistência, rastreabilidade e evolução controlada dos sistemas.
+
+## Objetivo
+
+Criar um modelo coerente para desenvolvimento de sistemas baseado em:
+
+- governança de mudanças
+- rastreabilidade
+- arquitetura disciplinada
+- design patterns
+- segurança digital
+- experiência do usuário
 
 ## Estrutura das Leis
-O código é composto por 15 leis fundamentais, cada uma abordando um aspecto específico da engenharia de software, desde a governança de mudanças até a experiência do usuário. Cada lei possui um objetivo claro, artigos detalhados, e define seu impacto arquitetural e sua relação com as outras leis do sistema.
+
+O sistema possui **15 leis**, organizadas em cinco blocos funcionais:
+
+### Fundação
+Leis responsáveis por legitimidade e rastreabilidade.
+
+| Lei | Título |
+|-----|--------|
+| Lei 1 | Autoridade Canônica |
+| Lei 2 | Classificação Normativa |
+| Lei 3 | Procedimento de Alteração |
+| Lei 4 | Matriz de Criticidade |
+| Lei 5 | Livro da Vida |
+
+### Engenharia
+Leis que estruturam a arquitetura de software.
+
+| Lei | Título |
+|-----|--------|
+| Lei 6 | Arquitetura Disciplinada |
+| Lei 7 | Biblioteca de Design Patterns |
+| Lei 8 | Critério de Seleção de Padrões |
+| Lei 9 | Proibição de Uso Ornamental |
+| Lei 10 | Separação de Camadas |
+| Lei 12 | Implementação de Design Patterns |
+
+### Governança Evolutiva
+
+| Lei | Título |
+|-----|--------|
+| Lei 11 | Governança de Emendas |
+| Lei 13 | Expansão Normativa |
+
+### Segurança
+
+| Lei | Título |
+|-----|--------|
+| Lei 14 | Segurança e Integridade Digital |
+
+### Experiência Humana
+
+| Lei | Título |
+|-----|--------|
+| Lei 15 | Interface e Experiência do Usuário |
 
 ## Princípios do Sistema
-Os princípios fundamentais do Código Canônico incluem:
-- **Autoridade Centralizada:** Todas as mudanças estruturais devem ser autorizadas.
-- **Evolução Controlada:** O sistema normativo evolui através de um processo de emendas bem definido.
-- **Qualidade Arquitetural:** A arquitetura de software é um pilar central, com diretrizes claras para o uso de design patterns.
-- **Segurança e Experiência:** A segurança digital e a experiência do usuário são integradas como requisitos fundamentais do sistema.
+
+O Código Canônico opera sobre três princípios evolutivos:
+
+**1. Finalidade Evolutiva** — Cada lei deve existir para resolver uma lacuna real, estabilizar o sistema ou permitir evolução controlada. Nenhuma lei é criada apenas para aumentar a quantidade normativa.
+
+**2. Dependência Estrutural** — Toda nova lei deve indicar qual lei anterior exige sua existência, qual problema ela resolve e qual etapa do sistema ela consolida. Isso cria uma cadeia normativa coesa.
+
+**3. Arquitetura Jurídica** — O código funciona como um sistema arquitetural. Ele evolui em fases: Fundação → Engenharia → Governança Evolutiva → Domínios Técnicos.
 
 ## Aplicação em Projetos
-Para aplicar o Código Canônico em um projeto, a equipe de desenvolvimento deve adotar as leis como parte de seu processo de engenharia. Isso inclui a integração das leis no ciclo de vida de desenvolvimento de software, desde o planejamento e design até a implementação e manutenção.
+
+Este modelo pode ser aplicado em:
+
+- desenvolvimento de software
+- governança de IA
+- auditoria de arquitetura
+- engenharia de sistemas críticos
+
+Para aplicar o Código Canônico em um projeto, a equipe deve adotar as leis como parte de seu processo de engenharia, integrando-as ao ciclo de vida de desenvolvimento desde o planejamento até a manutenção.
 
 ## Estrutura do Repositório
-O repositório está organizado da seguinte forma:
-- **/docs:** Contém a documentação completa do Código Canônico em formato PDF.
-- **/laws:** Contém os arquivos Markdown para cada uma das 15 leis.
-- **/architecture:** Contém o mapa de dependência normativa e outros documentos relacionados à arquitetura do sistema.
+
+```
+codigo-canonico-engenharia-ai/
+│
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+│
+├── docs/
+│   └── codigo_canonico_engenharia_ai.pdf
+│
+├── laws/
+│   ├── law01_authority.md
+│   ├── law02_classification.md
+│   ├── law03_change_procedure.md
+│   ├── law04_criticality.md
+│   ├── law05_book_of_life.md
+│   ├── law06_architecture.md
+│   ├── law07_pattern_library.md
+│   ├── law08_pattern_selection.md
+│   ├── law09_no_ornamental_patterns.md
+│   ├── law10_layer_separation.md
+│   ├── law11_amendments.md
+│   ├── law12_pattern_implementation.md
+│   ├── law13_normative_expansion.md
+│   ├── law14_cybersecurity.md
+│   └── law15_user_experience.md
+│
+└── architecture/
+    └── normative_dependency_map.md
+```
 
 ## Contribuição
-Contribuições para o desenvolvimento e aprimoramento do Código Canônico são bem-vindas. Para contribuir, por favor, leia o arquivo `CONTRIBUTING.md` e siga as diretrizes para submeter suas propostas de melhoria ou novas leis.
+
+Contribuições são bem-vindas. Leia o arquivo `CONTRIBUTING.md` para entender o processo de proposta de novas leis ou alterações normativas.
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+MIT License — veja o arquivo `LICENSE` para detalhes.

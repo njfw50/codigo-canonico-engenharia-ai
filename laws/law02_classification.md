@@ -1,23 +1,28 @@
-_# Lei 2 — Classificação de Componentes
+# Lei 2 — Classificação Normativa
 
 ## Objetivo
-Estabelecer um sistema de classificação para todos os componentes de software, a fim de determinar o nível de governança e controle de mudanças aplicável a cada um.
+Classificar elementos do sistema conforme seu nível de proteção normativa.
 
-## Artigos
+## Classes Normativas
 
-**Artigo 2.1:** Todo componente, módulo ou serviço no sistema deve ser classificado de acordo com sua criticidade, impacto no negócio e interdependências.
+### Classe A — Canonizada
+Conteúdo considerado núcleo do sistema.
+Só pode ser alterado por processo formal de emenda.
 
-**Artigo 2.2:** As classificações devem seguir uma escala predefinida (ex: Crítico, Essencial, Suporte, Experimental) que determina o rigor do processo de revisão para alterações.
+### Classe B — Protegida
+Estruturas sensíveis que exigem justificativa técnica para alteração.
 
-**Artigo 2.3:** A classificação de um componente deve ser documentada em seu código-fonte ou em um registro central de metadados.
+### Classe C — Operacional
+Componentes que podem evoluir com menor rigor processual.
 
-## Relação normativa
+### Classe D — Livre
+Conteúdos experimentais ou temporários.
 
-- **Lei 4 (Criticidade):** A classificação é o mecanismo pelo qual a criticidade, definida na Lei 4, é aplicada na prática.
-- **Lei 6 (Arquitetura):** A classificação ajuda a identificar os componentes que são pilares da arquitetura e que exigem maior proteção.
+## Artigo 1 — Identificação de Classe
+Todo componente do sistema deve possuir uma classe normativa definida.
 
-## Impacto
+## Artigo 2 — Proteção do Núcleo
+Elementos classificados como Classe A possuem proteção máxima.
 
-- **Arquitetural:** Permite um tratamento diferenciado para componentes, aplicando controles mais rígidos onde é mais necessário e flexibilidade onde o risco é menor.
-- **Governança:** Facilita a aplicação de políticas de governança de forma granular, evitando a sobrecarga de processos em componentes de baixa criticidade.
-- **Eficiência:** Otimiza o fluxo de desenvolvimento, permitindo que equipes se movam mais rapidamente em componentes menos críticos._
+## Impacto Arquitetural
+Permite separação entre núcleo institucional e componentes operacionais.
