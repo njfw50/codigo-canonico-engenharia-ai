@@ -1,0 +1,43 @@
+name: Canonical Law Enforcement
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  enforce-canonical-precedence:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch main branch
+        run: git fetch origin main
+
+      - name: Scan PR for violations
+        run: |
+          echo "Checking Canonical Law 0.1 compliance..."
+
+          CHANGED_FILES=$(git diff --name-only origin/main...HEAD)
+
+          echo "Changed files:"
+          echo "$CHANGED_FILES"
+
+          # Flags
+          HAS_SECURITY=$(echo "$CHANGED_FILES" | grep -E "security|auth|crypto" || true)
+          HAS_ARCH=$(echo "$CHANGED_FILES" | grep -E "core|engine|architecture" || true)
+          HAS_UX=$(echo "$CHANGED_FILES" | grep -E "ui|frontend|ux" || true)
+
+          # Enforcement Logic
+          if [ -n "$HAS_UX" ] && [ -n "$HAS_ARCH" ]; then
+            echo "BLOCKED: UX changes interfering with architecture (violates Law 0.1)"
+            exit 1
+          fi
+
+          if [ -n "$HAS_UX" ] && [ -n "$HAS_SECURITY" ]; then
+            echo "BLOCKED: UX overriding security (violates Law 0.1)"
+            exit 1
+          fi
+
+          echo "Canonical Law 0.1 check passed"
