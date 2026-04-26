@@ -1,104 +1,70 @@
-# Código Canônico de Engenharia de IA e Software
+# ⚖️ The Canonical Protocol of Engineering & AI
+## A Structured Technocracy for Software Governance
 
-Framework normativo para governança de sistemas digitais, arquitetura de software, segurança e experiência humana.
+### 🛡️ The Conceptual Defense (Manifesto)
+The modern software development landscape is frequently compromised by stylistic wars, resume-driven development, and the chaotic entanglement of architectural layers. With the advent of autonomous AI agents, the speed of code generation has outpaced the rigor of structural governance, leading to a catastrophic accumulation of technical debt and unmaintainable architectures.
 
-Este projeto define um **sistema de leis técnicas** que organizam como sistemas de software devem ser projetados, modificados e governados.
+**The Canonical Protocol is our definitive response.**
 
-## Introdução
+This repository does not contain mere "best practices" or "suggestions." It establishes a **Structured Technocracy**. It operates on the fundamental axiom that **architectural integrity supersedes personal preference, transient industry fads, and AI stochasticity.** 
 
-O Código Canônico de Engenharia de IA e Software é um sistema normativo criado para estabelecer governança técnica sobre projetos de software e sistemas de inteligência artificial. Ele funciona como uma **constituição técnica**, definindo regras, procedimentos e princípios que garantem consistência, rastreabilidade e evolução controlada dos sistemas.
+We reject the notion of technical democracy where every Pull Request is a negotiation of fundamental standards. Instead, we submit to the **Doctrine of the Single Source of Truth (SSOT)**. Every piece of code, whether authored by a human Engineer or an AI collaborator, must undergo a rigorous Canonical Audit. If an implementation violates layer separation or introduces arbitrary complexity, it is inherently defective, regardless of its operational status. 
 
-## Objetivo
+By classifying system components, mandating strict boundaries, and requiring explicit governance for any structural mutation, we guarantee that the system remains highly auditable, deeply secure, and optimized for Advanced Data Analysis. 
 
-Criar um modelo coerente para desenvolvimento de sistemas baseado em:
+**This is not just code; it is institutional memory.**
 
-- governança de mudanças
-- rastreabilidade
-- arquitetura disciplinada
-- design patterns
-- segurança digital
-- experiência do usuário
+---
 
-## Estrutura das Leis
+## 📜 The Canonical Body (The 16 Canons)
 
-O sistema possui **15 leis**, organizadas em cinco blocos funcionais:
+The system is governed by 16 immutable Canons, organized into functional domains:
 
-### Fundação
-Leis responsáveis por legitimidade e rastreabilidade.
+### Core Foundation & Authority
+| Canon | Title |
+|-------|-------|
+| **Canon 0** | The Law of Precedence |
+| **Canon I** | The Supremacy of Canonical Authority |
+| **Canon II** | Normative Classification & Structural Segregation |
+| **Canon III** | Change Procedure & Structural Mutation |
+| **Canon IV** | Criticality Matrix & Proportionality |
+| **Canon V** | The Book of Life (Immutable Audit Log) |
 
-| Lei | Título |
-|-----|--------|
-| Lei 1 | Autoridade Canônica |
-| Lei 2 | Classificação Normativa |
-| Lei 3 | Procedimento de Alteração |
-| Lei 4 | Matriz de Criticidade |
-| Lei 5 | Livro da Vida |
+### Engineering & Architecture
+| Canon | Title |
+|-------|-------|
+| **Canon VI** | Architectural Discipline & Structural Coherence |
+| **Canon VII** | Pattern Library & Architectural Vocabulary |
+| **Canon VIII** | Pattern Selection Criteria |
+| **Canon IX** | Prohibition of Ornamental Patterns |
+| **Canon X** | Layer Segregation & Boundary Enforcement |
+| **Canon XII** | Pattern Implementation Directives |
 
-### Engenharia
-Leis que estruturam a arquitetura de software.
+### Evolutionary Governance
+| Canon | Title |
+|-------|-------|
+| **Canon XI** | Amendments & Governance Procedures |
+| **Canon XIII** | Normative Expansion Protocol |
 
-| Lei | Título |
-|-----|--------|
-| Lei 6 | Arquitetura Disciplinada |
-| Lei 7 | Biblioteca de Design Patterns |
-| Lei 8 | Critério de Seleção de Padrões |
-| Lei 9 | Proibição de Uso Ornamental |
-| Lei 10 | Separação de Camadas |
-| Lei 12 | Implementação de Design Patterns |
+### Security & Human Interaction
+| Canon | Title |
+|-------|-------|
+| **Canon XIV** | Digital Security & Cybersecurity Axioms |
+| **Canon XV** | User Experience & Interaction Safety |
 
-### Governança Evolutiva
+---
 
-| Lei | Título |
-|-----|--------|
-| Lei 11 | Governança de Emendas |
-| Lei 13 | Expansão Normativa |
-
-### Segurança
-
-| Lei | Título |
-|-----|--------|
-| Lei 14 | Segurança e Integridade Digital |
-
-### Experiência Humana
-
-| Lei | Título |
-|-----|--------|
-| Lei 15 | Interface e Experiência do Usuário |
-
-## Princípios do Sistema
-
-O Código Canônico opera sobre três princípios evolutivos:
-
-**1. Finalidade Evolutiva** — Cada lei deve existir para resolver uma lacuna real, estabilizar o sistema ou permitir evolução controlada. Nenhuma lei é criada apenas para aumentar a quantidade normativa.
-
-**2. Dependência Estrutural** — Toda nova lei deve indicar qual lei anterior exige sua existência, qual problema ela resolve e qual etapa do sistema ela consolida. Isso cria uma cadeia normativa coesa.
-
-**3. Arquitetura Jurídica** — O código funciona como um sistema arquitetural. Ele evolui em fases: Fundação → Engenharia → Governança Evolutiva → Domínios Técnicos.
-
-## Aplicação em Projetos
-
-Este modelo pode ser aplicado em:
-
-- desenvolvimento de software
-- governança de IA
-- auditoria de arquitetura
-- engenharia de sistemas críticos
-
-Para aplicar o Código Canônico em um projeto, a equipe deve adotar as leis como parte de seu processo de engenharia, integrando-as ao ciclo de vida de desenvolvimento desde o planejamento até a manutenção.
-
-## Estrutura do Repositório
+## 🏗️ Repository Structure
 
 ```
 codigo-canonico-engenharia-ai/
 │
-├── README.md
+├── README.md                  # The Conceptual Defense & Index
 ├── LICENSE
-├── CONTRIBUTING.md
+├── CONTRIBUTING.md            # Guidelines for Governance Commits
 │
-├── docs/
-│   └── codigo_canonico_engenharia_ai.pdf
-│
-├── laws/
+├── laws/                      # The Immutable Canons
+│   ├── law00_precedence.md
 │   ├── law01_authority.md
 │   ├── law02_classification.md
 │   ├── law03_change_procedure.md
@@ -116,13 +82,10 @@ codigo-canonico-engenharia-ai/
 │   └── law15_user_experience.md
 │
 └── architecture/
-    └── normative_dependency_map.md
 ```
 
-## Contribuição
+## Application in Projects
+To apply the Canonical Protocol, development teams and AI Agents must integrate these Canons directly into their system prompts and CI/CD pipelines, enforcing autonomous validation against Canon X (Layer Segregation) and Canon IX (Anti-Overengineering) before any deployment.
 
-Contribuições são bem-vindas. Leia o arquivo `CONTRIBUTING.md` para entender o processo de proposta de novas leis ou alterações normativas.
-
-## Licença
-
-MIT License — veja o arquivo `LICENSE` para detalhes.
+## License
+MIT License — see `LICENSE` for details.
