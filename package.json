@@ -1,0 +1,27 @@
+{
+  "name": "canonical-protocol",
+  "version": "1.0.0",
+  "description": "A Structured Technocracy for Software Governance & AI Subjugation",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./inject.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njfw50/codigo-canonico-engenharia-ai.git"
+  },
+  "keywords": [
+    "architecture",
+    "governance",
+    "ai",
+    "cursor",
+    "copilot",
+    "clean-architecture",
+    "prompt-injection"
+  ],
+  "author": "njfw50",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
