@@ -1,20 +1,20 @@
-# Lei 4 — Matriz de Criticidade
+# Canon IV: Criticality Matrix & Proportionality
+## The Assessment of Blast Radius
 
-## Objetivo
-Classificar alterações conforme seu impacto no sistema.
+### Premise
+This Law classifies system modifications based on their blast radius and architectural impact, ensuring that procedural rigor matches the level of risk.
 
-## Níveis de Criticidade
+### Criticality Levels
+- **Level 1 (Low Impact):** Minor localized changes.
+- **Level 2 (Moderate Impact):** Changes affecting isolated subsystems.
+- **Level 3 (High Impact):** Core system modifications or cross-module changes.
+- **Level 4 (Critical Impact):** Foundational architectural shifts or critical security updates.
 
-Nível 1 — Baixo impacto  
-Nível 2 — Impacto moderado  
-Nível 3 — Impacto elevado  
-Nível 4 — Impacto crítico
+### Article 4.1 — Procedural Proportionality
+The rigor of the modification and review process must scale proportionally with its designated criticality level.
 
-## Artigo 1 — Proporcionalidade
-O rigor do processo de alteração deve ser proporcional à criticidade.
+### Article 4.2 — Deep Evaluation
+Level 3 and Level 4 alterations demand exhaustive peer review, deep architectural analysis, and explicit authorization from core maintainers.
 
-## Artigo 2 — Avaliação
-Alterações de nível 3 ou 4 exigem análise aprofundada.
-
-## Impacto
-Evita tratamento igual para alterações de impacto diferente.
+### Architectural Impact
+Prevents uniform procedural overhead, optimizing engineering focus and resources on high-risk systemic mutations.

@@ -1,20 +1,20 @@
-# Lei 6 — Arquitetura Disciplinada
+# Canon VI: Architectural Discipline & Structural Coherence
+## The Foundation of Systemic Harmony
 
-## Objetivo
-Garantir que sistemas sejam construídos com organização arquitetural adequada.
+### Premise
+This Law ensures that all systems are engineered with uncompromising architectural organization and foresight, outright rejecting chaotic or improvised structures.
 
-## Princípios
+### Core Principles
+- Strict Modularity
+- Absolute Separation of Concerns
+- Structural Consistency across all modules
+- Long-term Maintainability and Scalability
 
-- modularidade
-- separação de responsabilidades
-- consistência estrutural
-- facilidade de manutenção
+### Article 6.1 — Defined Structure
+All systems, regardless of scale, must adhere to a predefined, documented, and approved architecture before any code is written.
 
-## Artigo 1 — Estrutura
-Sistemas devem possuir arquitetura definida.
+### Article 6.2 — Coherence Axiom
+Inconsistent, ad-hoc, or "spaghetti" architectures are strictly classified as engineering failures and must be refactored immediately upon detection.
 
-## Artigo 2 — Coerência
-Arquiteturas inconsistentes são consideradas falhas de engenharia.
-
-## Impacto
-Previne crescimento caótico de sistemas.
+### Architectural Impact
+Eradicates chaotic system growth, enforces systemic harmony, and significantly reduces long-term technical debt.

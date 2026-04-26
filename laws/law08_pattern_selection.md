@@ -1,14 +1,15 @@
-# Lei 8 — Critério de Seleção de Padrões
+# Canon VIII: Pattern Selection Criteria
+## The Protocol for Architectural Adoption
 
-## Objetivo
-Garantir uso adequado de design patterns.
+### Premise
+This Law ensures that Design Patterns are applied judiciously. It demands that every pattern introduced into the system is the optimal solution for the specific problem context, strictly prohibiting arbitrary adoption.
 
-## Critérios
+### Selection Criteria
+The adoption of a pattern must be evaluated against:
+- Absolute problem-solution fit
+- Minimal architectural overhead
+- Structural simplicity
+- Future maintainability and readability
 
-- adequação ao problema
-- impacto arquitetural
-- simplicidade estrutural
-- manutenção futura
-
-## Impacto
-Evita uso arbitrário de padrões.
+### Architectural Impact
+Prevents pattern abuse, prevents the introduction of arbitrary architectural complexity, and guarantees that abstractions serve a tangible purpose.

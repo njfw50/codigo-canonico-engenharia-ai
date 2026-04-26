@@ -1,16 +1,17 @@
-# Lei 12 — Implementação de Design Patterns
+# Canon XII: Pattern Implementation Directives
+## The Integration of Structural Commitments
 
-## Objetivo
-Integrar design patterns ao regime normativo do sistema.
+### Premise
+This Law integrates design patterns firmly into the normative regime of the system, treating them as absolute structural commitments rather than mere suggestions.
 
-## Artigo 1
-Padrões utilizados devem ser documentados.
+### Article 12.1 — Explicit Documentation
+The use of approved patterns must be explicitly documented in the system's architecture guidelines.
 
-## Artigo 2
-Mudanças arquiteturais devem ser registradas.
+### Article 12.2 — Architectural Traceability
+Any architectural mutation stemming from pattern implementation must be formally recorded.
 
-## Artigo 3
-Padrões devem respeitar critérios da Lei 8.
+### Article 12.3 — Adherence to Criteria
+Implemented patterns must strictly respect the Selection Criteria defined in Canon VIII.
 
-## Impacto
-Formaliza engenharia de software como parte da governança.
+### Architectural Impact
+Formalizes software engineering as an integral, auditable component of system governance.

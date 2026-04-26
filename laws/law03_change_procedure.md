@@ -1,26 +1,26 @@
-# Lei 3 — Procedimento de Alteração
+# Canon III: Change Procedure & Structural Mutation
+## The Governance of Systemic Evolution
 
-## Objetivo
-Estabelecer o processo obrigatório para execução de mudanças estruturais.
+### Premise
+This Law establishes the mandatory governance protocol for executing structural mutations across the system. It ensures that no change occurs arbitrarily or without proper oversight.
 
-## Artigo 1 — Qualificação
-Toda alteração deve ser descrita claramente antes de ser executada.
+### Article 3.1 — Qualification
+Every proposed alteration must be explicitly described, scoped, and documented prior to execution.
 
-## Artigo 2 — Justificativa
-A alteração deve apresentar razão técnica ou normativa.
+### Article 3.2 — Justification
+Modifications must present an undeniable technical or normative rationale. Changes without clear justification are automatically rejected.
 
-## Artigo 3 — Análise de Impacto
-Deve ser avaliado:
+### Article 3.3 — Impact Analysis
+A rigorous evaluation must be conducted prior to approval, encompassing:
+- Technical Impact
+- Normative Impact
+- Architectural Impact
 
-- impacto técnico
-- impacto normativo
-- impacto arquitetural
+### Article 3.4 — Execution
+Alterations must be executed in a strictly controlled, reproducible, and documented environment.
 
-## Artigo 4 — Execução
-A alteração deve ocorrer de forma controlada e documentada.
+### Article 3.5 — Registration
+All relevant mutations must be permanently recorded in the Book of Life.
 
-## Artigo 5 — Registro
-Toda alteração relevante deve ser registrada no Livro da Vida.
-
-## Impacto
-Cria governança previsível para evolução do sistema.
+### Architectural Impact
+Establishes predictable, secure, and fully auditable governance for system evolution.

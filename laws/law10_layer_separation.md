@@ -1,20 +1,20 @@
-# Lei 10 — Separação de Camadas
+# Canon X: Layer Segregation & Boundary Enforcement
+## The Doctrine of Structural Isolation
 
-## Objetivo
-Definir divisão mínima da arquitetura de sistemas.
+### Premise
+This Law dictates the absolute minimum structural division of the system architecture. It exists to prevent the entanglement of distinct responsibilities, which invariably leads to monolithic collapse.
 
-## Camadas
+### Mandatory Layers
+- **Interface:** Presentation and user interaction mechanisms.
+- **Application:** Use cases and system coordination.
+- **Domain:** Pure, unadulterated core business logic.
+- **Infrastructure:** Data persistence and external service integrations.
 
-- Interface
-- Aplicação
-- Domínio
-- Infraestrutura
+### Article 10.1 — Strict Separation
+Each layer must possess a singular, unambiguous responsibility. Blurring the lines between layers is a direct violation of this Canon.
 
-## Artigo 1 — Separação
-Cada camada deve possuir responsabilidade clara.
+### Article 10.2 — Absolute Isolation Axiom
+Layers must not harbor improper dependencies. Specifically, the Domain layer must remain pure and entirely oblivious to Infrastructure or Interface concerns. Dependencies must always point inwards.
 
-## Artigo 2 — Isolamento
-Camadas não devem possuir dependências inadequadas.
-
-## Impacto
-Reduz acoplamento e melhora manutenção.
+### Architectural Impact
+Drastically reduces systemic coupling, mitigates the blast radius of changes, and guarantees long-term maintainability and testability.

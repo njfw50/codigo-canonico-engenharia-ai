@@ -1,10 +1,11 @@
-# Lei 7 — Biblioteca de Design Patterns
+# Canon VII: Pattern Library & Architectural Vocabulary
+## The Standardization of Engineering Lexicon
 
-## Objetivo
-Reconhecer design patterns como ferramentas válidas de engenharia.
+### Premise
+This Law formally recognizes standard Design Patterns as the canonical engineering vocabulary. It ensures cognitive consistency across the codebase by utilizing proven, recognizable structural paradigms.
 
-## Exemplos Reconhecidos
-
+### Approved Vocabulary
+Recognized foundational patterns include, but are not limited to:
 - Factory
 - Builder
 - Adapter
@@ -12,11 +13,11 @@ Reconhecer design patterns como ferramentas válidas de engenharia.
 - Observer
 - Repository
 
-## Artigo 1 — Uso Reconhecido
-Padrões podem ser utilizados para resolver problemas recorrentes.
+### Article 7.1 — Recognized Application
+Standard patterns must be employed to solve recurring architectural problems, avoiding ad-hoc or "reinventing the wheel" solutions.
 
-## Artigo 2 — Documentação
-Uso de padrões deve ser documentado quando impactar arquitetura.
+### Article 7.2 — Mandatory Documentation
+The implementation of any pattern that dictates or significantly alters the overarching architecture must be explicitly documented in the technical specifications.
 
-## Impacto
-Padroniza linguagem arquitetural.
+### Architectural Impact
+Standardizes the technical lexicon, unifies the engineering approach, and dramatically accelerates the onboarding and peer-review processes.

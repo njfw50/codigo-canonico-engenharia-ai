@@ -1,20 +1,20 @@
-# Lei 15 — Experiência do Usuário
+# Canon XV: User Experience & Interaction Safety
+## The Guarantee of Deterministic Operations
 
-## Objetivo
-Garantir interação humana clara e segura com sistemas.
+### Premise
+This Law guarantees that human interaction with the system is clear, deterministic, and safe, minimizing the vector of human-induced systemic failures.
 
-## Princípios
+### Core Principles
+- Interface Clarity
+- Interaction Consistency
+- Preemptive Error Prevention
+- Unrestricted Accessibility
 
-- clareza de interface
-- consistência
-- prevenção de erro
-- acessibilidade
+### Article 15.1 — State Communication
+Interfaces must unambiguously communicate the current state of the system to the operator. Ambiguity is an engineering failure.
 
-## Artigo 1
-Interfaces devem comunicar claramente estado do sistema.
+### Article 15.2 — Error Mitigation
+Systems must be engineered to actively anticipate, intercept, and neutralize the risk of human error before execution.
 
-## Artigo 2
-Sistemas devem reduzir risco de erro humano.
-
-## Impacto
-Melhora usabilidade e segurança operacional.
+### Architectural Impact
+Enhances systemic usability while significantly bolstering operational safety and reducing catastrophic user-induced failures.

@@ -1,14 +1,14 @@
-# Lei 9 — Proibição de Uso Ornamental
+# Canon IX: Prohibition of Ornamental Patterns
+## The Anti-Overengineering Directive
 
-## Objetivo
-Evitar complexidade artificial em sistemas.
+### Premise
+This Law serves as a preemptive defense against artificial complexity. It strictly prohibits the use of "Resume-Driven Development" or implementing complex structures where simple ones suffice.
 
-## Artigo 1
-Design patterns não devem ser utilizados apenas por formalismo técnico.
+### Article 9.1 — Anti-Formalism
+Design patterns shall never be implemented merely for technical formalism, aesthetic appeal, or theoretical completeness. 
 
-## Artigo 2
-Quando solução simples resolver o problema,
-a solução simples deve ser preferida.
+### Article 9.2 — The Simplicity Axiom
+When a simpler, more direct solution adequately resolves the problem without compromising the foundational architecture, the simpler solution is strictly mandated.
 
-## Impacto
-Reduz complexidade desnecessária.
+### Architectural Impact
+Ruthlessly eliminates unnecessary complexity, preserves codebase agility, and ensures that the system remains accessible and maintainable.

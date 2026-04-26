@@ -1,21 +1,21 @@
-# Lei 14 — Segurança Digital
+# Canon XIV: Digital Security & Cybersecurity Axioms
+## The Uncompromising Defense of Integrity
 
-## Objetivo
-Garantir integridade e proteção dos sistemas.
+### Premise
+This Law mandates the uncompromising protection of system integrity and data sovereignty. In this architecture, security is not an optional feature; it is a foundational pillar.
 
-## Princípios
+### Core Principles
+- Strong Authentication
+- Absolute Authorization (Zero Trust)
+- End-to-End Encryption
+- Attack Surface Minimization
+- Proactive Vulnerability Management
 
-- autenticação
-- autorização
-- criptografia
-- proteção contra ataques
-- gestão de vulnerabilidades
+### Article 14.1 — Critical Asset Defense
+Systems must fiercely protect access to all critical resources, databases, and sensitive metadata.
 
-## Artigo 1
-Sistemas devem proteger acesso a recursos críticos.
+### Article 14.2 — Security Telemetry
+All security events, breaches, or anomalies must be systematically recorded for forensic analysis.
 
-## Artigo 2
-Eventos de segurança devem ser registrados.
-
-## Impacto
-Protege sistemas contra acesso indevido e falhas críticas.
+### Architectural Impact
+Fortifies the system against unauthorized access, mitigates critical failures, and ensures absolute operational trust.

@@ -1,16 +1,17 @@
-# Lei 11 — Governança de Emendas
+# Canon XI: Amendments & Governance Procedures
+## The Regulation of Normative Mutation
 
-## Objetivo
-Regular alterações no próprio corpo normativo.
+### Premise
+This Law regulates the mutation of the normative body itself. It ensures that the Canon is not altered without extreme prejudice, debate, and consensus.
 
-## Artigo 1
-Emendas devem seguir procedimento formal.
+### Article 11.1 — Formal Procedure
+Amendments to any Canon must strictly follow a formal, documented, and transparent proposal procedure. Ad-hoc changes are null and void.
 
-## Artigo 2
-Impacto das emendas deve ser analisado.
+### Article 11.2 — Impact Assessment
+The systemic, architectural, and cultural impact of any proposed amendment must be rigorously analyzed before ratification.
 
-## Artigo 3
-Emendas devem ser registradas no Livro da Vida.
+### Article 11.3 — Historical Record
+All ratified amendments must be permanently etched into the Book of Life.
 
-## Impacto
-Preserva estabilidade institucional.
+### Architectural Impact
+Preserves institutional stability, prevents reactionary policy shifts, and ensures the Canon evolves deliberately.

@@ -1,20 +1,21 @@
-# Lei 5 — Livro da Vida
+# Canon V: The Book of Life (Immutable Audit Log)
+## The Axiom of Historical Traceability
 
-## Objetivo
-Manter registro permanente dos eventos relevantes do sistema.
+### Premise
+This Law mandates the permanent, tamper-proof logging of all significant systemic and normative events to guarantee absolute historical transparency.
 
-## Artigo 1 — Registro Permanente
-Eventos relevantes devem ser registrados de forma permanente.
+### Article 5.1 — Permanent Record
+All events deemed relevant to the system's architecture, security, or governance must be systematically recorded in an enduring format.
 
-## Artigo 2 — Imutabilidade
-Registros não podem ser apagados ou alterados.
+### Article 5.2 — Immutability Axiom
+Under no circumstances can recorded entries be altered, redacted, or expunged. The history of the system is sacred and immutable.
 
-## Artigo 3 — Conteúdo Registrado
+### Article 5.3 — Logged Entities
+Mandatory records include, but are not limited to:
+- The creation or abolition of Laws
+- Formal Amendments
+- Structural alterations and deployments
+- Critical security events and incident reports
 
-- criação de leis
-- emendas
-- alterações estruturais
-- eventos críticos
-
-## Impacto
-Garante rastreabilidade histórica e auditabilidade.
+### Architectural Impact
+Guarantees uncompromising historical traceability, absolute auditability, and institutional memory.
