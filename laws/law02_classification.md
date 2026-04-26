@@ -1,28 +1,22 @@
-# Lei 2 — Classificação Normativa
+# Canon II: Normative Classification & Structural Segregation
+## The Taxonomy of System Protection
 
-## Objetivo
-Classificar elementos do sistema conforme seu nível de proteção normativa.
+### Premise
+This Law establishes a rigorous classification of system components based on their required normative protection. It mandates the absolute segregation between the institutional core and operational modules to prevent systemic fragility.
 
-## Classes Normativas
+### Article 2.1 — The Hierarchy of Normative Classes
+All architectural and codebase components must be strictly categorized into one of the following classes:
 
-### Classe A — Canonizada
-Conteúdo considerado núcleo do sistema.
-Só pode ser alterado por processo formal de emenda.
+- **Class A (Canonized):** The absolute core of the system. Modification is strictly prohibited outside of a formal Amendment Procedure.
+- **Class B (Protected):** Highly sensitive structures. Any alteration requires explicit technical justification, extensive impact analysis, and peer validation.
+- **Class C (Operational):** Iterative and functional components. Evolution is permitted following standard rigorous engineering review processes.
+- **Class D (Unrestricted):** Experimental, sandbox, or ephemeral contents. No strict procedural overhead applies.
 
-### Classe B — Protegida
-Estruturas sensíveis que exigem justificativa técnica para alteração.
+### Article 2.2 — Mandatory Classification
+Every component injected into the system architecture must explicitly declare its normative class. Unclassified entities represent an unacceptable architectural risk and are treated as violations by default.
 
-### Classe C — Operacional
-Componentes que podem evoluir com menor rigor processual.
+### Article 2.3 — Core Preservation Axiom
+Elements designated as Class A possess maximum architectural protection. They serve as the unshakeable foundation upon which the Operational (Class C) layers are built. Under no circumstances can a lower-tier process override Class A constraints.
 
-### Classe D — Livre
-Conteúdos experimentais ou temporários.
-
-## Artigo 1 — Identificação de Classe
-Todo componente do sistema deve possuir uma classe normativa definida.
-
-## Artigo 2 — Proteção do Núcleo
-Elementos classificados como Classe A possuem proteção máxima.
-
-## Impacto Arquitetural
-Permite separação entre núcleo institucional e componentes operacionais.
+### Article 2.4 — Architectural Impact
+This taxonomy ensures the physical and conceptual separation between the inviolable institutional core and the adaptable operational layers, preventing structural decay and unauthorized systemic modifications.
