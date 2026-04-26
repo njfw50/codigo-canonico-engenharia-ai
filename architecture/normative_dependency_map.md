@@ -1,152 +1,147 @@
-# Mapa de Dependência do Código Canônico
+# Canonical Protocol Dependency Map
 
-**Estado atual consolidado:** Leis 1–15
-**Modelo:** fundação → estrutura → governança evolutiva
-**Objetivo:** garantir que toda lei futura decorra de necessidade real, com base jurídica e técnica
-
----
-
-## 1. Núcleo Fundador
-
-Essas leis não dependem de leis técnicas. Elas formam o alicerce do sistema.
-
-### Lei 1 — Autoridade Canônica
-É a lei matriz. Sem ela, nenhuma outra tem legitimidade operacional.
-
-**Função:** cria a exigência de autorização, impede alteração arbitrária e fundamenta a validade do sistema.
-
-**Dependência:** nenhuma
-**Leis que dela dependem:** 3, 4, 5, 11, 13
+**Current Consolidated State:** Canons 1–15
+**Evolutionary Model:** Foundation → Structure → Evolutionary Governance
+**Objective:** Guarantee that every future Canon stems from an undeniable systemic need, grounded in technical and juridical axioms.
 
 ---
 
-### Lei 2 — Classificação Normativa
-Organiza o que pode ou não pode ser alterado.
+## 1. The Core Foundation
 
-**Função:** separar núcleo canonizado, protegido, operacional e livre; estabelecer camadas de proteção.
+These Canons do not depend on lower-level technical laws. They form the absolute bedrock of the system.
 
-**Dependência:** Lei 1
-**Leis que dela dependem:** 3, 4, 6, 10, 12, 13
+### Canon I — The Supremacy of Canonical Authority
+This is the matrix Canon. Without it, no other rule possesses operational legitimacy.
 
----
-
-### Lei 3 — Procedimento de Alteração
-Transforma autoridade em processo.
-
-**Função:** definir rito de mudança, exigir justificativa, escopo e impacto, criar previsibilidade procedimental.
-
-**Dependência:** Leis 1 e 2
-**Leis que dela dependem:** 4, 5, 11, 12, 13
+**Function:** Mandates authorization, forbids arbitrary changes, and establishes the SSOT.
+**Dependency:** None
+**Dependent Canons:** III, IV, V, XI, XIII
 
 ---
 
-### Lei 4 — Matriz de Criticidade
-Dá proporcionalidade ao sistema.
+### Canon II — Normative Classification & Structural Segregation
+Organizes the taxonomy of what can and cannot be mutated.
 
-**Função:** classificar impacto das mudanças, modular o rigor de análise, evitar tratamento igual para casos desiguais.
-
-**Dependência:** Leis 1, 2 e 3
-**Leis que dela dependem:** 11, 12, 13
-
----
-
-### Lei 5 — Livro da Vida
-Dá memória institucional ao sistema.
-
-**Função:** registrar atos, emendas, autorizações e estados; tornar o sistema auditável; impedir apagamento conceitual da história normativa.
-
-**Dependência:** Leis 1 e 3
-**Leis que dela dependem:** 11, 12, 13
+**Function:** Segregates Canonized, Protected, Operational, and Unrestricted tiers.
+**Dependency:** Canon I
+**Dependent Canons:** III, IV, VI, X, XII, XIII
 
 ---
 
-## 2. Bloco Estrutural de Engenharia
+### Canon III — Change Procedure & Structural Mutation
+Transforms authority into a deterministic process.
 
-Essas leis só fazem sentido sobre a base da Fundação.
-
-### Lei 6 — Arquitetura Disciplinada
-**Dependência:** Leis 1, 2 e 3
-**Leis que dela dependem:** 7, 8, 9, 10, 12
-
-### Lei 7 — Biblioteca de Design Patterns
-**Dependência:** Lei 6
-**Leis que dela dependem:** 8, 9, 12
-
-### Lei 8 — Critério de Seleção de Padrões
-**Dependência:** Leis 6 e 7
-**Leis que dela dependem:** 9, 12
-
-### Lei 9 — Proibição de Uso Ornamental
-**Dependência:** Leis 7 e 8
-**Leis que dela dependem:** 12
-
-### Lei 10 — Separação de Camadas
-**Dependência:** Leis 2 e 6
-**Leis que dela dependem:** 12
-
-### Lei 12 — Implementação de Design Patterns
-**Dependência:** Leis 6, 7, 8, 9, 10
-**Leis que dela dependem:** 13
+**Function:** Defines the mutation ritual, demands justification and scope, creates procedural predictability.
+**Dependency:** Canons I and II
+**Dependent Canons:** IV, V, XI, XII, XIII
 
 ---
 
-## 3. Bloco de Governança Evolutiva
+### Canon IV — Criticality Matrix & Proportionality
+Provides proportionality to the system.
 
-### Lei 11 — Governança de Emendas
-**Dependência:** Leis 1, 3, 4 e 5
-**Leis que dela dependem:** 13
-
-### Lei 13 — Expansão Normativa
-**Dependência:** Leis 1, 3, 5 e 11
-**Leis que dela dependem:** 14, 15
+**Function:** Classifies the blast radius of changes to modulate the rigor of analysis.
+**Dependency:** Canons I, II, and III
+**Dependent Canons:** XI, XII, XIII
 
 ---
 
-## 4. Domínios Técnicos Necessários
+### Canon V — The Book of Life (Immutable Audit Log)
+Provides institutional memory to the system.
 
-### Lei 14 — Segurança Digital
-**Dependência:** Lei 13 (expansão normativa controlada)
-**Leis que dela dependem:** 15
-
-### Lei 15 — Interface e Experiência Humana
-**Dependência:** Leis 13 e 14
+**Function:** Records acts, amendments, and states; ensures auditability; prevents the conceptual erasure of normative history.
+**Dependency:** Canons I and III
+**Dependent Canons:** XI, XII, XIII
 
 ---
 
-## Diagrama de Evolução Normativa
+## 2. Structural Engineering Block
 
-```
-Fundação → Engenharia → Governança → Domínios Técnicos
+These Canons only operate securely upon the Core Foundation.
 
-Lei 1 (Autoridade)
+### Canon VI — Architectural Discipline & Structural Coherence
+**Dependency:** Canons I, II, and III
+**Dependent Canons:** VII, VIII, IX, X, XII
+
+### Canon VII — Pattern Library & Architectural Vocabulary
+**Dependency:** Canon VI
+**Dependent Canons:** VIII, IX, XII
+
+### Canon VIII — Pattern Selection Criteria
+**Dependency:** Canons VI and VII
+**Dependent Canons:** IX, XII
+
+### Canon IX — Prohibition of Ornamental Patterns
+**Dependency:** Canons VII and VIII
+**Dependent Canons:** XII
+
+### Canon X — Layer Segregation & Boundary Enforcement
+**Dependency:** Canons II and VI
+**Dependent Canons:** XII
+
+### Canon XII — Pattern Implementation Directives
+**Dependency:** Canons VI, VII, VIII, IX, X
+**Dependent Canons:** XIII
+
+---
+
+## 3. Evolutionary Governance Block
+
+### Canon XI — Amendments & Governance Procedures
+**Dependency:** Canons I, III, IV, and V
+**Dependent Canons:** XIII
+
+### Canon XIII — Normative Expansion Protocol
+**Dependency:** Canons I, III, V, and XI
+**Dependent Canons:** XIV, XV
+
+---
+
+## 4. Required Technical Domains
+
+### Canon XIV — Digital Security & Cybersecurity Axioms
+**Dependency:** Canon XIII (Controlled normative expansion)
+**Dependent Canons:** XV
+
+### Canon XV — User Experience & Interaction Safety
+**Dependency:** Canons XIII and XIV
+
+---
+
+## Normative Evolution Diagram
+
+```text
+Foundation → Engineering → Governance → Technical Domains
+
+Canon I (Authority)
     ↓
-Lei 2 (Classificação) → Lei 3 (Procedimento) → Lei 5 (Livro da Vida)
+Canon II (Classification) → Canon III (Procedure) → Canon V (Book of Life)
     ↓                           ↓
-Lei 4 (Criticidade)         Lei 11 (Emendas)
+Canon IV (Criticality)         Canon XI (Amendments)
                                 ↓
-Lei 6 (Arquitetura)         Lei 13 (Expansão Normativa)
+Canon VI (Architecture)         Canon XIII (Expansion Protocol)
     ↓                           ↓               ↓
-Lei 7 → Lei 8 → Lei 9      Lei 14 (Segurança)  Lei 15 (UX)
+Canon VII → Canon VIII → Canon IX   Canon XIV (Security)  Canon XV (UX)
     ↓
-Lei 10 (Camadas)
+Canon X (Layers)
     ↓
-Lei 12 (Design Patterns)
+Canon XII (Design Patterns)
 ```
 
 ---
 
-## Regra de Expansão Futura
+## Future Expansion Axiom
 
-Nenhuma nova lei deve ser criada até que um sistema real, projeto ou problema concreto revele uma lacuna normativa. O processo correto é:
+No new Canon shall be forged until a real-world system, project, or concrete technical catastrophe reveals an undeniable normative vacuum. The required process is:
 
+```text
+Real Project
+     ↓
+Real Structural Problem
+     ↓
+Normative Vacuum Detected
+     ↓
+New Canon Proposed (via Canon XIII)
 ```
-Projeto real
-     ↓
-Problema real
-     ↓
-Lacuna normativa
-     ↓
-Nova lei (seguindo Lei 13)
-```
 
-O Código Canônico está estabilizado nas Leis 1–15. A ação correta neste momento é aplicar as leis existentes em sistemas reais.
+The Canonical Protocol is currently stabilized at Canons I–XV. The prime directive at this phase is the rigorous application of existing Canons in real-world systems.

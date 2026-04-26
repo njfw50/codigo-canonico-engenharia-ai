@@ -1,45 +1,45 @@
-# Guia de Contribuição
+# Contribution Guidelines
 
-Contribuições para o Código Canônico de Engenharia de IA e Software são bem-vindas e devem seguir o processo normativo estabelecido pelas próprias leis do sistema.
+Contributions to the Canonical Protocol of Engineering & AI are strictly governed by the normative processes established within the Canons themselves.
 
-## Princípio Fundamental
+## Fundamental Principle
 
-Toda contribuição é tratada como uma **proposta de alteração normativa** e deve seguir o procedimento definido pela **Lei 3 — Procedimento de Alteração** e, quando aplicável, pela **Lei 11 — Governança de Emendas** e **Lei 13 — Expansão Normativa**.
+Every contribution is treated as a **Normative Amendment Proposal** and must adhere to the procedures defined by **Canon III — Change Procedure & Structural Mutation** and, when applicable, **Canon XI — Amendments & Governance Procedures** and **Canon XIII — Normative Expansion Protocol**.
 
-## Como Contribuir
+## How to Contribute
 
-**Passo 1 — Fork e Branch**
-Faça um fork do repositório e crie um branch com nome descritivo, por exemplo: `emenda/lei-01-escopo-ampliado` ou `nova-lei/governanca-de-dados`.
+**Step 1 — Fork and Branch**
+Fork the repository and create a branch with a highly descriptive name, e.g., `amendment/canon-01-expanded-scope` or `new-canon/data-governance`.
 
-**Passo 2 — Qualificação da Proposta**
-Antes de implementar qualquer alteração, abra uma **Issue** descrevendo:
-- qual lei será afetada ou qual lacuna normativa justifica uma nova lei;
-- a justificativa técnica ou normativa da proposta;
-- o impacto esperado sobre as demais leis (análise de dependência).
+**Step 2 — Proposal Qualification**
+Before implementing any change, open an **Issue** detailing:
+- Which Canon will be affected or what normative vacuum justifies a new Canon;
+- The undeniable technical or normative rationale;
+- The expected blast radius and impact on other Canons (Dependency Analysis).
 
-**Passo 3 — Implementação**
-Implemente a alteração seguindo o formato Markdown padrão das leis existentes. Toda lei deve conter: Objetivo, Artigos, Relação Normativa e Impacto Arquitetural.
+**Step 3 — Implementation**
+Implement the alteration following the standard Markdown format of existing Canons. Every Canon must contain: Premise, Articles, and Architectural Impact.
 
-**Passo 4 — Pull Request**
-Submeta um Pull Request vinculado à Issue correspondente. O PR deve incluir uma mensagem de commit clara, por exemplo: `Emenda Lei 3: adição do Artigo 6 sobre reversão de mudanças`.
+**Step 4 — Pull Request**
+Submit a Pull Request linked to the corresponding Issue. The PR must include a clear commit message, e.g., `Amendment Canon III: Addition of Article 3.6 regarding rollback procedures`.
 
-## Tipos de Contribuição
+## Types of Contribution
 
-| Tipo | Descrição | Lei Aplicável |
-|------|-----------|---------------|
-| Emenda | Alteração de artigo em lei existente | Lei 11 |
-| Nova Lei | Criação de lei para cobrir lacuna normativa | Lei 13 |
-| Correção | Ajuste de texto, formatação ou erro | Lei 3 |
-| Documentação | Melhoria de README, CONTRIBUTING ou architecture/ | Lei 3 |
+| Type | Description | Applicable Canon |
+|------|-------------|------------------|
+| Amendment | Alteration of an article in an existing Canon | Canon XI |
+| New Canon | Creation of a Canon to cover a normative vacuum | Canon XIII |
+| Correction | Textual adjustment, formatting, or error fix | Canon III |
+| Documentation | Improvement of README, CONTRIBUTING, or architecture/ | Canon III |
 
-## Critérios de Aceitação
+## Acceptance Criteria
 
-Uma contribuição será aceita se:
-- resolver uma lacuna normativa real e demonstrável;
-- for consistente com os princípios das leis existentes;
-- não criar redundância com leis já estabelecidas;
-- seguir o formato e a estrutura padrão do repositório.
+A contribution will only be merged if it:
+- Resolves a real and demonstrable normative vacuum;
+- Is perfectly consistent with the principles of existing Canons;
+- Does not create structural redundancy;
+- Strictly follows the formal technocratic format of the repository.
 
-## Código de Conduta
+## Code of Conduct
 
-Todas as interações neste repositório devem ser respeitosas, técnicas e orientadas à melhoria do sistema normativo. Discussões sobre leis devem ser baseadas em argumentos técnicos e normativos, não em preferências pessoais.
+All interactions in this repository must be strictly professional, highly technical, and oriented toward the refinement of the normative system. Debates over Canons must be grounded in technical and architectural rationale, completely devoid of personal preference.
