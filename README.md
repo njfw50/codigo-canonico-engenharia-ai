@@ -98,4 +98,4 @@ codigo-canonico-engenharia-ai/
 To apply the Canonical Protocol, development teams and AI Agents must integrate these Canons directly into their system prompts and CI/CD pipelines, enforcing autonomous validation against Canon X (Layer Segregation) and Canon IX (Anti-Overengineering) before any deployment.
 
 ## License
-MIT License — see `LICENSE` for details.
+Licensed under the Apache License, Version 2.0 — see `LICENSE` and `NOTICE` for details.
