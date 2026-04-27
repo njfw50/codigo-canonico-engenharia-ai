@@ -2,6 +2,7 @@
 title: "Combating Cognitive Debt in AI-Augmented Software Engineering: The Canonical Protocol and Liturgical Annotation"
 author: "Michel Silva de Souza"
 orcid: "0009-0006-5209-4477"
+contact: "https://www.linkedin.com/in/njfw23/"
 date: "April 2026"
 keywords: ["Cognitive Debt", "Large Language Models", "Software Architecture", "Vibe Coding", "Human-Computer Interaction"]
 abstract: "The integration of Large Language Models (LLMs) into software development pipelines has exponentially increased execution velocity, but it has introduced a severe vulnerability: Cognitive Debt. As developers increasingly rely on natural language prompts to generate complex logic—a phenomenon colloquially termed 'Vibe Coding'—the human mental model of the system architecture rapidly degrades. This paper introduces the *Canonical Protocol*, a structured architectural framework designed to subordinate autonomous agents to strict layer segregation (The Modular Monolith doctrine). Furthermore, we propose the *Liturgical Cognitive Annotation Protocol*, a novel human-in-the-loop methodology requiring semantic, intent-first reconstruction of AI-generated code. This framework acts as a systemic firewall against cognitive atrophy, ensuring long-term auditability and intellectual sovereignty over complex codebases."

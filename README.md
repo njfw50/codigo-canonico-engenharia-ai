@@ -100,3 +100,7 @@ To apply the Canonical Protocol, development teams and AI Agents must integrate 
 
 ## License
 Licensed under the Apache License, Version 2.0 — see `LICENSE` and `NOTICE` for details.
+
+## Contact & Academic Collaboration
+For institutional inquiries, academic collaborations, or questions regarding the implementation of the Canonical Protocol, please reach out via LinkedIn:
+- **[Michel Silva de Souza - LinkedIn](https://www.linkedin.com/in/njfw23/)**
