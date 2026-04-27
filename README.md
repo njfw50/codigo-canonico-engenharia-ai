@@ -1,4 +1,5 @@
 # ⚖️ The Canonical Protocol of Engineering & AI
+[![DOI](https://zenodo.org/badge/1178448858.svg)](https://doi.org/10.5281/zenodo.19804968)
 ## A Structured Technocracy for Software Governance
 
 ### 🛡️ The Conceptual Defense (Manifesto)
