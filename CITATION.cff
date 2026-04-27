@@ -5,8 +5,8 @@ authors:
     given-names: "Michel"
     orcid: "https://orcid.org/0009-0006-5209-4477"
 title: "The Canonical Protocol of Engineering & AI: A Structured Technocracy"
-version: 1.0.0
-date-released: 2026-04-26
+version: 1.1.0
+date-released: 2026-04-27
 url: "https://github.com/njfw50/codigo-canonico-engenharia-ai"
 license: "Apache-2.0"
 abstract: "A methodological framework establishing a Structured Technocracy for Software Governance. It introduces the 'Liturgical Cognitive Annotation' method to combat Cognitive Debt and 'Vibe Coding' in AI-assisted software engineering."
