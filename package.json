@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A Structured Technocracy for Software Governance & AI Subjugation",
   "main": "index.js",
+  "bin": {
+    "canonical-audit": "./cli.js"
+  },
   "scripts": {
     "postinstall": "node ./inject.js"
   },
