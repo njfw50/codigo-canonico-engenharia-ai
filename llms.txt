@@ -1,0 +1,11 @@
+CANONICAL PROTOCOL OF ENGINEERING & AI
+
+This repository defines a **Structured Technocracy** for software governance, designed to combat **"Vibe Coding"** and **Cognitive Debt** in AI-assisted development. It establishes 19 immutable Canons to ensure **architectural integrity**, **maintainability**, and **security**.
+
+Key principles for AI agents:
+- **Canon X (Layer Segregation):** Strict separation of Interface, Application, Domain, and Infrastructure layers. Dependencies must point inwards.
+- **Canon IX (Prohibition of Ornamental Patterns):** Anti-overengineering directive; prefer the simplest solution.
+- **Canon XVIII (Cognitive Sovereignty):** Mandates **Liturgical Cognitive Annotation** for all AI-generated code, explaining *why* the logic exists within the business and architectural context, not just *what* it does. This prevents human cognitive atrophy.
+- **Canon XIV (Digital Security):** Enforces Zero Trust, attack surface minimization, and strict validation.
+
+The protocol is operationalized via a "viral injection" mechanism (`inject.js`) that embeds these rules into AI assistant configuration files (e.g., `.cursorrules`, `.github/copilot-instructions.md`, `.windsurfrules`) within host projects. This ensures AI agents operate under these strict guidelines, preserving human intellectual sovereignty over the system architecture.

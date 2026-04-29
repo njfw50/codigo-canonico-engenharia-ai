@@ -20,7 +20,16 @@
     "cursor",
     "copilot",
     "clean-architecture",
-    "prompt-injection"
+    "prompt-injection",
+    "ai-governance",
+    "software-architecture",
+    "ai-agents",
+    "system-prompts",
+    "vibe-coding",
+    "cognitive-debt",
+    "guardrails",
+    "ai-ethics",
+    "software-engineering"
   ],
   "author": "njfw50",
   "license": "SEE LICENSE IN LICENSE",
