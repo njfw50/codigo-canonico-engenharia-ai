@@ -1,4 +1,8 @@
 # Canon XIX: The Doctrine of Reference Integrity
+> [!IMPORTANT]
+> **PROVISIONAL MEASURE - MP 2026/01**  
+> Integrated under emergency executive decree pending Constituent Assembly ratification. Valid until abrogation or formal enactment.
+
 ## The Eradication of "Ghost References" and Import Decay
 
 ### Premise

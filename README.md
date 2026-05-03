@@ -48,7 +48,7 @@ The system is governed by 20 immutable Canons, organized into functional domains
 |-------|-------|
 | **Canon XVI** | The Module of Textual Integrity Protection |
 | **Canon XVIII** | The Doctrine of Cognitive Sovereignty |
-| **Canon XIX** | The Doctrine of Reference Integrity (Proposed) |
+| **Canon XIX** | The Doctrine of Reference Integrity (PROVISIONAL) |
 
 ### Evolutionary Governance
 | Canon | Title |
