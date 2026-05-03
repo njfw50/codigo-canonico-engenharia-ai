@@ -19,7 +19,7 @@ By classifying system components, mandating strict boundaries, and requiring exp
 
 ## 📜 The Canonical Body (The 19 Canons)
 
-The system is governed by 19 immutable Canons, organized into functional domains:
+The system is governed by 20 immutable Canons, organized into functional domains:
 
 ### Core Foundation & Authority
 | Canon | Title |
@@ -47,6 +47,7 @@ The system is governed by 19 immutable Canons, organized into functional domains
 |-------|-------|
 | **Canon XVI** | The Module of Textual Integrity Protection |
 | **Canon XVIII** | The Doctrine of Cognitive Sovereignty |
+| **Canon XIX** | The Doctrine of Reference Integrity (Proposed) |
 
 ### Evolutionary Governance
 | Canon | Title |
@@ -90,7 +91,8 @@ codigo-canonico-engenharia-ai/
 │   ├── law15_user_experience.md
 │   ├── law16_text_integrity.md
 │   ├── law17_justified_complexity.md
-│   └── law18_cognitive_sovereignty.md
+│   ├── law18_cognitive_sovereignty.md
+│   └── law19_integrity_of_references.md
 │
 └── architecture/
 ```
