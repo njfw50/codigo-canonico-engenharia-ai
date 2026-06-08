@@ -1,5 +1,9 @@
 # ⚖️ The Canonical Protocol of Engineering & AI: Software Governance and AI Guardrails
 [![DOI](https://zenodo.org/badge/1178448858.svg)](https://doi.org/10.5281/zenodo.19804968)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D14.0.0-green.svg)](https://nodejs.org/)
+[![OWASP Compliance](https://img.shields.io/badge/OWASP-Adesão%20Conceitual-orange.svg)](https://owasp.org/)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/njfw50/codigo-canonico-engenharia-ai/actions)
 
 ## A Structured Technocracy for Software Governance, Combating 'Vibe Coding' and Cognitive Debt in AI-Driven Projects
 
@@ -15,6 +19,69 @@ We reject the notion of technical democracy where every Pull Request is a negoti
 By classifying system components, mandating strict boundaries, and requiring explicit governance for any structural mutation, we guarantee that the system remains highly auditable, deeply secure, and optimized for Advanced Data Analysis.
 
 **This is not just code; it is institutional memory.**
+
+---
+
+## 🚀 Quick Start Guide
+
+Para começar a usar o Protocolo Canônico e injetar suas regras em seus projetos de IA, siga estes três passos simples:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/njfw50/codigo-canonico-engenharia-ai.git
+    ```
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd codigo-canonico-engenharia-ai
+    ```
+3.  **Instale as dependências e ative a injeção canônica:**
+    ```bash
+    npm install
+    ```
+    Este comando executará automaticamente o script `inject.js`, que aplicará as regras do Protocolo Canônico aos arquivos de configuração de seus assistentes de IA (como `.cursorrules`, `.github/copilot-instructions.md`, etc.), garantindo que eles operem sob as diretrizes estabelecidas.
+
+---
+
+## 📊 Diagrama Arquitetural: Cibersegurança Adaptativa
+
+A Cibersegurança Adaptativa, conforme delineada no **Canon XIV**, é um pilar fundamental do Protocolo Canônico. Ela enfatiza uma abordagem proativa e multicamadas para a defesa de sistemas, garantindo a integridade e a soberania dos dados. O diagrama a seguir ilustra os componentes e o fluxo dessa arquitetura de segurança.
+
+```mermaid
+graph TD
+    A[Ameaças Externas/Internas] --> B(Mecanismos de Detecção)
+    B --> C{Análise de Eventos de Segurança}
+    C -- Anomalia Detectada --> D[Plataforma de Resposta a Incidentes]
+    D --> E(Autenticação Forte)
+    D --> F(Autorização - Zero Trust)
+    D --> G(Criptografia Ponta a Ponta)
+    D --> H(Minimização da Superfície de Ataque)
+    D --> I(Gerenciamento Proativo de Vulnerabilidades)
+    E & F & G & H & I --> J[Defesa de Ativos Críticos]
+    J --> K(Sistema Protegido)
+    K -- Telemetria de Segurança --> C
+    subgraph Canon XIV - Cibersegurança Adaptativa
+        B
+        C
+        D
+        E
+        F
+        G
+        H
+        I
+        J
+    end
+```
+
+**Explicação do Diagrama:**
+
+*   **Ameaças Externas/Internas:** Representa os vetores de ataque potenciais.
+*   **Mecanismos de Detecção:** Inclui IDS/IPS, SIEM, EDR, etc., que monitoram continuamente o ambiente.
+*   **Análise de Eventos de Segurança:** Processa os dados dos mecanismos de detecção para identificar padrões e anomalias.
+*   **Plataforma de Resposta a Incidentes:** Ativada ao detectar uma anomalia, coordena as ações de defesa.
+*   **Autenticação Forte, Autorização (Zero Trust), Criptografia Ponta a Ponta, Minimização da Superfície de Ataque, Gerenciamento Proativo de Vulnerabilidades:** São os princípios centrais do Canon XIV, implementados como controles de segurança.
+*   **Defesa de Ativos Críticos:** Onde os princípios de segurança são aplicados para proteger os recursos mais valiosos do sistema.
+*   **Sistema Protegido:** O ambiente operacional que se beneficia dessas camadas de defesa.
+*   **Telemetria de Segurança:** Feedback contínuo do sistema protegido para a análise de eventos, criando um ciclo adaptativo de melhoria da segurança.
 
 ---
 
@@ -106,10 +173,10 @@ To apply the Canonical Protocol, development teams and **AI Agents** must integr
 
 This repository includes a **viral injection** mechanism (`inject.js`) that automatically inserts canonical rules into the *system prompt* configuration files of AI agents, such as `.cursorrules`, `.github/copilot-instructions.md`, and `.windsurfrules`. This ensures that the AI operates under the Protocol's guidelines, promoting:
 
-- **Layer Segregation (Canon X):** Prevention of improper coupling between Interface, Application, Domain, and Infrastructure.
-- **Prohibition of Ornamental Patterns (Canon IX):** Focus on simplicity and the most direct solution, avoiding overengineering.
-- **Cognitive Sovereignty (Canon XVIII):** Requirement for **Liturgical Cognitive Annotation** for every block of generated code, ensuring the human engineer maintains the "Theory of the System" and avoids **Cognitive Debt**.
-- **Digital Security (Canon XIV):** Reinforcement of Zero Trust principles and minimization of the attack surface.
+-   **Layer Segregation (Canon X):** Prevention of improper coupling between Interface, Application, Domain, and Infrastructure.
+-   **Prohibition of Ornamental Patterns (Canon IX):** Focus on simplicity and the most direct solution, avoiding overengineering.
+-   **Cognitive Sovereignty (Canon XVIII):** Requirement for **Liturgical Cognitive Annotation** for every block of generated code, ensuring the human engineer maintains the "Theory of the System" and avoids **Cognitive Debt**.
+-   **Digital Security (Canon XIV):** Reinforcement of Zero Trust principles and minimization of the attack surface.
 
 By adopting the Canonical Protocol, you ensure that your projects maintain **architectural integrity**, **maintainability**, and **security**, even with AI-driven development acceleration.
 
@@ -120,7 +187,7 @@ Licensed under the Apache License, Version 2.0 — see `LICENSE` and `NOTICE` fo
 
 ## Contact & Academic Collaboration
 For institutional inquiries, academic collaborations, or questions regarding the implementation of the Canonical Protocol, please reach out via LinkedIn:
-- **[Michel Silva de Souza - LinkedIn](https://www.linkedin.com/in/njfw23/)**
+-   **[Michel Silva de Souza - LinkedIn](https://www.linkedin.com/in/njfw23/)**
 
 ---
 
