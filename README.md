@@ -115,7 +115,14 @@ The system is governed by 20 immutable Canons, organized into functional domains
 |-------|-------|
 | **Canon XVI** | The Module of Textual Integrity Protection |
 | **Canon XVIII** | The Doctrine of Cognitive Sovereignty |
-| **Canon XIX** | The Doctrine of Reference Integrity (PROVISIONAL) |
+| **Canon XIX** | The Doctrine of Reference Integrity |
+
+### Emerging Research & Provisional Canons
+| Canon | Title |
+|-------|-------|
+| **Canon XX** | The Doctrine of Agentic Coordination and Protocol Optimization (PROVISIONAL) |
+| **Canon XXI** | The Doctrine of Evaluation-Driven Development (EDD) (PROVISIONAL) |
+| **Canon XXII** | The Doctrine of Code Provenance and Traceability (PROVISIONAL) |
 
 ### Evolutionary Governance
 | Canon | Title |
@@ -160,7 +167,10 @@ codigo-canonico-engenharia-ai/
 │   ├── law16_text_integrity.md
 │   ├── law17_justified_complexity.md
 │   ├── law18_cognitive_sovereignty.md
-│   └── law19_integrity_of_references.md
+│   ├── law19_integrity_of_references.md
+│   ├── law20_agentic_coordination.md
+│   ├── law21_evaluation_driven_development.md
+│   └── law22_code_provenance.md
 │
 └── architecture/
 ```
