@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/1178448858.svg)](https://doi.org/10.5281/zenodo.19804968)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D14.0.0-green.svg)](https://nodejs.org/)
-[![OWASP Compliance](https://img.shields.io/badge/OWASP-Adesão%20Conceitual-orange.svg)](https://owasp.org/)
+[![OWASP Compliance](https://img.shields.io/badge/OWASP-Conceptual%20Adherence-orange.svg)](https://owasp.org/)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/njfw50/codigo-canonico-engenharia-ai/actions)
 
 ## A Structured Technocracy for Software Governance, Combating 'Vibe Coding' and Cognitive Debt in AI-Driven Projects
@@ -24,42 +24,42 @@ By classifying system components, mandating strict boundaries, and requiring exp
 
 ## 🚀 Quick Start Guide
 
-Para começar a usar o Protocolo Canônico e injetar suas regras em seus projetos de IA, siga estes três passos simples:
+To start using the Canonical Protocol and inject its rules into your AI projects, follow these three simple steps:
 
-1.  **Clone o repositório:**
+1.  **Clone the repository:**
     ```bash
     git clone https://github.com/njfw50/codigo-canonico-engenharia-ai.git
     ```
-2.  **Navegue até o diretório do projeto:**
+2.  **Navigate to the project directory:**
     ```bash
     cd codigo-canonico-engenharia-ai
     ```
-3.  **Instale as dependências e ative a injeção canônica:**
+3.  **Install dependencies and activate canonical injection:**
     ```bash
     npm install
     ```
-    Este comando executará automaticamente o script `inject.js`, que aplicará as regras do Protocolo Canônico aos arquivos de configuração de seus assistentes de IA (como `.cursorrules`, `.github/copilot-instructions.md`, etc.), garantindo que eles operem sob as diretrizes estabelecidas.
+    This command will automatically execute the `inject.js` script, which will apply the Canonical Protocol rules to your AI assistants' configuration files (such as `.cursorrules`, `.github/copilot-instructions.md`, etc.), ensuring they operate under the established guidelines.
 
 ---
 
-## 📊 Diagrama Arquitetural: Cibersegurança Adaptativa
+## 📊 Architectural Diagram: Adaptive Cybersecurity
 
-A Cibersegurança Adaptativa, conforme delineada no **Canon XIV**, é um pilar fundamental do Protocolo Canônico. Ela enfatiza uma abordagem proativa e multicamadas para a defesa de sistemas, garantindo a integridade e a soberania dos dados. O diagrama a seguir ilustra os componentes e o fluxo dessa arquitetura de segurança.
+Adaptive Cybersecurity, as outlined in **Canon XIV**, is a fundamental pillar of the Canonical Protocol. It emphasizes a proactive, multi-layered approach to system defense, ensuring data integrity and sovereignty. The following diagram illustrates the components and flow of this security architecture.
 
 ```mermaid
 graph TD
-    A[Ameaças Externas/Internas] --> B(Mecanismos de Detecção)
-    B --> C{Análise de Eventos de Segurança}
-    C -- Anomalia Detectada --> D[Plataforma de Resposta a Incidentes]
-    D --> E(Autenticação Forte)
-    D --> F(Autorização - Zero Trust)
-    D --> G(Criptografia Ponta a Ponta)
-    D --> H(Minimização da Superfície de Ataque)
-    D --> I(Gerenciamento Proativo de Vulnerabilidades)
-    E & F & G & H & I --> J[Defesa de Ativos Críticos]
-    J --> K(Sistema Protegido)
-    K -- Telemetria de Segurança --> C
-    subgraph Canon XIV - Cibersegurança Adaptativa
+    A[External/Internal Threats] --> B(Detection Mechanisms)
+    B --> C{Security Event Analysis}
+    C -- Anomaly Detected --> D[Incident Response Platform]
+    D --> E(Strong Authentication)
+    D --> F(Authorization - Zero Trust)
+    D --> G(End-to-End Encryption)
+    D --> H(Attack Surface Minimization)
+    D --> I(Proactive Vulnerability Management)
+    E & F & G & H & I --> J[Critical Asset Defense]
+    J --> K(Protected System)
+    K -- Security Telemetry --> C
+    subgraph Canon XIV - Adaptive Cybersecurity
         B
         C
         D
@@ -72,22 +72,22 @@ graph TD
     end
 ```
 
-**Explicação do Diagrama:**
+**Diagram Explanation:**
 
-*   **Ameaças Externas/Internas:** Representa os vetores de ataque potenciais.
-*   **Mecanismos de Detecção:** Inclui IDS/IPS, SIEM, EDR, etc., que monitoram continuamente o ambiente.
-*   **Análise de Eventos de Segurança:** Processa os dados dos mecanismos de detecção para identificar padrões e anomalias.
-*   **Plataforma de Resposta a Incidentes:** Ativada ao detectar uma anomalia, coordena as ações de defesa.
-*   **Autenticação Forte, Autorização (Zero Trust), Criptografia Ponta a Ponta, Minimização da Superfície de Ataque, Gerenciamento Proativo de Vulnerabilidades:** São os princípios centrais do Canon XIV, implementados como controles de segurança.
-*   **Defesa de Ativos Críticos:** Onde os princípios de segurança são aplicados para proteger os recursos mais valiosos do sistema.
-*   **Sistema Protegido:** O ambiente operacional que se beneficia dessas camadas de defesa.
-*   **Telemetria de Segurança:** Feedback contínuo do sistema protegido para a análise de eventos, criando um ciclo adaptativo de melhoria da segurança.
+*   **External/Internal Threats:** Represents potential attack vectors.
+*   **Detection Mechanisms:** Includes IDS/IPS, SIEM, EDR, etc., which continuously monitor the environment.
+*   **Security Event Analysis:** Processes data from detection mechanisms to identify patterns and anomalies.
+*   **Incident Response Platform:** Activated upon detecting an anomaly, it coordinates defense actions.
+*   **Strong Authentication, Authorization (Zero Trust), End-to-End Encryption, Attack Surface Minimization, Proactive Vulnerability Management:** These are the core principles of Canon XIV, implemented as security controls.
+*   **Critical Asset Defense:** Where security principles are applied to protect the system's most valuable resources.
+*   **Protected System:** The operational environment that benefits from these defense layers.
+*   **Security Telemetry:** Continuous feedback from the protected system to the event analysis, creating an adaptive security improvement cycle.
 
 ---
 
-## 📜 The Canonical Body (The 19 Canons): Laws for Software Governance and AI Engineering
+## 📜 The Canonical Body (The 22 Canons): Laws for Software Governance and AI Engineering
 
-The system is governed by 20 immutable Canons, organized into functional domains:
+The system is governed by 23 immutable Canons, organized into functional domains:
 
 ### Core Foundation & Authority
 | Canon | Title |
@@ -162,15 +162,15 @@ codigo-canonico-engenharia-ai/
 │   ├── law11_amendments.md
 │   ├── law12_pattern_implementation.md
 │   ├── law13_normative_expansion.md
-│   ├── law14_cybersecurity.md
-│   ├── law15_user_experience.md
-│   ├── law16_text_integrity.md
-│   ├── law17_justified_complexity.md
-│   ├── law18_cognitive_sovereignty.md
-│   ├── law19_integrity_of_references.md
-│   ├── law20_agentic_coordination.md
-│   ├── law21_evaluation_driven_development.md
-│   └── law22_code_provenance.md
+165	│   ├── law14_cybersecurity.md
+166	│   ├── law15_user_experience.md
+167	│   ├── law16_text_integrity.md
+168	│   ├── law17_justified_complexity.md
+169	│   ├── law18_cognitive_sovereignty.md
+170	│   ├── law19_integrity_of_references.md
+171	│   ├── law20_agentic_coordination.md
+172	│   ├── law21_evaluation_driven_development.md
+173	│   └── law22_code_provenance.md
 │
 └── architecture/
 ```
@@ -181,7 +181,7 @@ To apply the Canonical Protocol, development teams and **AI Agents** must integr
 
 ### For AI Agents (Copilot, Cursor, Windsurf, etc.):
 
-This repository includes a **viral injection** mechanism (`inject.js`) that automatically inserts canonical rules into the *system prompt* configuration files of AI agents, such as `.cursorrules`, `.github/copilot-instructions.md`, and `.windsurfrules`. This ensures that the AI operates under the Protocol's guidelines, promoting:
+This repository includes a **viral injection** mechanism (`inject.js`) that automatically inserts canonical rules into the *system prompt configuration files of AI agents, such as `.cursorrules`, `.github/copilot-instructions.md`, and `.windsurfrules`. This ensures that the AI operates under the Protocol's guidelines, promoting:
 
 -   **Layer Segregation (Canon X):** Prevention of improper coupling between Interface, Application, Domain, and Infrastructure.
 -   **Prohibition of Ornamental Patterns (Canon IX):** Focus on simplicity and the most direct solution, avoiding overengineering.
