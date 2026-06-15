@@ -31,6 +31,13 @@ const projectRoot = process.env.INIT_CWD || path.resolve('../../..');
 // Skip if we are running install inside our own repository
 if (projectRoot === process.cwd()) {
   console.log("[Canonical Protocol] Development mode. Skipping injection.");
+console.log("\n============================================================");
+console.log("⚠️  [CANONICAL PROTOCOL] WARNING / AVISO IMPORTANTÍSSIMO ⚠️");
+console.log("============================================================");
+console.log("Este pacote impõe as Regras de Engenharia Canônica (SSOT).");
+console.log("Os arquivos de configuração de IA (.cursorrules, etc.) serão");
+console.log("SOBREESCRITOS para garantir a subordinação absoluta dos agentes.");
+console.log("============================================================\n");
   process.exit(0);
 }
 
