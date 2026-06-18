@@ -1,7 +1,7 @@
 {
   "name": "canonical-protocol",
   "version": "1.2.0",
-  "description": "A Structured Technocracy for Software Governance & AI Subjugation",
+  "description": "A Structured Technocracy for Software Governance & AI Governance",
   "main": "index.js",
   "bin": {
     "canonical-audit": "./cli.js"

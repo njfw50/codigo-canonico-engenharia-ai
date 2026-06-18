@@ -10,6 +10,7 @@
  * Initializes repository-level AI governance files,
  * ensuring consistent engineering standards across
  * supported AI development environments.
+ * This script is part of the Canonical Engineering Bootstrap.
  */
 
 const fs = require("fs");
@@ -35,54 +36,31 @@ if (projectRoot === process.cwd()) {
  * Repository Governance Payload
  */
 const governancePayload = `
-# Canonical Engineering Protocol
+# Canonical Engineering Protocol: Repository Standards
 
-This repository adopts a Single Source of Truth (SSOT)
-governance model.
+This document outlines the core principles and standards for AI-assisted development within this repository. Our objective is to ensure architectural integrity, maintainability, and security.
 
-AI assistants operating within this repository must:
+## Core Principles
 
-1. Respect architectural boundaries.
-2. Preserve domain purity.
-3. Avoid unnecessary abstraction.
-4. Prioritize security and validation.
-5. Minimize technical debt.
-6. Prefer explicitness over implicit behavior.
-7. Maintain traceability of decisions.
+1.  **Single Source of Truth (SSOT)**: All critical information and configurations must originate from a single, authoritative source to prevent discrepancies and ensure consistency.
+2.  **Domain Purity**: Maintain clear separation of concerns, ensuring that domain logic remains untainted by infrastructure or application-specific details.
+3.  **Architectural Boundaries**: Strictly adhere to defined architectural layers and boundaries to promote modularity, reduce coupling, and enhance system resilience.
+4.  **Security by Default**: Implement security measures from the outset, ensuring that all components and processes are designed with a secure posture.
+5.  **Maintainability**: Prioritize code clarity, consistency, and simplicity to facilitate future modifications, debugging, and onboarding of new contributors.
+6.  **Simplicity**: Favor straightforward solutions over overly complex ones, recognizing that simplicity often leads to greater reliability and easier understanding.
+7.  **Traceability**: Ensure that all decisions, changes, and their impacts are clearly documented and traceable, providing a comprehensive audit trail.
 
----
+## AI Assistant Guidelines
 
-## Layering Rules
+AI assistants operating within this repository are expected to:
 
-- Domain must not depend on Infrastructure.
-- Application orchestrates use cases.
-- Infrastructure implements external concerns.
-- Interface adapts user interaction.
+-   Respect and enforce the architectural boundaries and domain purity.
+-   Generate code that aligns with established coding standards and patterns.
+-   Prioritize security considerations in all generated outputs.
+-   Contribute to the maintainability and clarity of the codebase.
+-   Avoid introducing ideological or authoritarian language in any generated content.
 
----
-
-## Quality Principles
-
-- Simplicity over sophistication.
-- Maintainability over cleverness.
-- Consistency over novelty.
-- Security by default.
-- Explicit contracts over hidden behavior.
-
----
-
-## Engineering Review Checklist
-
-Before generating code:
-
-- Verify architectural boundaries.
-- Validate dependency direction.
-- Minimize complexity.
-- Eliminate redundant abstractions.
-- Enforce secure defaults.
-- Preserve repository conventions.
-
-Generate compliant code by default.
+This protocol serves as the foundational standard for all engineering activities, ensuring a cohesive and high-quality development environment.
 `.trim();
 
 /**
@@ -180,7 +158,7 @@ function generateManifest(hash, installedFiles) {
 }
 
 /**
- * Installation banner
+ * Displays installation banner
  */
 function printBanner() {
   console.log("");
@@ -188,13 +166,13 @@ function printBanner() {
     "============================================================"
   );
   console.log(
-    "🏛️  CANONICAL ENGINEERING BOOTSTRAP"
+    "🏛️  CANONICAL ENGINEERING PROTOCOL"
   );
   console.log(
     "============================================================"
   );
   console.log(
-    "Repository governance files will be installed."
+    "Repository governance files will be installed/updated."
   );
   console.log(
     "Existing files will be backed up automatically."
@@ -280,7 +258,7 @@ function main() {
     "Manifest: canonical-manifest.json"
   );
   console.log(
-    "Repository governance successfully initialized."
+    "Repository governance successfully installed/updated."
   );
   console.log(
     "------------------------------------------------------------"
