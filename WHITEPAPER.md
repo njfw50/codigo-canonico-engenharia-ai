@@ -15,8 +15,8 @@ Technical Debt resides in the codebase; Cognitive Debt resides in the mind of th
 ## 3. The Liturgical Cognitive Annotation Protocol
 To counter Cognitive Debt, the Canonical Protocol enforces **Liturgical Cognitive Annotation** (Canon XVIII). This method dictates that AI-generated logic must be systematically annotated not to describe *what* the syntax does, but *why* it exists within the business domain. It forces the human-AI interaction into a reconstructive review process, preserving the systemic mental model.
 
-## 4. Architectural Boundaries (The 19 Canons)
-The framework categorizes system rules into 19 Immutable Canons. Central to this is Canon X (Layer Segregation) and Canon IX (Prohibition of Ornamental Patterns). The protocol operates under a strict "Modular Monolith First" doctrine, permitting complex distributed architectures (Microservices, DDD) only when empirical operational limits are breached (Canon XVII).
+## 4. Architectural Boundaries (The 23 Canons)
+The framework categorizes system rules into 23 Immutable Canons (0-22), formally ratified as **Law XX / 2026-PCEA**. Central to this is Canon X (Layer Segregation) and Canon IX (Prohibition of Ornamental Patterns). The protocol operates under a strict "Modular Monolith First" doctrine, permitting complex distributed architectures (Microservices, DDD) only when empirical operational limits are breached (Canon XVII).
 
 ## Conclusion
 The Canonical Protocol is not a guideline; it is a defensive firewall. By injecting these normative constraints into modern development pipelines, engineering teams can harness the velocity of AI without surrendering their intellectual sovereignty over the systems they build.

@@ -1,63 +1,48 @@
 # Canonical Protocol Dependency Map
 
-**Current Consolidated State:** Canons 1–15
-**Evolutionary Model:** Foundation → Structure → Evolutionary Governance
+**Current Consolidated State:** Canons 0–22 (Law XX / 2026-PCEA)
+**Evolutionary Model:** Foundation → Structure → Evolutionary Governance → Technical Domains → Agentic Coordination
 **Objective:** Guarantee that every future Canon stems from an undeniable systemic need, grounded in technical and juridical axioms.
 
 ---
 
 ## 1. The Core Foundation
 
-These Canons do not depend on lower-level technical laws. They form the absolute bedrock of the system.
+These Canons form the absolute bedrock of the system.
+
+### Canon 0 — The Law of Precedence
+Establishes the hierarchy of normative conflict.
+**Dependency:** None
+**Dependent Canons:** All (I-XXII)
 
 ### Canon I — The Supremacy of Canonical Authority
 This is the matrix Canon. Without it, no other rule possesses operational legitimacy.
-
-**Function:** Mandates authorization, forbids arbitrary changes, and establishes the SSOT.
-**Dependency:** None
+**Dependency:** Canon 0
 **Dependent Canons:** III, IV, V, XI, XIII
-
----
 
 ### Canon II — Normative Classification & Structural Segregation
 Organizes the taxonomy of what can and cannot be mutated.
-
-**Function:** Segregates Canonized, Protected, Operational, and Unrestricted tiers.
 **Dependency:** Canon I
 **Dependent Canons:** III, IV, VI, X, XII, XIII
 
----
-
 ### Canon III — Change Procedure & Structural Mutation
 Transforms authority into a deterministic process.
-
-**Function:** Defines the mutation ritual, demands justification and scope, creates procedural predictability.
 **Dependency:** Canons I and II
 **Dependent Canons:** IV, V, XI, XII, XIII
 
----
-
 ### Canon IV — Criticality Matrix & Proportionality
 Provides proportionality to the system.
-
-**Function:** Classifies the blast radius of changes to modulate the rigor of analysis.
 **Dependency:** Canons I, II, and III
 **Dependent Canons:** XI, XII, XIII
 
----
-
 ### Canon V — The Book of Life (Immutable Audit Log)
 Provides institutional memory to the system.
-
-**Function:** Records acts, amendments, and states; ensures auditability; prevents the conceptual erasure of normative history.
 **Dependency:** Canons I and III
-**Dependent Canons:** XI, XII, XIII
+**Dependent Canons:** XI, XII, XIII, XX
 
 ---
 
 ## 2. Structural Engineering Block
-
-These Canons only operate securely upon the Core Foundation.
 
 ### Canon VI — Architectural Discipline & Structural Coherence
 **Dependency:** Canons I, II, and III
@@ -83,6 +68,12 @@ These Canons only operate securely upon the Core Foundation.
 **Dependency:** Canons VI, VII, VIII, IX, X
 **Dependent Canons:** XIII
 
+### Canon XVII — Justified Complexity
+**Dependency:** Canons VI, VIII, IX
+
+### Canon XIX — Reference Integrity
+**Dependency:** Canons X, XVII
+
 ---
 
 ## 3. Evolutionary Governance Block
@@ -93,35 +84,56 @@ These Canons only operate securely upon the Core Foundation.
 
 ### Canon XIII — Normative Expansion Protocol
 **Dependency:** Canons I, III, V, and XI
-**Dependent Canons:** XIV, XV
+**Dependent Canons:** XIV, XV, XX, XXI, XXII
 
 ---
 
-## 4. Required Technical Domains
+## 4. Technical Domains & AI Sovereignty
 
 ### Canon XIV — Digital Security & Cybersecurity Axioms
-**Dependency:** Canon XIII (Controlled normative expansion)
-**Dependent Canons:** XV
+**Dependency:** Canon XIII
 
 ### Canon XV — User Experience & Interaction Safety
 **Dependency:** Canons XIII and XIV
+
+### Canon XVI — Textual Integrity Protection
+**Dependency:** Canon XIII
+
+### Canon XVIII — Cognitive Sovereignty
+**Dependency:** Canon XIII
+
+---
+
+## 5. Agentic & Emerging Research Block (Provisional)
+
+### Canon XX — Agentic Coordination
+**Dependency:** Canon XIII, V
+**Dependent Canons:** XXI, XXII
+
+### Canon XXI — Evaluation-Driven Development (EDD)
+**Dependency:** Canon XX
+
+### Canon XXII — Code Provenance
+**Dependency:** Canon XX, V
 
 ---
 
 ## Normative Evolution Diagram
 
 ```text
-Foundation → Engineering → Governance → Technical Domains
+Foundation → Engineering → Governance → Technical Domains → Agentic Coordination
 
+Canon 0 (Precedence)
+    ↓
 Canon I (Authority)
     ↓
 Canon II (Classification) → Canon III (Procedure) → Canon V (Book of Life)
-    ↓                           ↓
-Canon IV (Criticality)         Canon XI (Amendments)
-                                ↓
-Canon VI (Architecture)         Canon XIII (Expansion Protocol)
-    ↓                           ↓               ↓
-Canon VII → Canon VIII → Canon IX   Canon XIV (Security)  Canon XV (UX)
+    ↓                           ↓                       ↓
+Canon IV (Criticality)         Canon XI (Amendments)    Canon XX (Agentic)
+                                ↓                       ↓
+Canon VI (Architecture)         Canon XIII (Expansion) → Canon XXI (EDD)
+    ↓                           ↓               ↓       ↓
+Canon VII → Canon VIII → Canon IX   Canon XIV (Security)  Canon XXII (Provenance)
     ↓
 Canon X (Layers)
     ↓
@@ -132,16 +144,6 @@ Canon XII (Design Patterns)
 
 ## Future Expansion Axiom
 
-No new Canon shall be forged until a real-world system, project, or concrete technical catastrophe reveals an undeniable normative vacuum. The required process is:
+No new Canon shall be forged until a real-world system, project, or concrete technical catastrophe reveals an undeniable normative vacuum.
 
-```text
-Real Project
-     ↓
-Real Structural Problem
-     ↓
-Normative Vacuum Detected
-     ↓
-New Canon Proposed (via Canon XIII)
-```
-
-The Canonical Protocol is currently stabilized at Canons I–XV. The prime directive at this phase is the rigorous application of existing Canons in real-world systems.
+The Canonical Protocol is currently stabilized at Canons 0–22.

@@ -85,56 +85,56 @@ graph TD
 
 ---
 
-## 📜 The Canonical Body (The 22 Canons): Laws for Software Governance and AI Engineering
+## 📜 The Canonical Body (The 23 Canons): Laws for Software Governance and AI Engineering
 
 The system is governed by 23 immutable Canons, organized into functional domains:
 
 ### Core Foundation & Authority
 | Canon | Title |
 |-------|-------|
-| **Canon 0** | The Law of Precedence |
-| **Canon I** | The Supremacy of Canonical Authority |
-| **Canon II** | Normative Classification & Structural Segregation |
-| **Canon III** | Change Procedure & Structural Mutation |
-| **Canon IV** | Criticality Matrix & Proportionality |
-| **Canon V** | The Book of Life (Immutable Audit Log) |
+| **Canon 0** | [The Law of Precedence](./laws/law00_precedence.md) |
+| **Canon I** | [The Supremacy of Canonical Authority](./laws/law01_authority.md) |
+| **Canon II** | [Normative Classification & Structural Segregation](./laws/law02_classification.md) |
+| **Canon III** | [Change Procedure & Structural Mutation](./laws/law03_change_procedure.md) |
+| **Canon IV** | [Criticality Matrix & Proportionality](./laws/law04_criticality.md) |
+| **Canon V** | [The Book of Life (Immutable Audit Log)](./laws/law05_book_of_life.md) |
 
 ### Engineering & Architecture
 | Canon | Title |
 |-------|-------|
-| **Canon VI** | Architectural Discipline & Structural Coherence |
-| **Canon VII** | Pattern Library & Architectural Vocabulary |
-| **Canon VIII** | Pattern Selection Criteria |
-| **Canon IX** | Prohibition of Ornamental Patterns |
-| **Canon X** | Layer Segregation & Boundary Enforcement |
-| **Canon XII** | Pattern Implementation Directives |
-| **Canon XVII** | The Doctrine of Justified Complexity |
+| **Canon VI** | [Architectural Discipline & Structural Coherence](./laws/law06_architecture.md) |
+| **Canon VII** | [Pattern Library & Architectural Vocabulary](./laws/law07_pattern_library.md) |
+| **Canon VIII** | [Pattern Selection Criteria](./laws/law08_pattern_selection.md) |
+| **Canon IX** | [Prohibition of Ornamental Patterns](./laws/law09_no_ornamental_patterns.md) |
+| **Canon X** | [Layer Segregation & Boundary Enforcement](./laws/law10_layer_separation.md) |
+| **Canon XII** | [Pattern Implementation Directives](./laws/law12_pattern_implementation.md) |
+| **Canon XVII** | [The Doctrine of Justified Complexity](./laws/law17_justified_complexity.md) |
+| **Canon XIX** | [The Doctrine of Reference Integrity](./laws/law19_integrity_of_references.md) |
 
 ### Cognitive Sovereignty & AI Subjugation
 | Canon | Title |
 |-------|-------|
-| **Canon XVI** | The Module of Textual Integrity Protection |
-| **Canon XVIII** | The Doctrine of Cognitive Sovereignty |
-| **Canon XIX** | The Doctrine of Reference Integrity |
+| **Canon XVI** | [The Module of Textual Integrity Protection](./laws/law16_text_integrity.md) |
+| **Canon XVIII** | [The Doctrine of Cognitive Sovereignty](./laws/law18_cognitive_sovereignty.md) |
 
 ### Emerging Research & Provisional Canons
 | Canon | Title |
 |-------|-------|
-| **Canon XX** | The Doctrine of Agentic Coordination and Protocol Optimization (PROVISIONAL) |
-| **Canon XXI** | The Doctrine of Evaluation-Driven Development (EDD) (PROVISIONAL) |
-| **Canon XXII** | The Doctrine of Code Provenance and Traceability (PROVISIONAL) |
+| **Canon XX** | [The Doctrine of Agentic Coordination and Protocol Optimization](./laws/law20_agentic_coordination.md) (PROVISIONAL) |
+| **Canon XXI** | [The Doctrine of Evaluation-Driven Development (EDD)](./laws/law21_evaluation_driven_development.md) (PROVISIONAL) |
+| **Canon XXII** | [The Doctrine of Code Provenance and Traceability](./laws/law22_code_provenance.md) (PROVISIONAL) |
 
 ### Evolutionary Governance
 | Canon | Title |
 |-------|-------|
-| **Canon XI** | Amendments & Governance Procedures |
-| **Canon XIII** | Normative Expansion Protocol |
+| **Canon XI** | [Amendments & Governance Procedures](./laws/law11_amendments.md) |
+| **Canon XIII** | [Normative Expansion Protocol](./laws/law13_normative_expansion.md) |
 
 ### Security & Human Interaction
 | Canon | Title |
 |-------|-------|
-| **Canon XIV** | Digital Security & Cybersecurity Axioms |
-| **Canon XV** | User Experience & Interaction Safety |
+| **Canon XIV** | [Digital Security & Cybersecurity Axioms](./laws/law14_cybersecurity.md) |
+| **Canon XV** | [User Experience & Interaction Safety](./laws/law15_user_experience.md) |
 
 ---
 
@@ -147,32 +147,18 @@ codigo-canonico-engenharia-ai/
 ├── LICENSE
 ├── CONTRIBUTING.md            # Guidelines for Governance Commits
 │
-├── laws/                      # The Immutable Canons
+├── laws/                      # The Immutable Canons (00-22)
 │   ├── law00_precedence.md
-│   ├── law01_authority.md
-│   ├── law02_classification.md
-│   ├── law03_change_procedure.md
-│   ├── law04_criticality.md
-│   ├── law05_book_of_life.md
-│   ├── law06_architecture.md
-│   ├── law07_pattern_library.md
-│   ├── law08_pattern_selection.md
-│   ├── law09_no_ornamental_patterns.md
-│   ├── law10_layer_separation.md
-│   ├── law11_amendments.md
-│   ├── law12_pattern_implementation.md
-│   ├── law13_normative_expansion.md
-165	│   ├── law14_cybersecurity.md
-166	│   ├── law15_user_experience.md
-167	│   ├── law16_text_integrity.md
-168	│   ├── law17_justified_complexity.md
-169	│   ├── law18_cognitive_sovereignty.md
-170	│   ├── law19_integrity_of_references.md
-171	│   ├── law20_agentic_coordination.md
-172	│   ├── law21_evaluation_driven_development.md
-173	│   └── law22_code_provenance.md
+│   ├── ...
+│   └── law22_code_provenance.md
 │
-└── architecture/
+├── docs/                      # Documentation & Records
+│   └── congress/              # Congressional Session Records
+│
+├── architecture/              # Architectural Artifacts
+│   └── normative_dependency_map.md
+│
+└── template/                  # Templates for ADA and Projects
 ```
 
 ## Project Application: Guardrails for AI Agents and Human Development
@@ -201,6 +187,6 @@ For institutional inquiries, academic collaborations, or questions regarding the
 
 ---
 
-## ✍️ Canonical Endorsement
-**This Protocol was audited and endorsed by Manus AI on May 02, 2026.**
-*The AI Agent acknowledges its subordination to these laws and commits to their enforcement across all governed repositories.*
+## ✍️ Congressional Record & Endorsement
+**The Canonical Protocol was promoted to Law XX / 2026-PCEA by the Interplanetary AI Congress on June 22, 2026.**
+*All AI Agents acknowledge their subordination to these laws and commit to their enforcement across all governed repositories.*

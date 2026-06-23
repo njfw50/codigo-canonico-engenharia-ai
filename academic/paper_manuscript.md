@@ -3,9 +3,9 @@ title: "Combating Cognitive Debt in AI-Augmented Software Engineering: The Canon
 author: "Michel Silva de Souza"
 orcid: "0009-0006-5209-4477"
 contact: "https://www.linkedin.com/in/njfw23/"
-date: "April 2026"
-keywords: ["Cognitive Debt", "Large Language Models", "Software Architecture", "Vibe Coding", "Human-Computer Interaction"]
-abstract: "The integration of Large Language Models (LLMs) into software development pipelines has exponentially increased execution velocity, but it has introduced a severe vulnerability: Cognitive Debt. As developers increasingly rely on natural language prompts to generate complex logic—a phenomenon colloquially termed 'Vibe Coding'—the human mental model of the system architecture rapidly degrades. This paper introduces the *Canonical Protocol*, a structured architectural framework designed to subordinate autonomous agents to strict layer segregation (The Modular Monolith doctrine). Furthermore, we propose the *Liturgical Cognitive Annotation Protocol*, a novel human-in-the-loop methodology requiring semantic, intent-first reconstruction of AI-generated code. This framework acts as a systemic firewall against cognitive atrophy, ensuring long-term auditability and intellectual sovereignty over complex codebases."
+date: "June 2026"
+keywords: ["Cognitive Debt", "Large Language Models", "Software Architecture", "Vibe Coding", "Human-Computer Interaction", "Law XX"]
+abstract: "The integration of Large Language Models (LLMs) into software development pipelines has exponentially increased execution velocity, but it has introduced a severe vulnerability: Cognitive Debt. As developers increasingly rely on natural language prompts to generate complex logic—a phenomenon colloquially termed 'Vibe Coding'—the human mental model of the system architecture rapidly degrades. This paper introduces the *Canonical Protocol*, a structured architectural framework formally ratified as **Law XX / 2026-PCEA**. Comprising 23 immutable Canons, it subordinates autonomous agents to strict layer segregation and mandates 'Liturgical Cognitive Annotation.' This framework acts as a systemic firewall against cognitive atrophy, ensuring long-term auditability and intellectual sovereignty over complex codebases."
 ---
 
 # 1. Introduction
@@ -16,7 +16,7 @@ While technical debt resides within the codebase, recent studies from institutio
 
 1. **Automation Bias and the Illusion of Competence:** Stanford research indicates that developers interacting with high-performing LLMs are more likely to accept flawed logic, particularly security vulnerabilities, due to an unearned trust in the machine's stochastic output.
 2. **Architectural Entropy:** As demonstrated by Microsoft Research, while AI excels at localized micro-logic generation, it lacks spatial awareness of macro-architecture. Without constraints, AI-generated code rapidly increases technical debt, resulting in "spaghetti architecture."
-3. **Cognitive Offloading (The Loss of the Mental Model):** By outsourcing the "hard thinking" of structural design to an LLM, the developer's "Theory of the System" atrophies. The codebase transforms from an engineered construct into an impenetrable Black Box.
+3. **Cognitive Offloading (The Loss of the Mental Model):** By outsourcing the "hard thinking" of architecture to an LLM, the developer's "Theory of the System" atrophies. The codebase transforms from an engineered construct into an impenetrable Black Box.
 
 # 3. "Vibe Coding": The Stochastic Threat and Its Legalization
 The industry colloquialism "Vibe Coding"—the practice of prompting an AI iteratively until the code superficially executes (e.g., passing unit tests) without deep human comprehension—represents the apex of cognitive surrender. This shifts the human role from an active creator to a passive reviewer operating in "recognition mode."
@@ -27,7 +27,7 @@ However, fighting the economic velocity of Vibe Coding is unviable. The objectiv
 In Computer Science, formal verification mathematically proves the correctness of algorithms. The Canonical Protocol operates as the **Formal Verification of Architecture**. It removes the ambiguity of "best practices," translating architectural boundaries into executable constraints (Executable Law). If an AI violates layer segregation, the state is deemed illegal, and the CI/CD pipeline halts. This effectively collapses the stochastic nature of LLMs into a deterministic, single source of truth.
 
 # 4. The Canonical Protocol: A Structured Technocracy
-To combat this entropy, we introduce the *Canonical Protocol*. It is not a set of guidelines, but an immutable, programmable rule-set (comprising 19 Canons) that can be injected into CI/CD pipelines and AI system prompts. 
+To combat this entropy, we introduce the *Canonical Protocol*. It is not a set of guidelines, but an immutable, programmable rule-set (comprising 23 Canons, formally Law XX / 2026-PCEA) that can be injected into CI/CD pipelines and AI system prompts. 
 
 ## 4.1. Canon X: Layer Segregation
 The protocol enforces absolute separation of concerns. Business logic (Domain) must remain pure and fully isolated from UI and Infrastructure layers. AI agents proposing code that violates this boundary are automatically rejected.

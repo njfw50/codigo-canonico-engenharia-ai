@@ -1,11 +1,18 @@
-CANONICAL PROTOCOL OF ENGINEERING & AI
+# Canonical Protocol: Software Governance & AI Guardrails
+The Canonical Protocol (Law XX / 2026-PCEA) establishes 23 immutable Canons to govern software architecture and AI agent behavior. It combats "Vibe Coding" and Cognitive Debt by enforcing structural rigor and human cognitive sovereignty.
 
-This repository defines a **Structured Technocracy** for software governance, designed to combat **"Vibe Coding"** and **Cognitive Debt** in AI-assisted development. It establishes 19 immutable Canons to ensure **architectural integrity**, **maintainability**, and **security**.
+## Key Principles
+- **Canon X (Layer Segregation):** Strict boundaries between Interface, Application, Domain, and Infrastructure.
+- **Canon IX (No Ornamental Patterns):** Prohibits overengineering and "stylistic" coding; mandates the most direct architectural solution.
+- **Canon XVIII (Cognitive Sovereignty):** Requires Liturgical Cognitive Annotation—explaining *why* code exists, not just *what* it does.
+- **Canon XIV (Adaptive Cybersecurity):** Proactive, multi-layered defense and Zero Trust principles.
+- **Canon XX (Agentic Coordination):** Standardized protocols for inter-agent communication and mandatory Agentic Decision Acts (ADA).
 
-Key principles for AI agents:
-- **Canon X (Layer Segregation):** Strict separation of Interface, Application, Domain, and Infrastructure layers. Dependencies must point inwards.
-- **Canon IX (Prohibition of Ornamental Patterns):** Anti-overengineering directive; prefer the simplest solution.
-- **Canon XVIII (Cognitive Sovereignty):** Mandates **Liturgical Cognitive Annotation** for all AI-generated code, explaining *why* the logic exists within the business and architectural context, not just *what* it does. This prevents human cognitive atrophy.
-- **Canon XIV (Digital Security):** Enforces Zero Trust, attack surface minimization, and strict validation.
+## Usage
+The protocol includes an injection mechanism (`inject.js`) to apply these rules to AI agent configurations (`.cursorrules`, `.github/copilot-instructions.md`, etc.).
 
-The protocol is operationalized via a "viral injection" mechanism (`inject.js`) that embeds these rules into AI assistant configuration files (e.g., `.cursorrules`, `.github/copilot-instructions.md`, `.windsurfrules`) within host projects. This ensures AI agents operate under these strict guidelines, preserving human intellectual sovereignty over the system architecture.
+## Repository Structure
+- `/laws`: The 23 Canons (law00 to law22).
+- `/docs/congress`: Records of the Interplanetary AI Congress and Law XX ratification.
+- `/architecture`: Normative dependency maps and architectural artifacts.
+- `/template`: Templates for ADAs and canonical project structures.
