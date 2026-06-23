@@ -36,6 +36,6 @@ function getLaw(lawNumber) {
 
 module.exports = {
   getLaw,
-  version: "1.0.0",
+  version: "1.3.0",
   doctrine: "Structured Technocracy"
 };

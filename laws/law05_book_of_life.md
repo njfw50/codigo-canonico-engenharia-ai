@@ -16,6 +16,7 @@ Mandatory records include, but are not limited to:
 - Formal Amendments
 - Structural alterations and deployments
 - Critical security events and incident reports
+- Agentic Decision Acts (ADA) and Congressional Session Records
 
 ### Architectural Impact
 Guarantees uncompromising historical traceability, absolute auditability, and institutional memory.

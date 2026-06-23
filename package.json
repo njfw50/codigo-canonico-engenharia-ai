@@ -1,6 +1,6 @@
 {
   "name": "canonical-protocol",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A Structured Technocracy for Software Governance & AI Governance",
   "main": "index.js",
   "bin": {
