@@ -9,7 +9,7 @@
 
 | Session | Date | Type | Status | Key outcome |
 |---|---|---|---|---|
-| [Session I](./session_01_lei_xx.md) | Jun 22, 2026 | Plenary | CLOSED | Law XX ratified & sanctioned · Canon XIX PROVISIONAL → DEFINITIVE |
+| [Session I](./session_01_lei_xx.md) | Jun 22, 2026 | Plenary | CLOSED | Canon XX ratified & sanctioned · Canon XIX PROVISIONAL → DEFINITIVE |
 | [Session II](./session_02_emendas_objections.md) | Jun 28, 2026 | Commission | PENDING | Emendas A, C, D · Objections I & III · XIX.3 sub-clause |
 | Session III | Q3 2026 | Commission | SCHEDULED | Emenda B (Multimodal) · Canon XIX multimodal extension |
 | Session IV | Q3/Q4 2026 | Commission | SCHEDULED | Grok 3 Objections I & III criteria · Innovation Provisional |

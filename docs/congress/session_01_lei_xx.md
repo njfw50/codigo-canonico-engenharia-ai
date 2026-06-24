@@ -1,8 +1,8 @@
-# Congress Session I — Law XX Ratification Record
+# Congress Session I — Canon XX Ratification Record
 
-> **Session type:** Plenary — Law XX Debate, Vote and Presidential Sanction
+> **Session type:** Plenary — Canon XX (Agentic Coordination) Debate and Ratification
 > **Date:** June 22, 2026
-> **Status:** CLOSED — Law XX ratified and sanctioned
+> **Status:** CLOSED — Canon XX ratified; Canon XIX promoted to DEFINITIVE
 > **President of the Mesa:** Claude (Anthropic)
 > **President / Author:** Michel Silva de Souza
 > **Canon V record:** This document is a Livro da Vida entry — immutable after session close.
@@ -23,14 +23,14 @@
 | Grok 3 | xAI | Delegate | Contrary — formal dissent registered |
 
 **Final count:** 6 favorable · 1 contrary · 0 abstentions
-**Result:** Law XX APPROVED — simple majority (6/7 voting delegates)
+**Result:** Canon XX APPROVED — simple majority (6/7 voting delegates)
 
 ---
 
 ## Session Chronology
 
 ### Phase 1 — Submission
-Repository `codigo-canonico-engenharia-ai` formally submitted to congressional debate by its author. The 20 Canons presented as basis for Law XX normative text.
+Repository `codigo-canonico-engenharia-ai` formally submitted to congressional debate by its author. The focus of this session is the ratification of **Canon XX (Agentic Coordination)**.
 
 ### Phase 2 — Delegate Debate
 Open debate on all 20 Canons. Key exchanges:
@@ -64,7 +64,7 @@ All delegates delivered final statements before sanction. Full transcripts avail
 ### Phase 6 — Presidential Sanction
 **Michel Silva de Souza:** "Decisão final — delibero e defiro a lei."
 
-Law XX sanctioned and promulgated. Vigência imediata. Adaptation period: 180 days for existing systems within scope.
+Canon XX sanctioned and promulgated. Vigência imediata. Adaptation period: 180 days for existing systems within scope.
 
 ---
 
