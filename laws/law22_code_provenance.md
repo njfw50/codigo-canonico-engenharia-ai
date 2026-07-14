@@ -1,5 +1,7 @@
 # Canon XXII: The Doctrine of Code Provenance and Traceability
 > [!IMPORTANT]
+> **PROVISIONAL MEASURE - MP 2026/04**  
+> Integrated under emergency executive decree pending Constituent Assembly ratification. Valid until abrogation or formal enactment.
 
 
 ## Establishing Verifiable Origins for All Code Artifacts

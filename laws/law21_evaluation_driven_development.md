@@ -1,5 +1,7 @@
 # Canon XXI: The Doctrine of Evaluation-Driven Development (EDD)
 > [!IMPORTANT]
+> **PROVISIONAL MEASURE - MP 2026/03**  
+> Integrated under emergency executive decree pending Constituent Assembly ratification. Valid until abrogation or formal enactment.
 
 
 ## Ensuring Quality and Compliance in AI-Generated Artifacts
