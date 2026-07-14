@@ -1,7 +1,6 @@
 # Canon XX: The Doctrine of Agentic Coordination and Protocol Optimization
 > [!IMPORTANT]
-> **PROVISIONAL MEASURE - MP 2026/02**  
-> Integrated under emergency executive decree pending Constituent Assembly ratification. Valid until abrogation or formal enactment.
+
 
 ## Standardizing Inter-Agent Communication and Collaboration
 

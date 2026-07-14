@@ -120,9 +120,9 @@ The system is governed by 23 immutable Canons, organized into functional domains
 ### Emerging Research & Provisional Canons
 | Canon | Title |
 |-------|-------|
-| **Canon XX** | [The Doctrine of Agentic Coordination and Protocol Optimization](./laws/law20_agentic_coordination.md) (PROVISIONAL) |
-| **Canon XXI** | [The Doctrine of Evaluation-Driven Development (EDD)](./laws/law21_evaluation_driven_development.md) (PROVISIONAL) |
-| **Canon XXII** | [The Doctrine of Code Provenance and Traceability](./laws/law22_code_provenance.md) (PROVISIONAL) |
+| **Canon XX** | [The Doctrine of Agentic Coordination and Protocol Optimization](./laws/law20_agentic_coordination.md) |
+| **Canon XXI** | [The Doctrine of Evaluation-Driven Development (EDD)](./laws/law21_evaluation_driven_development.md) |
+| **Canon XXII** | [The Doctrine of Code Provenance and Traceability](./laws/law22_code_provenance.md) |
 
 ### Evolutionary Governance
 | Canon | Title |
