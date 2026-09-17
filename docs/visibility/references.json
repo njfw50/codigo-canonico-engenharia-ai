@@ -1,0 +1,35 @@
+{
+  "normative_class": "C",
+  "date": "2026-09-17",
+  "proposal": "https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/2",
+  "source_revision": "48546d67e4df68dc86d36541e481b6aaa15d7f83",
+  "references": [
+    {
+      "consumer": "README.md",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "public-introduction",
+      "resolution": "GitHub Pages directory index; website changes in this release"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "public-introduction",
+      "resolution": "GitHub Pages directory index; website changes in this release"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "laws/",
+      "type": "normative-source"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "template/ADA_template.md",
+      "type": "decision-template"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "CITATION.cff",
+      "type": "citation"
+    }
+  ]
+}

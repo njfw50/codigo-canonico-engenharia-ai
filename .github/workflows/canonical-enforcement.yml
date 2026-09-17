@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        # Canon III/XIX: the three-dot diff needs the common ancestor to audit the complete change set.
+        with:
+          fetch-depth: 0
 
       - name: Fetch main branch
         run: git fetch origin main
