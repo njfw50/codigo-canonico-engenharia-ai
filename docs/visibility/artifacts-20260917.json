@@ -1,0 +1,11 @@
+{
+  "normative_class": "C",
+  "algorithm": "SHA-256",
+  "date": "2026-09-17",
+  "scope": "UTF-8 contents of release files; manifest excluded to avoid self-reference",
+  "files": {
+    "README.md": "e4c4a8baa4aac2ab0988fa918ddcd81c5d78e78c6950c62d54083796c0ef5bf1",
+    "docs/visibility/ADA-20260917-001.md": "8284c45ab5cdec836bd6f4de6e58cd1095b4176bf717d54225c0d0107d880fed",
+    "docs/visibility/references.json": "d53d3232e90c155b68ec8c37920086559ae4e81014ba201fc4e12f86f60f9767"
+  }
+}
