@@ -1,0 +1,25 @@
+{
+  "normative_class": "C",
+  "date": "2026-10-01",
+  "algorithm": "SHA-256",
+  "scope": "Exact bytes of changed publication files, including binary images. This manifest is excluded to avoid self-reference. Historical manifests retain their original commit scope.",
+  "files": {
+    "CITATION.cff": "d50568555962390ebf8d2308dc1abb431d4bdb24d2932c3645b2b7eadb2e1eff",
+    "README.md": "e4a64cae2c03a0ee413bbf2c71b6ea45e1f5838b5520a24014c793ee06b666bd",
+    "WHITEPAPER.md": "ff76f7557f701306478eca1b9ae2ed94001f67cfe54133e50d68aacf416ca2b6",
+    "academic/paper_manuscript.md": "1ed373e2465d866b6a73edbbc9ab46549007648e493439455072fe3bb2908e21",
+    "assets/canonical-reference.svg": "c288707b0788bb9c07dc45144ea30ba8195c1c5ae52f40a6f7700d27ec715e85",
+    "docs/EVIDENCE.md": "a471da5e05aa7eb25c81598ac8ee8b0d2b7197a28d091c376780701422ad34b4",
+    "docs/SHARE.md": "77f2ebd30d7d766c769b9d8b098c0b0aea5d0e53378eaae58b5b844eaa947c7f",
+    "docs/visibility/ADA-20261001-001.md": "3a684ec517d22c195e0827ee0e11f7a3c18f3a91fefe39b22d094fa709fe7677",
+    "docs/visibility/references.json": "795b4bcca6bfbf2de3f9e055f0956dd033450ae04a460cd47034d1c2a2d4baad",
+    "docs/visibility/validation-20261001.md": "2bcff035b1c3dfa5b00279f05aa386667d2280feb6d65d508cbac5768252f56e",
+    "examples/checkout/ADA.md": "bcaef9de45a248494c82b2d8158e63c0f6a322ffe7bd93d56e065c8d65fbdc5c",
+    "examples/checkout/README.md": "9de55346b1677bc7406d165c7a1ccc614b8b7ad0afacc0d4799ac3fd2f408264",
+    "examples/checkout/demo.js": "9cea506abdf97688aa9f45070f93970938aeb61be0e41634af792d5371f2dc5b",
+    "examples/checkout/discount.js": "130323887e2f9d6597f6300b8a258136733bb599c87669603c77472c69515740",
+    "examples/checkout/quote.js": "0b00b63096a5fc8a3b802eeb87061e6ce325084aa4fafefac393042b6a905b43",
+    "examples/checkout/verify.js": "a637b9ac75f9ad154f552d15b915fe6a3ca74e8b1c0816bdf1406a648d98abec",
+    "llms.txt": "7d94bc4d06bd0351f23f2d62dd821946fb78086b0a5adeb64022789db59f2f2c"
+  }
+}

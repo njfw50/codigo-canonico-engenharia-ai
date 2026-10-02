@@ -2,7 +2,7 @@
 
 **Created by Michel Silva de Souza.**
 
-**Código Canônico de Engenharia & IA** — software governance, architecture and cognitive sovereignty in AI-assisted engineering.
+**Código Canônico de Engenharia & IA** — a software-governance framework for engineers, students and teams working with AI coding assistants. It brings together architectural rules, decision records and guidance for preserving human understanding of a system.
 
 - **[Conheça o projeto em português](https://njfw50.github.io/codigo-canonico-engenharia-ia/)**
 - **[Explore the project in English](https://njfw50.github.io/canonical-engineering-ai/)**
@@ -10,11 +10,26 @@
 
 The project introductions link to the original normative body. Canonical quotations are reproduced verbatim; the authoritative texts remain in this repository.
 
+## Start with one review
+
+**Your AI-generated code works. Can you explain the decision behind it?**
+
+Try the [annotated checkout example — Português / English](./examples/checkout/README.md). Follow a discount decision from its domain rule through an application use case to CLI presentation, then run the checks. Node.js is the only requirement for this example.
+
+```bash
+node examples/checkout/demo.js
+node examples/checkout/verify.js
+```
+
+Run these from a clone of this repository; the example guide includes the clone command and expected output. These checks evaluate the example only. They do not certify another project's architecture.
+
+**Para começar em português:** [experimente o exemplo](./examples/checkout/README.md#português), confira os textos originais e registre uma decisão que você consegue explicar.
+
+[Explore the canons](./laws/) · [Share the project](./docs/SHARE.md) · [Use a source badge](./docs/SHARE.md#add-a-source-badge-to-a-readme) · [Contribute a review](./CONTRIBUTING.md)
+
 [![DOI](https://zenodo.org/badge/1178448858.svg)](https://doi.org/10.5281/zenodo.19804968)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D14.0.0-green.svg)](https://nodejs.org/)
-[![OWASP Compliance](https://img.shields.io/badge/OWASP-Conceptual%20Adherence-orange.svg)](https://owasp.org/)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/njfw50/codigo-canonico-engenharia-ai/actions)
 
 ## A Structured Technocracy for Software Governance, Combating 'Vibe Coding' and Cognitive Debt in AI-Driven Projects
 
@@ -27,29 +42,37 @@ This repository does not contain mere "best practices" or "suggestions." It esta
 
 We reject the notion of technical democracy where every Pull Request is a negotiation of fundamental standards. Instead, we submit to the **Doctrine of the Single Source of Truth (SSOT)**. Every piece of code, whether authored by a human Engineer or an AI collaborator, must undergo a rigorous Canonical Audit. If an implementation violates layer separation or introduces arbitrary complexity, it is inherently defective, regardless of its operational status.
 
-By classifying system components, mandating strict boundaries, and requiring explicit governance for any structural mutation, we guarantee that the system remains highly auditable, deeply secure, and optimized for Advanced Data Analysis.
+By classifying system components, mandating strict boundaries, and requiring explicit governance for structural changes, the protocol aims to make decisions easier to audit and explain. These are methodological goals; their effect in other projects requires evaluation.
 
 **This is not just code; it is institutional memory.**
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick start: evaluate one concrete decision
 
-To start using the Canonical Protocol and inject its rules into your AI projects, follow these three simple steps:
+```bash
+git clone https://github.com/njfw50/codigo-canonico-engenharia-ai.git
+cd codigo-canonico-engenharia-ai
+node examples/checkout/demo.js
+node examples/checkout/verify.js
+```
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/njfw50/codigo-canonico-engenharia-ai.git
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd codigo-canonico-engenharia-ai
-    ```
-3.  **Install dependencies and activate canonical injection:**
-    ```bash
-    npm install
-    ```
-    This command will automatically execute the `inject.js` script, which will apply the Canonical Protocol rules to your AI assistants' configuration files (such as `.cursorrules`, `.github/copilot-instructions.md`, etc.), ensuring they operate under the established guidelines.
+Expected demonstration: a **$125.00 subtotal**, a **$12.50 discount** and a **$112.50 total**. No package installation is needed. Read the [bilingual walkthrough](./examples/checkout/README.md) and the [worked decision record](./examples/checkout/ADA.md).
+
+## What you can evaluate today
+
+| Component | Available now | Scope |
+| --- | --- | --- |
+| Normative framework | 23 original canon files, contribution procedure and ADA template | Project rules; status is recorded in each canon. |
+| Educational example | Annotated domain rule, application use case, CLI and boundary checks | A fictional checkout policy; not a production payment system. |
+| Existing automation | Configuration bootstrap and demonstrative repository workflows | Limited checks; not a complete architecture verifier or certification. |
+| Research context | [Evidence and references](./docs/EVIDENCE.md) | Related studies motivate review practices; they do not validate this protocol. |
+
+### Existing installation hook
+
+The package declares a `postinstall` hook in [package.json](./package.json). When `npm install` is run inside this repository, [inject.js](./inject.js) detects development mode and skips installation. Cloning and running that command therefore does **not** activate governance in another project.
+
+When invoked in a consumer installation context, the script can replace `.cursorrules`, `.github/copilot-instructions.md` and `.windsurfrules`, create `.bak` copies and write `canonical-manifest.json`. Review its target directory and preserve your existing configuration before using it. The checkout example above does not invoke this hook. Configuration instructions remain subject to the host assistant's supported behavior and do not guarantee compliance.
 
 ---
 
@@ -98,7 +121,7 @@ graph TD
 
 ## 📜 The Canonical Body (The 23 Canons): Laws for Software Governance and AI Engineering
 
-The system is governed by 23 immutable Canons, organized into functional domains:
+The repository contains 23 canon files, organized into functional domains. Canons XXI and XXII are provisional; Canon XIX includes provisional subclause XIX.3. The original documents define their status.
 
 ### Core Foundation & Authority
 | Canon | Title |
@@ -172,20 +195,23 @@ codigo-canonico-engenharia-ai/
 └── template/                  # Templates for ADA and Projects
 ```
 
-## Project Application: Guardrails for AI Agents and Human Development
+## Apply the protocol to a review
 
-To apply the Canonical Protocol, development teams and **AI Agents** must integrate these Canons directly into their *system prompts* and CI/CD *pipelines*, enforcing autonomous validation against Canon X (Layer Segregation) and Canon IX (Anti-Overengineering) before any deployment. This ensures that human **cognitive sovereignty** is maintained and that **software architecture** is not compromised by AI-generated code.
+1. Choose a small change and identify the business decision it implements.
+2. Explain the relevant boundaries with the original canons as references.
+3. Run checks that could disprove the expected behavior, including boundary cases.
+4. Record the decision, evidence and remaining uncertainty using the [ADA template](./template/ADA_template.md). Compare the [worked example](./examples/checkout/ADA.md).
+5. Have the reviewing engineer reconstruct the execution path before adopting the change.
 
-### For AI Agents (Copilot, Cursor, Windsurf, etc.):
+The existing `canonical-audit.yml` contains a demonstrative SQL-in-UI scan and a license-header warning. Passing it is not evidence that all 23 canons have been verified. The [workflow source](./.github/workflows/canonical-audit.yml) defines its current coverage.
 
-This repository includes a **viral injection** mechanism (`inject.js`) that automatically inserts canonical rules into the *system prompt configuration files of AI agents, such as `.cursorrules`, `.github/copilot-instructions.md`, and `.windsurfrules`. This ensures that the AI operates under the Protocol's guidelines, promoting:
+## Cite a version and share a result
 
--   **Layer Segregation (Canon X):** Prevention of improper coupling between Interface, Application, Domain, and Infrastructure.
--   **Prohibition of Ornamental Patterns (Canon IX):** Focus on simplicity and the most direct solution, avoiding overengineering.
--   **Cognitive Sovereignty (Canon XVIII):** Requirement for **Liturgical Cognitive Annotation** for every block of generated code, ensuring the human engineer maintains the "Theory of the System" and avoids **Cognitive Debt**.
--   **Digital Security (Canon XIV):** Reinforcement of Zero Trust principles and minimization of the attack surface.
+Silva de Souza, Michel. (2026). *The Canonical Protocol of Engineering & AI: A Structured Technocracy* (v1.3.1). Zenodo. https://doi.org/10.5281/zenodo.21006705
 
-By adopting the Canonical Protocol, you ensure that your projects maintain **architectural integrity**, **maintainability**, and **security**, even with AI-driven development acceleration.
+Use [CITATION.cff](./CITATION.cff) for machine-readable metadata. The [project DOI](https://doi.org/10.5281/zenodo.19804968) links the release family; the citation above identifies v1.3.1. If you use changes from `main`, include the commit too.
+
+The [sharing guide](./docs/SHARE.md) has short Portuguese and English introductions and an optional source badge. A useful report includes a real problem, an observed result and a limitation. [Discuss your experience](https://github.com/njfw50/codigo-canonico-engenharia-ai/discussions) or follow [CONTRIBUTING.md](./CONTRIBUTING.md) to propose a change.
 
 ---
 
@@ -198,6 +224,8 @@ For institutional inquiries, academic collaborations, or questions regarding the
 
 ---
 
-## ✍️ Congressional Record & Endorsement
-**The Canonical Protocol was promoted to Law XX / 2026-PCEA by the Interplanetary AI Congress on June 22, 2026.**
-*All AI Agents acknowledge their subordination to these laws and commit to their enforcement across all governed repositories.*
+## Project governance records
+
+The project's [Session I record](./docs/congress/session_01_lei_xx.md) documents its internal ratification of Canon XX and the status of Canon XIX. Congress terminology describes the project's governance process. Model names and their developers in those records do not establish institutional endorsement, external certification or independent peer review.
+
+Original canons and historical records remain the authoritative source for the project's normative text. The public introduction and [evidence notes](./docs/EVIDENCE.md) distinguish that text from demonstrated software behavior and research findings.

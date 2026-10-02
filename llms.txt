@@ -16,3 +16,9 @@ The protocol includes an injection mechanism (`inject.js`) to apply these rules 
 - `/docs/congress`: Records of the Interplanetary AI Congress and Law XX ratification.
 - `/architecture`: Normative dependency maps and architectural artifacts.
 - `/template`: Templates for ADAs and canonical project structures.
+
+## Practical evaluation and evidence
+- Runnable example: https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/examples/checkout
+- Worked decision: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/examples/checkout/ADA.md
+- Evidence and primary references: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/EVIDENCE.md
+- Version v1.3.1 DOI: https://doi.org/10.5281/zenodo.21006705
