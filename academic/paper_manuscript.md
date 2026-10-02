@@ -5,45 +5,46 @@ orcid: "0009-0006-5209-4477"
 contact: "https://www.linkedin.com/in/njfw23/"
 date: "June 2026"
 keywords: ["Cognitive Debt", "Large Language Models", "Software Architecture", "Vibe Coding", "Human-Computer Interaction", "Law XX"]
-abstract: "The integration of Large Language Models (LLMs) into software development pipelines has exponentially increased execution velocity, but it has introduced a severe vulnerability: Cognitive Debt. As developers increasingly rely on natural language prompts to generate complex logic—a phenomenon colloquially termed 'Vibe Coding'—the human mental model of the system architecture rapidly degrades. This paper introduces the *Canonical Protocol*, a structured architectural framework formally ratified as **Law XX / 2026-PCEA**. Comprising 23 immutable Canons, it subordinates autonomous agents to strict layer segregation and mandates 'Liturgical Cognitive Annotation.' This framework acts as a systemic firewall against cognitive atrophy, ensuring long-term auditability and intellectual sovereignty over complex codebases."
+abstract: "This conceptual paper introduces the Canonical Protocol, a software-governance proposal for AI-assisted engineering. Its 23 canon files describe architectural boundaries, decision traceability and Liturgical Cognitive Annotation: explanations of why code exists, followed by reconstructive review. The project uses cognitive debt to describe a loss of human understanding of a system. Related research motivates these practices but does not validate this protocol. Their effects on comprehension, security and maintainability remain open evaluation questions. Law XX / 2026-PCEA denotes the project's internal governance record, not external legislation or certification."
 ---
 
+> **Conceptual manuscript; evidence reviewed 2026-10-01.** This text proposes a method. Claims about reducing cognitive debt, security or maintainability require empirical evaluation. The [evidence inventory](../docs/EVIDENCE.md) identifies current references and limits.
+
 # 1. Introduction
-The advent of generative AI assistants (e.g., Copilot, Cursor) has fundamentally disrupted traditional software engineering. While these tools excel at syntactic generation and boilerplate reduction, they precipitate a dangerous abstraction layer between the engineer and the architectural reality of the system. We define this crisis as the rapid accumulation of *Cognitive Debt*. This paper asserts that without a strict governing protocol, the acceleration provided by LLMs is unsustainable and leads to structurally opaque, unmaintainable codebases.
+Generative AI assistants can help produce code while shifting part of the engineer's work toward reviewing generated decisions. This paper uses *Cognitive Debt* to describe a gap between a working implementation and the engineer's understanding of it. The proposal hypothesizes that explicit architectural boundaries and reconstructive review can help address that gap. It does not establish that a strict protocol is necessary or sufficient for maintainable software.
 
-# 2. The Academic Dilemma: Cognitive Offloading and Automation Bias
-While technical debt resides within the codebase, recent studies from institutions like MIT (CSAIL), Stanford, and Microsoft Research have identified the primary risks of LLM-assisted software engineering as systemic cognitive and architectural degradation. We formalize these concerns into three academic dilemmas:
+# 2. Research context and open questions
 
-1. **Automation Bias and the Illusion of Competence:** Stanford research indicates that developers interacting with high-performing LLMs are more likely to accept flawed logic, particularly security vulnerabilities, due to an unearned trust in the machine's stochastic output.
-2. **Architectural Entropy:** As demonstrated by Microsoft Research, while AI excels at localized micro-logic generation, it lacks spatial awareness of macro-architecture. Without constraints, AI-generated code rapidly increases technical debt, resulting in "spaghetti architecture."
-3. **Cognitive Offloading (The Loss of the Mental Model):** By outsourcing the "hard thinking" of architecture to an LLM, the developer's "Theory of the System" atrophies. The codebase transforms from an engineered construct into an impenetrable Black Box.
+Studies of AI-assisted coding and critical thinking motivate careful review of generated work. The [evidence inventory](../docs/EVIDENCE.md) records two primary sources, their findings and their limits. Neither study evaluates the Canonical Protocol or Liturgical Cognitive Annotation.
+
+The questions for this proposal are whether explicit decision annotations improve developers’ ability to explain a system, whether review effort is proportionate, and whether boundary checks catch relevant violations. These questions require a defined evaluation task, comparison conditions and reported results.
 
 # 3. "Vibe Coding": The Stochastic Threat and Its Legalization
 The industry colloquialism "Vibe Coding"—the practice of prompting an AI iteratively until the code superficially executes (e.g., passing unit tests) without deep human comprehension—represents the apex of cognitive surrender. This shifts the human role from an active creator to a passive reviewer operating in "recognition mode."
 
-However, fighting the economic velocity of Vibe Coding is unviable. The objective of this paper is not to ban this practice, but to **legalize and regulate it**. By applying the rigor of formal verification and deterministic state machines from Computer Science, we can encapsulate "Vibe Coding" within a strict legislative framework. The developer may utilize AI to accelerate logic generation, provided the output complies with an immutable, automated set of architectural laws that guarantee industry standards for security, maintainability, and cognitive legibility.
+The proposal seeks to govern the use of generated code through explicit architectural rules and decision review. Formal verification and deterministic state machines are possible implementation techniques when justified by a project's requirements; this repository does not supply such a verification system. Developers may use AI to accelerate code generation while checking its decisions and boundaries. The effectiveness and cost of this discipline must be tested.
 
-# 3.5 The Canonical Law as Formal Verification
-In Computer Science, formal verification mathematically proves the correctness of algorithms. The Canonical Protocol operates as the **Formal Verification of Architecture**. It removes the ambiguity of "best practices," translating architectural boundaries into executable constraints (Executable Law). If an AI violates layer segregation, the state is deemed illegal, and the CI/CD pipeline halts. This effectively collapses the stochastic nature of LLMs into a deterministic, single source of truth.
+# 3.5 Architectural constraints and current automation
+
+The protocol proposes explicit constraints that implementations can validate. The repository’s current workflows are limited demonstrations, not mathematical formal verification or a comprehensive architecture validator. Stronger enforcement must name the property, implementation and evidence it checks before claiming that property has been established.
 
 # 4. The Canonical Protocol: A Structured Technocracy
-To combat this entropy, we introduce the *Canonical Protocol*. It is not a set of guidelines, but an immutable, programmable rule-set (comprising 23 Canons, formally Law XX / 2026-PCEA) that can be injected into CI/CD pipelines and AI system prompts. 
+The *Canonical Protocol* defines rules for projects that adopt it. The repository contains 23 canon files, including provisional measures, and configuration instructions for AI assistants. Law XX / 2026-PCEA is the project's internal designation; it is not external legislation. Implementations must define the checks they can enforce in a particular pipeline.
 
 ## 4.1. Canon X: Layer Segregation
-The protocol enforces absolute separation of concerns. Business logic (Domain) must remain pure and fully isolated from UI and Infrastructure layers. AI agents proposing code that violates this boundary are automatically rejected.
+The protocol enforces absolute separation of concerns. Business logic (Domain) must remain pure and fully isolated from UI and Infrastructure layers. Implementations need explicit checks and review to detect violations of this boundary; configuration instructions alone do not ensure automatic rejection.
 
 ## 4.2. Canon XVII: The Doctrine of Justified Complexity
-The protocol mandates the "Modular Monolith" as the foundational default. Advanced architectural patterns (Microservices, DDD) are strictly prohibited unless empirical evidence proves that the foundational structure has reached its operational limits. This prevents AI-induced over-engineering.
+The protocol mandates the "Modular Monolith" as the foundational default. Advanced architectural patterns (Microservices, DDD) are restricted unless operational evidence justifies the added complexity. This is intended to discourage over-engineering; the effect requires evaluation.
 
 # 5. The Liturgical Cognitive Annotation Protocol (Canon XVIII)
 The core innovation of this methodology is the *Liturgical Cognitive Annotation*. To prevent the loss of the systemic mental model, the framework demands that any non-trivial logic generated by an AI be accompanied by a specific, rigorous form of commentary.
 
-Unlike standard comments that describe *what* the syntax executes, Liturgical Annotations must explain *why* the code exists within the broader business context. The AI is mandated to generate these annotations block-by-block, forcing a "reconstructive review." If the reviewing human engineer cannot read the annotation and mentally reconstruct the execution path, the code is deemed cognitively opaque and must be rewritten. This ensures that cognitive offloading never crosses the threshold into cognitive surrender.
+Unlike standard comments that describe *what* the syntax executes, Liturgical Annotations must explain *why* the code exists within the broader business context. The AI is mandated to generate these annotations block-by-block, forcing a "reconstructive review." If the reviewing human engineer cannot read the annotation and mentally reconstruct the execution path, the code is deemed cognitively opaque and must be rewritten. This is the intended review discipline; its effect on comprehension requires evaluation.
 
 # 6. Conclusion
-As AI capabilities expand, the primary challenge of software engineering is no longer writing code, but maintaining human cognitive sovereignty over the systems we build. The Canonical Protocol and the Liturgical Annotation methodology provide a scalable, rigorous defense against cognitive debt, ensuring that software remains auditable, secure, and fundamentally human-driven.
+The Canonical Protocol and Liturgical Cognitive Annotation propose a discipline for making software decisions traceable and understandable to human reviewers. The educational example illustrates one application. Whether the method improves comprehension or maintainability at a proportionate review cost remains an empirical question.
 
 # References
-[1] Storey, M. A., et al. "The Triple Debt Model: Technical, Cognitive, and Intent Debt in Software Engineering." (Theoretical mapping).
-[2] MIT Media Lab. "Cognitive Impacts of LLM Reliance on Problem-Solving Workflows." (Analogous research on cognitive offloading).
-[3] Silva de Souza, M. *The Canonical Protocol of Engineering & AI*. Zenodo. https://doi.org/10.5281/zenodo.19804968. 2026.
+
+The current [evidence and bibliography inventory](../docs/EVIDENCE.md) links primary publications by Perry et al. (CCS 2023) and Lee et al. (CHI 2025), identifies the supported claims, and records the project’s Zenodo citation. It supersedes the earlier incomplete illustrative references in this manuscript.

@@ -1,35 +1,698 @@
 {
   "normative_class": "C",
-  "date": "2026-09-17",
-  "proposal": "https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/2",
-  "source_revision": "48546d67e4df68dc86d36541e481b6aaa15d7f83",
+  "date": "2026-10-01",
+  "proposal": "https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/7",
+  "scope": "Current public presentation, educational example and direct references. Supersedes the September 17 live inventory; historical snapshots remain in git. External URLs are explicit contracts, not guarantees of perpetual availability.",
   "references": [
     {
+      "consumer": "CITATION.cff",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+      "type": "citation",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "CITATION.cff",
+      "provider": "https://orcid.org/0009-0006-5209-4477",
+      "type": "citation",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
       "consumer": "README.md",
-      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
-      "type": "public-introduction",
-      "resolution": "GitHub Pages directory index; website changes in this release"
+      "provider": "./.github/workflows/canonical-audit.yml",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./CITATION.cff",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./CONTRIBUTING.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./docs/EVIDENCE.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./docs/SHARE.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./docs/SHARE.md#add-a-source-badge-to-a-readme",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./docs/congress/session_01_lei_xx.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./examples/checkout/ADA.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./examples/checkout/README.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./examples/checkout/README.md#português",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./inject.js",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law00_precedence.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law01_authority.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law02_classification.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law03_change_procedure.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law04_criticality.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law05_book_of_life.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law06_architecture.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law07_pattern_library.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law08_pattern_selection.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law09_no_ornamental_patterns.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law10_layer_separation.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law11_amendments.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law12_pattern_implementation.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law13_normative_expansion.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law14_cybersecurity.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law15_user_experience.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law16_text_integrity.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law17_justified_complexity.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law18_cognitive_sovereignty.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law19_integrity_of_references.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law20_agentic_coordination.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law21_evaluation_driven_development.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./laws/law22_code_provenance.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./package.json",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "./template/ADA_template.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://doi.org/10.5281/zenodo.19804968",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://doi.org/10.5281/zenodo.19804968",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://doi.org/10.5281/zenodo.21006705",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai.git",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/discussions",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/discussions",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://img.shields.io/badge/Node.js-%3E%3D14.0.0-green.svg",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://img.shields.io/badge/Node.js-%3E%3D14.0.0-green.svg",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
     },
     {
       "consumer": "README.md",
       "provider": "https://njfw50.github.io/canonical-engineering-ai/",
-      "type": "public-introduction",
-      "resolution": "GitHub Pages directory index; website changes in this release"
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "README.md",
-      "provider": "laws/",
-      "type": "normative-source"
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "README.md",
-      "provider": "template/ADA_template.md",
-      "type": "decision-template"
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "README.md",
-      "provider": "CITATION.cff",
-      "type": "citation"
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://nodejs.org/",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://opensource.org/licenses/Apache-2.0",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://www.linkedin.com/in/njfw23/",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://www.linkedin.com/in/njfw23/",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://zenodo.org/badge/1178448858.svg",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "README.md",
+      "provider": "https://zenodo.org/badge/1178448858.svg",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "WHITEPAPER.md",
+      "provider": "docs/EVIDENCE.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "academic/paper_manuscript.md",
+      "provider": "../docs/EVIDENCE.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "academic/paper_manuscript.md",
+      "provider": "https://www.linkedin.com/in/njfw23/",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "../CITATION.cff",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://arxiv.org/abs/2211.03622v3",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://arxiv.org/abs/2211.03622v3",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://doi.org/10.1145/3576915.3623157",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://doi.org/10.1145/3576915.3623157",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://doi.org/10.1145/3706598.3713778",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://doi.org/10.1145/3706598.3713778",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://doi.org/10.5281/zenodo.21006705",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://doi.org/10.5281/zenodo.21006705",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/EVIDENCE.md",
+      "provider": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "../CITATION.cff",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "../CONTRIBUTING.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "../assets/canonical-reference.svg",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "../examples/checkout/README.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "../laws/",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "https://raw.githubusercontent.com/njfw50/codigo-canonico-engenharia-ai/main/assets/canonical-reference.svg",
+      "type": "document-link",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/SHARE.md",
+      "provider": "https://raw.githubusercontent.com/njfw50/codigo-canonico-engenharia-ai/main/assets/canonical-reference.svg",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/visibility/ADA-20261001-001.md",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/7",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "examples/checkout/ADA.md",
+      "provider": "../../laws/law09_no_ornamental_patterns.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/ADA.md",
+      "provider": "../../laws/law10_layer_separation.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/ADA.md",
+      "provider": "../../laws/law18_cognitive_sovereignty.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/ADA.md",
+      "provider": "../../template/ADA_template.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/ADA.md",
+      "provider": "demo.js",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/ADA.md",
+      "provider": "discount.js",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/ADA.md",
+      "provider": "quote.js",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "#english",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "#português",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "../../CONTRIBUTING.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "../../docs/SHARE.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "../../laws/",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "../../laws/law09_no_ornamental_patterns.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "../../laws/law10_layer_separation.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "../../laws/law18_cognitive_sovereignty.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "../../template/ADA_template.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "ADA.md",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "demo.js",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "discount.js",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai.git",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "quote.js",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/README.md",
+      "provider": "verify.js",
+      "type": "document-link",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/demo.js",
+      "provider": "./quote",
+      "type": "javascript-import",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/quote.js",
+      "provider": "./discount",
+      "type": "javascript-import",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/verify.js",
+      "provider": "./quote",
+      "type": "javascript-import",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "examples/checkout/verify.js",
+      "provider": "assert",
+      "type": "javascript-import",
+      "resolution": "Node.js built-in module"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://doi.org/10.5281/zenodo.21006705",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/EVIDENCE.md",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/examples/checkout/ADA.md",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/examples/checkout",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
     }
   ]
 }

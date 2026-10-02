@@ -1,4 +1,4 @@
-cff-version: 1.3.1
+cff-version: 1.2.0
 message: "If you use this protocol or the Liturgical Cognitive Annotation method in your research or software, please cite it as below."
 authors:
   - family-names: "Silva de Souza"
@@ -6,6 +6,8 @@ authors:
     orcid: "https://orcid.org/0009-0006-5209-4477"
 title: "The Canonical Protocol of Engineering & AI: A Structured Technocracy"
 version: 1.3.1
+doi: "10.5281/zenodo.21006705"
+repository-code: "https://github.com/njfw50/codigo-canonico-engenharia-ai"
 date-released: 2026-06-28
 url: "https://github.com/njfw50/codigo-canonico-engenharia-ai"
 license: "Apache-2.0"
