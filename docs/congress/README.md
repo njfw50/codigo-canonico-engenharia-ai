@@ -13,6 +13,7 @@
 | [Session II](./session_02_emendas_objections.md) | Jun 28, 2026 | Commission | PENDING | Emendas A, C, D · Objections I & III · XIX.3 sub-clause |
 | Session III | Q3 2026 | Commission | SCHEDULED | Emenda B (Multimodal) · Canon XIX multimodal extension |
 | Session IV | Q3/Q4 2026 | Commission | SCHEDULED | Grok 3 Objections I & III criteria · Innovation Provisional |
+| Session V | TBD | Plenary | PROPOSED | MP 2026/05 · Canon XXIII ratification, amendment or rejection |
 
 ---
 
@@ -36,6 +37,18 @@
 | Emenda B | Gemini 2.5 / Google DeepMind | Scheduled | Session III |
 | Emenda C | Llama 4 / Meta AI | Vote pending | Session II |
 | Emenda D | DeepSeek R2 | Formalization pending | Session II |
+
+---
+
+## Provisional Measures Tracker
+
+| Measure | Canon | Status | Congressional disposition |
+|---|---|---|---|
+| MP 2026/03 | Canon XXI — Evaluation-Driven Development | PROVISIONAL | Ratification pending |
+| MP 2026/04 | Canon XXII — Code Provenance and Traceability | PROVISIONAL | Ratification pending |
+| MP 2026/05 | Canon XXIII — Natural Error Prevention and Consequence Containment | PROVISIONAL | Proposed for future plenary vote |
+
+MP 2026/05 has immediate provisional internal force under explicit supervision. Its genesis is recorded in [ADA-20261007-001](../book_of_life/ADA-20261007-001.md) and qualified in [Issue #10](https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/10). A future Congress session may ratify, amend, or reject the measure.
 
 ---
 
