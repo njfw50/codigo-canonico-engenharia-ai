@@ -17,8 +17,10 @@ Technical Debt resides in the codebase; Cognitive Debt resides in the mind of th
 ## 3. The Liturgical Cognitive Annotation Protocol
 To address Cognitive Debt, the Canonical Protocol proposes **Liturgical Cognitive Annotation** (Canon XVIII). The method requires annotations that explain *why* generated logic exists within the business domain. A reconstructive review asks the engineer to explain the execution path. Preserving the engineer's mental model is the intended outcome; the method's effect has not been established by a controlled evaluation here.
 
-## 4. Architectural Boundaries (The 23 Canons)
-The framework categorizes system rules into 23 canon files (0–22). Their individual status, including provisional measures, is specified in the original documents and project governance records. Central to this is Canon X (Layer Segregation) and Canon IX (Prohibition of Ornamental Patterns). The protocol operates under a strict "Modular Monolith First" doctrine, permitting complex distributed architectures (Microservices, DDD) only when empirical operational limits are breached (Canon XVII).
+## 4. Architectural Boundaries (The 24 Canons)
+The framework categorizes system rules into 24 canon files (0–23). Their individual status, including provisional measures, is specified in the original documents and project governance records. Central to this is Canon X (Layer Segregation) and Canon IX (Prohibition of Ornamental Patterns). The protocol operates under a strict "Modular Monolith First" doctrine, permitting complex distributed architectures (Microservices, DDD) only when empirical operational limits are breached (Canon XVII).
+
+Canon XXIII, provisionally enacted as MP 2026/05, adds a consequence-validation boundary for agentic systems: implementations should assume natural interpretive error is possible and prevent uncertain inference from directly becoming a sensitive external side effect. This is a normative design proposal whose effectiveness requires empirical evaluation.
 
 ## Conclusion
 The Canonical Protocol proposes explicit rules for architectural boundaries and reconstructive review. Its educational example offers a starting point for evaluating that discipline. Broader claims about comprehension, security and maintainability require measured results in real projects.
