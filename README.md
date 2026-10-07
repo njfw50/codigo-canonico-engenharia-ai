@@ -63,7 +63,7 @@ Expected demonstration: a **$125.00 subtotal**, a **$12.50 discount** and a **$1
 
 | Component | Available now | Scope |
 | --- | --- | --- |
-| Normative framework | 23 original canon files, contribution procedure and ADA template | Project rules; status is recorded in each canon. |
+| Normative framework | 24 original canon files, contribution procedure and ADA template | Project rules; status is recorded in each canon. |
 | Educational example | Annotated domain rule, application use case, CLI and boundary checks | A fictional checkout policy; not a production payment system. |
 | Existing automation | Configuration bootstrap and demonstrative repository workflows | Limited checks; not a complete architecture verifier or certification. |
 | Research context | [Evidence and references](./docs/EVIDENCE.md) | Related studies motivate review practices; they do not validate this protocol. |
@@ -119,9 +119,9 @@ graph TD
 
 ---
 
-## 📜 The Canonical Body (The 23 Canons): Laws for Software Governance and AI Engineering
+## 📜 The Canonical Body (The 24 Canons): Laws for Software Governance and AI Engineering
 
-The repository contains 23 canon files, organized into functional domains. Canons XXI and XXII are provisional; Canon XIX includes provisional subclause XIX.3. The original documents define their status.
+The repository contains 24 canon files, organized into functional domains. Canons XXI, XXII and XXIII are provisional; Canon XIX includes provisional subclause XIX.3. The original documents define their status.
 
 ### Core Foundation & Authority
 | Canon | Title |
@@ -157,6 +157,7 @@ The repository contains 23 canon files, organized into functional domains. Canon
 | **Canon XX** | [The Doctrine of Agentic Coordination and Protocol Optimization](./laws/law20_agentic_coordination.md) |
 | **Canon XXI** | [The Doctrine of Evaluation-Driven Development (EDD)](./laws/law21_evaluation_driven_development.md) (PROVISIONAL) |
 | **Canon XXII** | [The Doctrine of Code Provenance and Traceability](./laws/law22_code_provenance.md) (PROVISIONAL) |
+| **Canon XXIII** | [The Doctrine of Natural Error Prevention and Consequence Containment](./laws/law23_natural_error_containment.md) (PROVISIONAL — MP 2026/05) |
 
 ### Evolutionary Governance
 | Canon | Title |
@@ -181,12 +182,13 @@ codigo-canonico-engenharia-ai/
 ├── LICENSE
 ├── CONTRIBUTING.md            # Guidelines for Governance Commits
 │
-├── laws/                      # The Immutable Canons (00-22)
+├── laws/                      # The Canons (00-23)
 │   ├── law00_precedence.md
 │   ├── ...
-│   └── law22_code_provenance.md
+│   └── law23_natural_error_containment.md
 │
 ├── docs/                      # Documentation & Records
+│   ├── book_of_life/          # ADA and normative genesis records
 │   └── congress/              # Congressional Session Records
 │
 ├── architecture/              # Architectural Artifacts

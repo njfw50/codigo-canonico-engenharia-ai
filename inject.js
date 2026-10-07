@@ -17,7 +17,7 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 
-const VERSION = "1.0.0";
+const VERSION = "1.1.0";
 
 const projectRoot =
   process.env.INIT_CWD || path.resolve("../../..");
@@ -49,6 +49,7 @@ This document outlines the core principles and standards for AI-assisted develop
 5.  **Maintainability**: Prioritize code clarity, consistency, and simplicity to facilitate future modifications, debugging, and onboarding of new contributors.
 6.  **Simplicity**: Favor straightforward solutions over overly complex ones, recognizing that simplicity often leads to greater reliability and easier understanding.
 7.  **Traceability**: Ensure that all decisions, changes, and their impacts are clearly documented and traceable, providing a comprehensive audit trail.
+8.  **Consequence Containment (Canon XXIII — Provisional)**: Assume plausible agentic interpretation error. Before sensitive external side effects, distinguish technical permission from specific intent, evaluate uncertainty, impact, irreversibility, and exposure, and require semantic confirmation or an explicitly scoped delegation when proportional risk demands it.
 
 ## AI Assistant Guidelines
 
@@ -59,6 +60,7 @@ AI assistants operating within this repository are expected to:
 -   Prioritize security considerations in all generated outputs.
 -   Contribute to the maintainability and clarity of the codebase.
 -   Avoid introducing ideological or authoritarian language in any generated content.
+-   Before a sensitive external action, use the least-exposing sufficient action, preserve reversibility when feasible, and promptly surface and record the material result.
 
 This protocol serves as the foundational standard for all engineering activities, ensuring a cohesive and high-quality development environment.
 `.trim();
