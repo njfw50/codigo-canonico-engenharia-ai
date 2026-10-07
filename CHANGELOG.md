@@ -15,6 +15,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - **Normative Dependency Map:** Extended to include Canon XXIII and its relationship to Canons IV, V, XIII, XIV, XV, XVIII and XX–XXII.
 - **Congressional Register:** MP 2026/05 added to the provisional-measure tracker and proposed for a future plenary ratification vote.
 - **Current Descriptive Documents:** README, WHITEPAPER, llms.txt and academic manuscript synchronized to the 24-canon state.
+- **Bootstrap Governance Payload:** Added a bounded provisional Canon XXIII consequence-containment directive and advanced the payload version to 1.1.0.
+- **Canonical Audit Messaging:** Removed the obsolete claim of full compliance with 19 canons; the workflow now describes its checks as demonstrative and limited.
 
 ### Governance
 - Canon XXIII is **not ratified**. It has provisional internal force pending future congressional ratification, amendment or rejection.
