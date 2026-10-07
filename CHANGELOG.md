@@ -4,6 +4,22 @@ All notable changes to the Canonical Protocol will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- **Canon XXIII — Natural Error Prevention and Consequence Containment:** Added as **PROVISIONAL MEASURE MP 2026/05**, introducing a consequence-validation boundary between probabilistic agent interpretation and sensitive external side effects.
+- **ADA-20261007-001:** Recorded the normative vacuum, triggering real-world evidence, dependency analysis and provisional enactment rationale in the Book of Life.
+
+### Changed
+- **Canonical Body:** Current index expanded from 23 to 24 canon files (0–23).
+- **Normative Dependency Map:** Extended to include Canon XXIII and its relationship to Canons IV, V, XIII, XIV, XV, XVIII and XX–XXII.
+- **Congressional Register:** MP 2026/05 added to the provisional-measure tracker and proposed for a future plenary ratification vote.
+- **Current Descriptive Documents:** README, WHITEPAPER, llms.txt and academic manuscript synchronized to the 24-canon state.
+
+### Governance
+- Canon XXIII is **not ratified**. It has provisional internal force pending future congressional ratification, amendment or rejection.
+- Sealed historical congressional records and prior release notes remain unchanged.
+
 ## [1.3.0] - 2026-06-23
 
 ### Added
