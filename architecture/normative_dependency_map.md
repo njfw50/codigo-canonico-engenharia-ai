@@ -1,6 +1,6 @@
 # Canonical Protocol Dependency Map
 
-**Current Consolidated State:** Canons 0–22 (Law XX / 2026-PCEA)
+**Current Consolidated State:** Canons 0–23 (Law XX / 2026-PCEA; Canon XXIII provisional under MP 2026/05)
 **Evolutionary Model:** Foundation → Structure → Evolutionary Governance → Technical Domains → Agentic Coordination
 **Objective:** Guarantee that every future Canon stems from an undeniable systemic need, grounded in technical and juridical axioms.
 
@@ -84,7 +84,7 @@ Provides institutional memory to the system.
 
 ### Canon XIII — Normative Expansion Protocol
 **Dependency:** Canons I, III, V, and XI
-**Dependent Canons:** XIV, XV, XX, XXI, XXII
+**Dependent Canons:** XIV, XV, XX, XXI, XXII, XXIII
 
 ---
 
@@ -108,13 +108,17 @@ Provides institutional memory to the system.
 
 ### Canon XX — Agentic Coordination
 **Dependency:** Canon XIII, V
-**Dependent Canons:** XXI, XXII
+**Dependent Canons:** XXI, XXII, XXIII
 
 ### Canon XXI — Evaluation-Driven Development (EDD)
 **Dependency:** Canon XX
 
 ### Canon XXII — Code Provenance
 **Dependency:** Canon XX, V
+
+### Canon XXIII — Natural Error Prevention and Consequence Containment [PROVISIONAL — MP 2026/05]
+**Dependency:** Canons IV, V, XIII, XIV, XV, XVIII, XX, XXI, XXII
+**Function:** Inserts a consequence-validation boundary between probabilistic interpretation and sensitive external side effects.
 
 ---
 
@@ -134,6 +138,8 @@ Canon IV (Criticality)         Canon XI (Amendments)    Canon XX (Agentic)
 Canon VI (Architecture)         Canon XIII (Expansion) → Canon XXI (EDD)
     ↓                           ↓               ↓       ↓
 Canon VII → Canon VIII → Canon IX   Canon XIV (Security)  Canon XXII (Provenance)
+                                                        ↓
+                                             Canon XXIII (Error Containment)
     ↓
 Canon X (Layers)
     ↓
@@ -146,4 +152,4 @@ Canon XII (Design Patterns)
 
 No new Canon shall be forged until a real-world system, project, or concrete technical catastrophe reveals an undeniable normative vacuum.
 
-The Canonical Protocol is currently stabilized at Canons 0–22.
+The current normative body includes Canons 0–23. Canon XXIII remains provisional under MP 2026/05 pending congressional ratification.
