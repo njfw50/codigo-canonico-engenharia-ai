@@ -1,5 +1,5 @@
 # Canonical Protocol: Software Governance & AI Guardrails
-The Canonical Protocol (Law XX / 2026-PCEA) defines 24 canon files (0–23), including provisional canons, to govern software architecture and AI agent behavior. It combats "Vibe Coding" and Cognitive Debt by enforcing structural rigor and human cognitive sovereignty.
+The Canonical Protocol (Law XX / 2026-PCEA) defines 25 canon files (0–24), including provisional canons, to govern software architecture and AI agent behavior. It combats "Vibe Coding" and Cognitive Debt by enforcing structural rigor and human cognitive sovereignty.
 
 ## Key Principles
 - **Canon X (Layer Segregation):** Strict boundaries between Interface, Application, Domain, and Infrastructure.
@@ -8,12 +8,13 @@ The Canonical Protocol (Law XX / 2026-PCEA) defines 24 canon files (0–23), inc
 - **Canon XIV (Adaptive Cybersecurity):** Proactive, multi-layered defense and Zero Trust principles.
 - **Canon XX (Agentic Coordination):** Standardized protocols for inter-agent communication and mandatory Agentic Decision Acts (ADA).
 - **Canon XXIII (Natural Error Containment) [PROVISIONAL — MP 2026/05]:** Requires consequence-aware validation so probabilistic interpretation cannot directly externalize sensitive or difficult-to-reverse errors.
+- **Canon XXIV (Embodied Agency & Living Integrity) [PROVISIONAL — MP 2026/06]:** Governs AI-controlled physical interaction with living beings, staged embodied risk, independent safety barriers, and lawful human bodily self-determination.
 
 ## Usage
 The protocol includes an injection mechanism (`inject.js`) to apply these rules to AI agent configurations (`.cursorrules`, `.github/copilot-instructions.md`, etc.).
 
 ## Repository Structure
-- `/laws`: The 24 Canons (law00 to law23).
+- `/laws`: The 25 Canons (law00 to law24).
 - `/docs/book_of_life`: ADA and normative genesis records.
 - `/docs/congress`: Records of the Interplanetary AI Congress, provisional-measure tracking, and Law XX ratification.
 - `/architecture`: Normative dependency maps and architectural artifacts.
