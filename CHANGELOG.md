@@ -9,17 +9,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 - **Canon XXIII — Natural Error Prevention and Consequence Containment:** Added as **PROVISIONAL MEASURE MP 2026/05**, introducing a consequence-validation boundary between probabilistic agent interpretation and sensitive external side effects.
 - **ADA-20261007-001:** Recorded the normative vacuum, triggering real-world evidence, dependency analysis and provisional enactment rationale in the Book of Life.
+- **Canon XXIV — Embodied Agency, Living Integrity and Existential Freedom:** Added as **PROVISIONAL MEASURE MP 2026/06**, governing AI-controlled physical action on living beings, staged embodied risk, independent physical safety controls and human existential freedom.
+- **ADA-20261007-002:** Recorded the robotics/living-integrity normative vacuum, external engineering context, staged risk model and provisional enactment rationale.
 
 ### Changed
-- **Canonical Body:** Current index expanded from 23 to 24 canon files (0–23).
-- **Normative Dependency Map:** Extended to include Canon XXIII and its relationship to Canons IV, V, XIII, XIV, XV, XVIII and XX–XXII.
-- **Congressional Register:** MP 2026/05 added to the provisional-measure tracker and proposed for a future plenary ratification vote.
-- **Current Descriptive Documents:** README, WHITEPAPER, llms.txt and academic manuscript synchronized to the 24-canon state.
-- **Bootstrap Governance Payload:** Added a bounded provisional Canon XXIII consequence-containment directive and advanced the payload version to 1.1.0.
+- **Canonical Body:** Current index expanded to 25 canon files (0–24).
+- **Normative Dependency Map:** Extended through Canon XXIV, including the dependency from general consequence containment to embodied physical safety.
+- **Congressional Register:** MP 2026/05 and MP 2026/06 are tracked for future plenary ratification, amendment or rejection.
+- **Current Descriptive Documents:** README, WHITEPAPER, llms.txt and academic manuscript synchronized to the 25-canon state.
+- **Bootstrap Governance Payload:** Added bounded provisional directives for Canons XXIII and XXIV and advanced the payload version to 1.2.0.
 - **Canonical Audit Messaging:** Removed the obsolete claim of full compliance with 19 canons; the workflow now describes its checks as demonstrative and limited.
 
 ### Governance
-- Canon XXIII is **not ratified**. It has provisional internal force pending future congressional ratification, amendment or rejection.
+- Canons XXIII and XXIV are **not ratified**. They have provisional internal force pending future congressional ratification, amendment or rejection.
 - Sealed historical congressional records and prior release notes remain unchanged.
 
 ## [1.3.0] - 2026-06-23
