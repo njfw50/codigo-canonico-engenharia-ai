@@ -8,6 +8,14 @@
 - **[Explore the project in English](https://njfw50.github.io/canonical-engineering-ai/)**
 - [Original canonical texts](./laws/) · [Decision record template](./template/ADA_template.md) · [How to cite](./CITATION.cff)
 
+### New · October 7, 2026 — AI consequence safety and embodied robotics
+
+**Novidade / What's new:** Two new **provisional internal canons**, pending future project ratification, address the transition from AI interpretation to real-world harm: [Canon XXIII — Natural Error Containment](./laws/law23_natural_error_containment.md) and [Canon XXIV — Embodied Agency & Living Integrity](./laws/law24_embodied_agency_living_integrity.md).
+
+[Leia o resumo em português / Read the English overview](./docs/UPDATES_2026-10-07.md) · [Review the provisional text and propose improvements](./CONTRIBUTING.md)
+
+These are governance proposals, not external safety certifications or laws of a government. Cite the current Git commit for these additions; the existing v1.3.1 DOI identifies an earlier archival version.
+
 The project introductions link to the original normative body. Canonical quotations are reproduced verbatim; the authoritative texts remain in this repository.
 
 ## Start with one review
