@@ -36,3 +36,39 @@ Useful reports describe a real problem, the decision made, an observed result an
 - [Original canonical texts](../laws/)
 - [Portuguese introduction](https://njfw50.github.io/codigo-canonico-engenharia-ia/)
 - [English introduction](https://njfw50.github.io/canonical-engineering-ai/)
+
+## October 2026 provisional safety updates — optional posts
+
+These drafts concern proposed *internal* safety governance, not proven system compliance. Do not claim that Zenodo v1.3.1 includes later main-branch canons. Verify the original source before publication. Public posting is a separate, human-controlled action.
+
+### Português — LinkedIn / grupos técnicos
+
+> Como impedir que um erro de interpretação de uma IA vire um dano real?
+>
+> Publiquei duas novas medidas **provisórias** no Código Canônico de Engenharia & IA. O Cânon XXIII propõe uma barreira de validação antes de ações externas sensíveis; o Cânon XXIV amplia a discussão para robótica, proteção física independente e decisões corporais humanas válidas.
+>
+> Não são uma certificação de segurança: são propostas abertas à avaliação técnica. Quais casos de falha deveriam ser testados?
+>
+> Resumo em PT/EN: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/UPDATES_2026-10-07.md
+>
+> #AIGovernance #SoftwareEngineering #RoboticsSafety
+
+### English — engineering and research communities
+
+> What stops a plausible AI interpretation error from becoming harm outside the model?
+>
+> Two **provisional** canons in the Canonical Protocol of Engineering & AI examine different safety boundaries: Canon XXIII proposes consequence-aware validation before sensitive agent actions; Canon XXIV addresses embodied AI, independent physical safety controls and valid human bodily decisions.
+>
+> These are governance proposals, not proven safety certification. I welcome concrete counterexamples, technical review and reproducible evaluations.
+>
+> Bilingual overview and sources: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/UPDATES_2026-10-07.md
+>
+> #AIGovernance #AgenticAI #RoboticsSafety
+
+### Suggested editorial audiences
+
+- Engineering teams building agentic automation: request concrete negative tests for recipient, data and permission boundaries.
+- Robotics, assistive-tech and safety researchers: request feedback on independent interlocks, E0–E4 staging, rescue and human authority.
+- Students and code reviewers: start with the reproducible checkout example, then assess whether its boundary-review approach transfers to an actual task.
+
+Do not bulk-post duplicates or misrepresent a community's or institution's endorsement. Record independently supplied technical feedback as evidence before making normative changes.
