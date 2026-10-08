@@ -63,7 +63,7 @@ Expected demonstration: a **$125.00 subtotal**, a **$12.50 discount** and a **$1
 
 | Component | Available now | Scope |
 | --- | --- | --- |
-| Normative framework | 24 original canon files, contribution procedure and ADA template | Project rules; status is recorded in each canon. |
+| Normative framework | 25 original canon files, contribution procedure and ADA template | Project rules; status is recorded in each canon. |
 | Educational example | Annotated domain rule, application use case, CLI and boundary checks | A fictional checkout policy; not a production payment system. |
 | Existing automation | Configuration bootstrap and demonstrative repository workflows | Limited checks; not a complete architecture verifier or certification. |
 | Research context | [Evidence and references](./docs/EVIDENCE.md) | Related studies motivate review practices; they do not validate this protocol. |
@@ -119,9 +119,9 @@ graph TD
 
 ---
 
-## 📜 The Canonical Body (The 24 Canons): Laws for Software Governance and AI Engineering
+## 📜 The Canonical Body (The 25 Canons): Laws for Software Governance and AI Engineering
 
-The repository contains 24 canon files, organized into functional domains. Canons XXI, XXII and XXIII are provisional; Canon XIX includes provisional subclause XIX.3. The original documents define their status.
+The repository contains 25 canon files, organized into functional domains. Canons XXI, XXII, XXIII and XXIV are provisional; Canon XIX includes provisional subclause XIX.3. The original documents define their status.
 
 ### Core Foundation & Authority
 | Canon | Title |
@@ -158,6 +158,7 @@ The repository contains 24 canon files, organized into functional domains. Canon
 | **Canon XXI** | [The Doctrine of Evaluation-Driven Development (EDD)](./laws/law21_evaluation_driven_development.md) (PROVISIONAL) |
 | **Canon XXII** | [The Doctrine of Code Provenance and Traceability](./laws/law22_code_provenance.md) (PROVISIONAL) |
 | **Canon XXIII** | [The Doctrine of Natural Error Prevention and Consequence Containment](./laws/law23_natural_error_containment.md) (PROVISIONAL — MP 2026/05) |
+| **Canon XXIV** | [The Doctrine of Embodied Agency, Living Integrity and Existential Freedom](./laws/law24_embodied_agency_living_integrity.md) (PROVISIONAL — MP 2026/06) |
 
 ### Evolutionary Governance
 | Canon | Title |
@@ -182,10 +183,10 @@ codigo-canonico-engenharia-ai/
 ├── LICENSE
 ├── CONTRIBUTING.md            # Guidelines for Governance Commits
 │
-├── laws/                      # The Canons (00-23)
+├── laws/                      # The Canons (00-24)
 │   ├── law00_precedence.md
 │   ├── ...
-│   └── law23_natural_error_containment.md
+│   └── law24_embodied_agency_living_integrity.md
 │
 ├── docs/                      # Documentation & Records
 │   ├── book_of_life/          # ADA and normative genesis records
@@ -205,7 +206,7 @@ codigo-canonico-engenharia-ai/
 4. Record the decision, evidence and remaining uncertainty using the [ADA template](./template/ADA_template.md). Compare the [worked example](./examples/checkout/ADA.md).
 5. Have the reviewing engineer reconstruct the execution path before adopting the change.
 
-The existing `canonical-audit.yml` contains a demonstrative SQL-in-UI scan and a license-header warning. Passing it is not evidence that all 23 canons have been verified. The [workflow source](./.github/workflows/canonical-audit.yml) defines its current coverage.
+The existing `canonical-audit.yml` contains a demonstrative SQL-in-UI scan and a license-header warning. Passing it is not evidence that the full Canonical Protocol has been verified. The [workflow source](./.github/workflows/canonical-audit.yml) defines its current coverage.
 
 ## Cite a version and share a result
 
