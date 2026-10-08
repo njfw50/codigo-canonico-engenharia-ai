@@ -1,6 +1,6 @@
 # Canonical Protocol Dependency Map
 
-**Current Consolidated State:** Canons 0–23 (Law XX / 2026-PCEA; Canon XXIII provisional under MP 2026/05)
+**Current Consolidated State:** Canons 0–24 (Law XX / 2026-PCEA; Canons XXIII–XXIV provisional under MP 2026/05–06)
 **Evolutionary Model:** Foundation → Structure → Evolutionary Governance → Technical Domains → Agentic Coordination
 **Objective:** Guarantee that every future Canon stems from an undeniable systemic need, grounded in technical and juridical axioms.
 
@@ -13,7 +13,7 @@ These Canons form the absolute bedrock of the system.
 ### Canon 0 — The Law of Precedence
 Establishes the hierarchy of normative conflict.
 **Dependency:** None
-**Dependent Canons:** All (I-XXII)
+**Dependent Canons:** All (I-XXIV)
 
 ### Canon I — The Supremacy of Canonical Authority
 This is the matrix Canon. Without it, no other rule possesses operational legitimacy.
@@ -84,7 +84,7 @@ Provides institutional memory to the system.
 
 ### Canon XIII — Normative Expansion Protocol
 **Dependency:** Canons I, III, V, and XI
-**Dependent Canons:** XIV, XV, XX, XXI, XXII, XXIII
+**Dependent Canons:** XIV, XV, XX, XXI, XXII, XXIII, XXIV
 
 ---
 
@@ -118,7 +118,12 @@ Provides institutional memory to the system.
 
 ### Canon XXIII — Natural Error Prevention and Consequence Containment [PROVISIONAL — MP 2026/05]
 **Dependency:** Canons IV, V, XIII, XIV, XV, XVIII, XX, XXI, XXII
+**Dependent Canons:** XXIV
 **Function:** Inserts a consequence-validation boundary between probabilistic interpretation and sensitive external side effects.
+
+### Canon XXIV — Embodied Agency, Living Integrity and Existential Freedom [PROVISIONAL — MP 2026/06]
+**Dependency:** Canons IV, V, XIII, XIV, XV, XVIII, XXI, XXII, XXIII
+**Function:** Governs AI-controlled physical action on living beings, staged embodied risk, independent safety controls, and the protected sphere of lawful human bodily self-determination.
 
 ---
 
@@ -140,6 +145,8 @@ Canon VI (Architecture)         Canon XIII (Expansion) → Canon XXI (EDD)
 Canon VII → Canon VIII → Canon IX   Canon XIV (Security)  Canon XXII (Provenance)
                                                         ↓
                                              Canon XXIII (Error Containment)
+                                                        ↓
+                                             Canon XXIV (Embodied Agency)
     ↓
 Canon X (Layers)
     ↓
@@ -152,4 +159,4 @@ Canon XII (Design Patterns)
 
 No new Canon shall be forged until a real-world system, project, or concrete technical catastrophe reveals an undeniable normative vacuum.
 
-The current normative body includes Canons 0–23. Canon XXIII remains provisional under MP 2026/05 pending congressional ratification.
+The current normative body includes Canons 0–24. Canons XXIII and XXIV remain provisional under MP 2026/05 and MP 2026/06 pending congressional ratification.
