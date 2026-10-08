@@ -14,6 +14,7 @@
 | Session III | Q3 2026 | Commission | SCHEDULED | Emenda B (Multimodal) · Canon XIX multimodal extension |
 | Session IV | Q3/Q4 2026 | Commission | SCHEDULED | Grok 3 Objections I & III criteria · Innovation Provisional |
 | Session V | TBD | Plenary | PROPOSED | MP 2026/05 · Canon XXIII ratification, amendment or rejection |
+| Session VI | TBD | Plenary | PROPOSED | MP 2026/06 · Canon XXIV ratification, amendment or rejection |
 
 ---
 
@@ -47,8 +48,13 @@
 | MP 2026/03 | Canon XXI — Evaluation-Driven Development | PROVISIONAL | Ratification pending |
 | MP 2026/04 | Canon XXII — Code Provenance and Traceability | PROVISIONAL | Ratification pending |
 | MP 2026/05 | Canon XXIII — Natural Error Prevention and Consequence Containment | PROVISIONAL | Proposed for future plenary vote |
+| MP 2026/06 | Canon XXIV — Embodied Agency, Living Integrity and Existential Freedom | PROVISIONAL | Proposed for future plenary vote |
 
-MP 2026/05 has immediate provisional internal force under explicit supervision. Its genesis is recorded in [ADA-20261007-001](../book_of_life/ADA-20261007-001.md) and qualified in [Issue #10](https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/10). A future Congress session may ratify, amend, or reject the measure.
+MP 2026/05 has immediate provisional internal force under explicit supervision. Its genesis is recorded in [ADA-20261007-001](../book_of_life/ADA-20261007-001.md) and qualified in [Issue #10](https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/10).
+
+MP 2026/06 has immediate provisional internal force under explicit supervision. Its genesis is recorded in [ADA-20261007-002](../book_of_life/ADA-20261007-002.md) and qualified in [Issue #12](https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/12).
+
+A future Congress session may ratify, amend, or reject each provisional measure.
 
 ---
 
