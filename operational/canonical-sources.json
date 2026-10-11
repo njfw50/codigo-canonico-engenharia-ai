@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "12c7e09630d6412681768d963c4bcb8113c0be55",
+  "scope": "Original laws and pre-existing Book of Life/congress records. This local manifest needs a trusted external version to resist replacement.",
+  "files": [
+    {
+      "path": "docs/book_of_life/ADA-20261007-001.md",
+      "sha256": "4746bbc057384872f8589f7c15e16036e458b55f4e01bfce51476688df75070a"
+    },
+    {
+      "path": "docs/book_of_life/ADA-20261007-002.md",
+      "sha256": "96bf56501fcb529d7127b31dc63514bd617113e7871242a2d86a22d060ca52b1"
+    },
+    {
+      "path": "docs/book_of_life/ADA-20261007-003.md",
+      "sha256": "c7e801c4b253e0d4eb32e31cc56033e31733bbe7650a2b3c6ebb5e8dff93c4d3"
+    },
+    {
+      "path": "docs/congress/README.md",
+      "sha256": "3926313a191a13b9995d78413984a96f897d1a00fccc6affd24e01a12109410a"
+    },
+    {
+      "path": "docs/congress/session_01_lei_xx.md",
+      "sha256": "01c6a89f749a5e9ccdf932f4e719bf844388f1dc8594d6e197d95b62b50d9725"
+    },
+    {
+      "path": "docs/congress/session_02_emendas_objections.md",
+      "sha256": "489d5d66157549fb5eb4757d57e75398e85d6d28b882ddfde78ae4f9d7c0aad2"
+    },
+    {
+      "path": "laws/law00_precedence.md",
+      "sha256": "f891ee84b391a7a2f845e1e04a2546afbd975a93b1df97b8f2438bb0911d2024"
+    },
+    {
+      "path": "laws/law01_authority.md",
+      "sha256": "3dd12809118979b44edeccfc8108152290219b4a68bac78ad8c85a3c63eedfe5"
+    },
+    {
+      "path": "laws/law02_classification.md",
+      "sha256": "62fb6e158a611509b237560a34f18672cee3f0716a016a94feb5a3a2b97dce9a"
+    },
+    {
+      "path": "laws/law03_change_procedure.md",
+      "sha256": "fcd22afbb7db39e436d5c5ff69ec41991030d8b17ee3f7408f56411255df4ea6"
+    },
+    {
+      "path": "laws/law04_criticality.md",
+      "sha256": "5d3d22c03dd6a219349d868055d4debf888878feb130ce09dc0588b1059f768c"
+    },
+    {
+      "path": "laws/law05_book_of_life.md",
+      "sha256": "cb3976f90f1e17c9896425417b8a532166a105812b662b9fac3bf06f2bfbb8e6"
+    },
+    {
+      "path": "laws/law06_architecture.md",
+      "sha256": "d8b286b5880f7d591634ad92245bf0ebb02f9f72897383ac3c2afadadec0ff21"
+    },
+    {
+      "path": "laws/law07_pattern_library.md",
+      "sha256": "4402c398bd981c181a408a991096e015026ed44ee874f704d6a8393e340aec07"
+    },
+    {
+      "path": "laws/law08_pattern_selection.md",
+      "sha256": "c891df25dc02569374963606406062eed4af77f784590f4171f6c7b0b71300e4"
+    },
+    {
+      "path": "laws/law09_no_ornamental_patterns.md",
+      "sha256": "5297a90d650c909a449c5d83ca7f4386fb68c55f4d7bf6c63eb44e1bd2dafa64"
+    },
+    {
+      "path": "laws/law10_layer_separation.md",
+      "sha256": "777f368c5208c4eacd2d2d96f73dfa35ac7c6c0ab86e43d51fe3a2e9eb602ec8"
+    },
+    {
+      "path": "laws/law11_amendments.md",
+      "sha256": "5ff3b88df299a850f6567910377f7458996ae4ed7116135c09090254944c7969"
+    },
+    {
+      "path": "laws/law12_pattern_implementation.md",
+      "sha256": "3ab2d26078a3e548b12952a986d36ce65468b64cd14236a5add4c6ec2f8dd13e"
+    },
+    {
+      "path": "laws/law13_normative_expansion.md",
+      "sha256": "3beda79a3a92acd640aa1bb99588e7af537757eae1a76f849ee501ecf1a76729"
+    },
+    {
+      "path": "laws/law14_cybersecurity.md",
+      "sha256": "ae74163520e4c58c13acab92905f02289d92c8dc282a869291798e95bf4543fc"
+    },
+    {
+      "path": "laws/law15_user_experience.md",
+      "sha256": "326ffc809cb9b19de95b9d91cda268929bb4f65f9bb1430d6fbb37a1e110d236"
+    },
+    {
+      "path": "laws/law16_text_integrity.md",
+      "sha256": "3a60b74fcc38af44a72639f85d46ec71ed9028a747f214b4920b6b0f4e636725"
+    },
+    {
+      "path": "laws/law17_justified_complexity.md",
+      "sha256": "8550ec8585b3948212e8ae9e46cc5223bdb1738d8612db78de499e1cbc65f5d4"
+    },
+    {
+      "path": "laws/law18_cognitive_sovereignty.md",
+      "sha256": "18896b45e23c89b41cc0decbb0593eceef00e51596599e114b79e0f88c6aa8dd"
+    },
+    {
+      "path": "laws/law19_integrity_of_references.md",
+      "sha256": "3df57e7e20a0b6bed4731ebe3f46157c782b79332d69442f70691ecd3bacefe5"
+    },
+    {
+      "path": "laws/law20_agentic_coordination.md",
+      "sha256": "0c014392956ef261f69d5a4c291fb67ed6027d783cf5a56e31ba91d0c929d072"
+    },
+    {
+      "path": "laws/law21_evaluation_driven_development.md",
+      "sha256": "b6a4b7bb2d629a84a43f70cea72a5d37767c190e55791279441c66a6f251e2c5"
+    },
+    {
+      "path": "laws/law22_code_provenance.md",
+      "sha256": "ffa9de9f558691a49bc53957c1b048216cb85ad0017b79fe2d2522a4a9e814fd"
+    },
+    {
+      "path": "laws/law23_natural_error_containment.md",
+      "sha256": "941d4eeb73c0018611f3398d3195c8046d7a82e583fa27ef6c4953df32a002d8"
+    },
+    {
+      "path": "laws/law24_embodied_agency_living_integrity.md",
+      "sha256": "58c0e1c5d22f445c3986c62ab6b6b6773373a81c4c7c794b818622a6aaae29f4"
+    }
+  ]
+}

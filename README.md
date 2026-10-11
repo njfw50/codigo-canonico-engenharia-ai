@@ -1,16 +1,35 @@
-# ⚖️ The Canonical Protocol of Engineering & AI: Software Governance and AI Guardrails
+# ⚖️ The Canonical Protocol of Engineering & SI: Software Governance and Verifiable Delegation
 
 **Created by Michel Silva de Souza.**
 
-**Código Canônico de Engenharia & IA** — a software-governance framework for engineers, students and teams working with AI coding assistants. It brings together architectural rules, decision records and guidance for preserving human understanding of a system.
+**Código Canônico de Engenharia & SI** — a software-governance framework for engineers, students and teams working with SI assistants. It brings together architectural rules, decision records and guidance for preserving human understanding of a system.
+
+**Current terminology:** SI — Super Inteligência / Super Intelligence. The [change and adaptation term](./docs/governance/TERMO_DE_MUDANCA_SI_2026-10-10.md) records the owner's direction and operational scope. Original canon texts and historical publications retain their wording, including the archived title *The Canonical Protocol of Engineering & AI*; cite the source version you actually used.
 
 - **[Conheça o projeto em português](https://njfw50.github.io/codigo-canonico-engenharia-ia/)**
 - **[Explore the project in English](https://njfw50.github.io/canonical-engineering-ai/)**
 - [Original canonical texts](./laws/) · [Decision record template](./template/ADA_template.md) · [How to cite](./CITATION.cff)
 
-### New · October 7, 2026 — AI consequence safety and embodied robotics
+## Try a verifiable delegation boundary
 
-**Novidade / What's new:** Two new **provisional internal canons**, pending future project ratification, address the transition from AI interpretation to real-world harm: [Canon XXIII — Natural Error Containment](./laws/law23_natural_error_containment.md) and [Canon XXIV — Embodied Agency & Living Integrity](./laws/law24_embodied_agency_living_integrity.md).
+**An SI is authorized to prepare a quote. What prevents it from committing a purchase?**
+
+Run the [bilingual delegation example](./examples/delegation/README.md), then inspect the [control-to-article map](./docs/operational/CONTROLS.md) and [reproducible 27-case evidence](./docs/evaluation/delegation-report.json):
+
+```bash
+node examples/delegation/demo.js
+node test/run.js
+node scripts/evaluate.js --check docs/evaluation/delegation-report.json
+node cli.js
+```
+
+The reference gateway checks exact action scope, recipients/data, amount and aggregate limits, revocation/expiry, fresh state and specific confirmation. It records intent before simulated dispatch and distinguishes blocked, observed and uncertain outcomes. Five declared permitted fixtures execute; 22 declared holds do not dispatch, with no unnecessary holds in this constructed set. This is **synthetic mechanism evidence**, not evaluation of a real SI model, production certification or measured productivity/cognitive benefit.
+
+Node >=14.0.0, no installation, dependencies, paid APIs or external actions. Read the host trust/persistence limits before integration. [Operational governance](./docs/operational/GOVERNANCE.md) · [Pilot procedure](./docs/evaluation/PILOT.md) · [Adoption report template](./template/adoption_report.md)
+
+### New · October 7, 2026 — SI consequence safety and embodied robotics
+
+**Novidade / What's new:** Two new **provisional internal canons**, pending future project ratification, address the transition from SI interpretation to real-world harm: [Canon XXIII — Natural Error Containment](./laws/law23_natural_error_containment.md) and [Canon XXIV — Embodied Agency & Living Integrity](./laws/law24_embodied_agency_living_integrity.md).
 
 [Leia o resumo em português / Read the English overview](./docs/UPDATES_2026-10-07.md) · [Review the provisional text and propose improvements](./CONTRIBUTING.md)
 
@@ -20,7 +39,7 @@ The project introductions link to the original normative body. Canonical quotati
 
 ## Start with one review
 
-**Your AI-generated code works. Can you explain the decision behind it?**
+**Your SI-generated code works. Can you explain the decision behind it?**
 
 Try the [annotated checkout example — Português / English](./examples/checkout/README.md). Follow a discount decision from its domain rule through an application use case to CLI presentation, then run the checks. Node.js is the only requirement for this example.
 
@@ -39,16 +58,16 @@ Run these from a clone of this repository; the example guide includes the clone 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D14.0.0-green.svg)](https://nodejs.org/)
 
-## A Structured Technocracy for Software Governance, Combating 'Vibe Coding' and Cognitive Debt in AI-Driven Projects
+## A Structured Technocracy for Software Governance, Combating 'Vibe Coding' and Cognitive Debt in SI-Driven Projects
 
 ### 🛡️ The Conceptual Defense (Manifesto)
-The modern software development landscape is frequently compromised by stylistic wars, resume-driven development, and the chaotic entanglement of architectural layers. With the advent of autonomous AI agents, the speed of code generation has outpaced the rigor of structural governance, leading to a catastrophic accumulation of technical debt and unmaintainable architectures.
+The modern software development landscape is frequently compromised by stylistic wars, resume-driven development, and the chaotic entanglement of architectural layers. With the advent of autonomous SI agents, the speed of code generation has outpaced the rigor of structural governance, leading to a catastrophic accumulation of technical debt and unmaintainable architectures.
 
 **The Canonical Protocol is our definitive response.**
 
-This repository does not contain mere "best practices" or "suggestions." It establishes a **Structured Technocracy** for **software governance** and **AI engineering**. It operates under the fundamental axiom that **architectural integrity** supersedes personal preference, industry fads, and AI stochasticity. It is the definitive answer to **'Vibe Coding'** and the growing **Cognitive Debt** in development projects involving artificial intelligence.
+This repository does not contain mere "best practices" or "suggestions." It establishes a **Structured Technocracy** for **software governance** and **SI engineering**. It operates under the fundamental axiom that **architectural integrity** supersedes personal preference, industry fads, and SI stochasticity. It is the definitive answer to **'Vibe Coding'** and the growing **Cognitive Debt** in development projects involving artificial intelligence.
 
-We reject the notion of technical democracy where every Pull Request is a negotiation of fundamental standards. Instead, we submit to the **Doctrine of the Single Source of Truth (SSOT)**. Every piece of code, whether authored by a human Engineer or an AI collaborator, must undergo a rigorous Canonical Audit. If an implementation violates layer separation or introduces arbitrary complexity, it is inherently defective, regardless of its operational status.
+We reject the notion of technical democracy where every Pull Request is a negotiation of fundamental standards. Instead, we submit to the **Doctrine of the Single Source of Truth (SSOT)**. Every piece of code, whether authored by a human Engineer or an SI collaborator, must undergo a rigorous Canonical Audit. If an implementation violates layer separation or introduces arbitrary complexity, it is inherently defective, regardless of its operational status.
 
 By classifying system components, mandating strict boundaries, and requiring explicit governance for structural changes, the protocol aims to make decisions easier to audit and explain. These are methodological goals; their effect in other projects requires evaluation.
 
@@ -73,7 +92,8 @@ Expected demonstration: a **$125.00 subtotal**, a **$12.50 discount** and a **$1
 | --- | --- | --- |
 | Normative framework | 25 original canon files, contribution procedure and ADA template | Project rules; status is recorded in each canon. |
 | Educational example | Annotated domain rule, application use case, CLI and boundary checks | A fictional checkout policy; not a production payment system. |
-| Existing automation | Configuration bootstrap and demonstrative repository workflows | Limited checks; not a complete architecture verifier or certification. |
+| Operational delegation | Trusted policy gateway, confirmation binding, audit records and 27 synthetic fixtures | Bounded three-action simulator; requires protected host boundaries and durable state for real integration. |
+| Existing automation | Configuration bootstrap, unit/regression suite, pinned-source and fixture CI checks | Explicitly scoped checks; not a complete architecture verifier or certification. |
 | Research context | [Evidence and references](./docs/EVIDENCE.md) | Related studies motivate review practices; they do not validate this protocol. |
 
 ### Existing installation hook
@@ -127,7 +147,7 @@ graph TD
 
 ---
 
-## 📜 The Canonical Body (The 25 Canons): Laws for Software Governance and AI Engineering
+## 📜 The Canonical Body (The 25 Canons): Laws for Software Governance and SI Engineering
 
 The repository contains 25 canon files, organized into functional domains. Canons XXI, XXII, XXIII and XXIV are provisional; Canon XIX includes provisional subclause XIX.3. The original documents define their status.
 
@@ -153,7 +173,7 @@ The repository contains 25 canon files, organized into functional domains. Canon
 | **Canon XVII** | [The Doctrine of Justified Complexity](./laws/law17_justified_complexity.md) |
 | **Canon XIX** | [The Doctrine of Reference Integrity](./laws/law19_integrity_of_references.md) |
 
-### Cognitive Sovereignty & AI Subjugation
+### Cognitive Sovereignty & SI Subjugation
 | Canon | Title |
 |-------|-------|
 | **Canon XVI** | [The Module of Textual Integrity Protection](./laws/law16_text_integrity.md) |
@@ -182,29 +202,19 @@ The repository contains 25 canon files, organized into functional domains. Canon
 
 ---
 
-## 🏗️ Repository Structure: A Guide to Software Governance and AI Engineering
+## 🏗️ Repository Structure: A Guide to Software Governance and SI Engineering
 
-```
-codigo-canonico-engenharia-ai/
-│
-├── README.md                  # The Conceptual Defense & Index
-├── LICENSE
-├── CONTRIBUTING.md            # Guidelines for Governance Commits
-│
-├── laws/                      # The Canons (00-24)
-│   ├── law00_precedence.md
-│   ├── ...
-│   └── law24_embodied_agency_living_integrity.md
-│
-├── docs/                      # Documentation & Records
-│   ├── book_of_life/          # ADA and normative genesis records
-│   └── congress/              # Congressional Session Records
-│
-├── architecture/              # Architectural Artifacts
-│   └── normative_dependency_map.md
-│
-└── template/                  # Templates for ADA and Projects
-```
+| Path | Responsibility |
+| --- | --- |
+| `laws/` | Original 25 canon texts (0–24). |
+| `operational/` | Bounded JSON, delegation gateway, audit chain and pinned source manifest. |
+| `examples/` | Checkout and SI delegation demonstrations. |
+| `evaluation/` | Declared synthetic scenarios and replay evaluator. |
+| `scripts/`, `test/` | Evidence reproduction, scoped audit and regression suite. |
+| `docs/book_of_life/`, `docs/congress/` | Decision and historical governance records. |
+| `docs/governance/`, `docs/operational/`, `docs/evaluation/` | Change term, coverage, responsibilities and pilot/evidence artifacts. |
+| `architecture/`, `template/` | Normative dependency map, ADA and adoption templates. |
+
 
 ## Apply the protocol to a review
 
@@ -214,7 +224,7 @@ codigo-canonico-engenharia-ai/
 4. Record the decision, evidence and remaining uncertainty using the [ADA template](./template/ADA_template.md). Compare the [worked example](./examples/checkout/ADA.md).
 5. Have the reviewing engineer reconstruct the execution path before adopting the change.
 
-The existing `canonical-audit.yml` contains a demonstrative SQL-in-UI scan and a license-header warning. Passing it is not evidence that the full Canonical Protocol has been verified. The [workflow source](./.github/workflows/canonical-audit.yml) defines its current coverage.
+The current `canonical-audit.yml` runs unit/checkout regressions, reproduces the fixture report and checks pinned original source bytes on Node 14 and 24. Its coverage is bounded to this distribution; human comprehension, arbitrary consumer architecture and full canonical compliance require separate review. The [workflow source](./.github/workflows/canonical-audit.yml) defines the exact checks.
 
 ## Cite a version and share a result
 

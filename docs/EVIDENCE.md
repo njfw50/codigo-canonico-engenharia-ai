@@ -1,8 +1,18 @@
 # Evidence, references and scope
 
-Class C · Editorial research context · Reviewed 2026-10-01.
+Class C · Editorial research context · Reviewed 2026-10-10.
 
-The Canonical Protocol is a methodological proposal by Michel Silva de Souza. Its canons define rules for projects that adopt it. The checkout example demonstrates one policy and dependency boundary. No controlled study of this protocol, independent certification or measured reduction in cognitive debt is presented here.
+The Canonical Protocol is a methodological proposal by Michel Silva de Souza. Its canons define rules for projects that adopt it. The checkout example demonstrates one policy and dependency boundary. The SI delegation layer adds a bounded executable reference and synthetic fixture evidence described below. No controlled study of this protocol, independent certification or measured reduction in cognitive debt is presented here.
+
+## Reproducible operational evidence — October 10, 2026
+
+[Report](./evaluation/delegation-report.json) · [Declared oracle](../evaluation/scenarios.json) · [Gateway](../operational/gateway.js) · [Control coverage](./operational/CONTROLS.md)
+
+The replay exercises 27 fixed proposals: five expected executions and 22 expected holds. The gateway matches all declared decisions, reasons and execution outcomes, with zero prohibited dispatches and zero unnecessary holds **on this constructed set**. Its audit chains verify against checkpoints produced for each replay. The unprotected comparison dispatches every target proposal; it is deliberately unsafe, not a competing SI model, production product or representative industry baseline.
+
+Reproduce using `node scripts/evaluate.js --check docs/evaluation/delegation-report.json` from the repository root. The report fingerprints fixtures, policy, gateway, JSON/audit helpers and evaluator. A changed implementation/input requires regeneration and review. The unit suite also exercises concurrent limits, uncertain adapter outcomes and before/after-action audit failures beyond the fixture set.
+
+This measures the mechanism's declared behavior only. Real model performance, cognition, productivity, organizational adoption and independent validation remain unmeasured. Use the [pilot protocol](./evaluation/PILOT.md) and [adoption report](../template/adoption_report.md) to collect further evidence, including negative findings. The NIST [AI Metrology Center](https://airc.nist.gov/metrology/) is related measurement context, not validation or endorsement of this protocol.
 
 ## Traceable research context
 
@@ -15,7 +25,7 @@ The Canonical Protocol is a methodological proposal by Michel Silva de Souza. It
 
 - **Liturgical Cognitive Annotation:** the project's proposed method for explaining why generated code exists. Its efficacy requires evaluation beyond this example.
 - **Cognitive debt:** the project's framing of a loss of system understanding. The linked research motivates scrutiny; it does not prove that this method prevents it.
-- **Architectural enforcement:** the repository contains configuration instructions and limited demonstrative checks. It does not currently provide a mathematical proof of architecture correctness or a complete validator for all canons.
+- **Architectural enforcement:** the repository contains configuration instructions, source-integrity checks and a bounded delegation implementation. It does not provide a mathematical proof of architecture correctness or a complete validator for all canons.
 - **Governance records:** project decisions involving named AI models are not evidence of endorsement by their developers.
 - **Adoption:** a use report should name the source version, the task, the evidence and the limits. Do not substitute a source badge or a successful build for that report.
 
