@@ -34,6 +34,16 @@ Submit a Pull Request linked to the corresponding Issue. The PR must include a c
 
 ## Acceptance Criteria
 
+### Operational implementation and evidence
+
+For changes to the SI operational layer, qualify the affected control/article and concrete failure in an issue. Link the design, ADA and [change term](./docs/governance/TERMO_DE_MUDANCA_SI_2026-10-10.md). Keep normative text and sealed history intact; operational code changes do not themselves ratify or amend a canon.
+
+Run `npm test`, `npm run audit` and `npm run evaluate -- --check docs/evaluation/delegation-report.json`. If source/fixture hashes change, regenerate and review the report. Include positive delegated cases as well as negative containment regressions. Describe scope, host responsibilities and unmeasured benefits precisely.
+
+Before integration, complete the [reconstructive review](./docs/operational/GOVERNANCE.md). An adopter reports observed outcomes through the [adoption template](./template/adoption_report.md), including failures and unnecessary holds. Original canonical quotations and bibliographic titles retain their source wording; new prose uses SI.
+
+### Normative proposals
+
 A contribution will only be merged if it:
 - Resolves a real and demonstrable normative vacuum;
 - Is perfectly consistent with the principles of existing Canons;

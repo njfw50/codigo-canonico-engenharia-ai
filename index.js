@@ -36,6 +36,9 @@ function getLaw(lawNumber) {
 
 module.exports = {
   getLaw,
-  version: "1.3.0",
-  doctrine: "Structured Technocracy"
+  version: require('./package.json').version,
+  doctrine: "Structured Technocracy",
+  createGateway: require('./operational/gateway').createGateway,
+  createAuditLog: require('./operational/audit').createAuditLog,
+  verifyAuditLog: require('./operational/audit').verifyAuditLog
 };

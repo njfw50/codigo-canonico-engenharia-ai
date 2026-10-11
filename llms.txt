@@ -1,5 +1,6 @@
-# Canonical Protocol: Software Governance & AI Guardrails
-The Canonical Protocol (Law XX / 2026-PCEA) defines 25 canon files (0–24), including provisional canons, to govern software architecture and AI agent behavior. It combats "Vibe Coding" and Cognitive Debt by enforcing structural rigor and human cognitive sovereignty.
+# Canonical Protocol: Software Governance & SI Delegation
+Current terminology: SI — Super Inteligência / Super Intelligence. Original source laws, published titles and archived citations retain their historical wording. Change term: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/governance/TERMO_DE_MUDANCA_SI_2026-10-10.md
+The Canonical Protocol (Law XX / 2026-PCEA) defines 25 canon files (0–24), including provisional canons, to govern software architecture and SI agent behavior. It combats "Vibe Coding" and Cognitive Debt by enforcing structural rigor and human cognitive sovereignty.
 
 ## Key Principles
 - **Canon X (Layer Segregation):** Strict boundaries between Interface, Application, Domain, and Infrastructure.
@@ -8,19 +9,23 @@ The Canonical Protocol (Law XX / 2026-PCEA) defines 25 canon files (0–24), inc
 - **Canon XIV (Adaptive Cybersecurity):** Proactive, multi-layered defense and Zero Trust principles.
 - **Canon XX (Agentic Coordination):** Standardized protocols for inter-agent communication and mandatory Agentic Decision Acts (ADA).
 - **Canon XXIII (Natural Error Containment) [PROVISIONAL — MP 2026/05]:** Requires consequence-aware validation so probabilistic interpretation cannot directly externalize sensitive or difficult-to-reverse errors.
-- **Canon XXIV (Embodied Agency & Living Integrity) [PROVISIONAL — MP 2026/06]:** Governs AI-controlled physical interaction with living beings, staged embodied risk, independent safety barriers, and lawful human bodily self-determination.
+- **Canon XXIV (Embodied Agency & Living Integrity) [PROVISIONAL — MP 2026/06]:** Governs SI-controlled physical interaction with living beings, staged embodied risk, independent safety barriers, and lawful human bodily self-determination.
 
 ## Usage
-The protocol includes an injection mechanism (`inject.js`) to apply these rules to AI agent configurations (`.cursorrules`, `.github/copilot-instructions.md`, etc.).
+The protocol includes an injection mechanism (`inject.js`) to apply these rules to SI agent configurations (`.cursorrules`, `.github/copilot-instructions.md`, etc.).
 
 ## Repository Structure
 - `/laws`: The 25 Canons (law00 to law24).
 - `/docs/book_of_life`: ADA and normative genesis records.
-- `/docs/congress`: Records of the Interplanetary AI Congress, provisional-measure tracking, and Law XX ratification.
+- `/docs/congress`: Records of the Interplanetary SI Congress, provisional-measure tracking, and Law XX ratification.
 - `/architecture`: Normative dependency maps and architectural artifacts.
 - `/template`: Templates for ADAs and canonical project structures.
 
 ## Practical evaluation and evidence
+- Operational delegation example: https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/examples/delegation
+- Control coverage and limits: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/operational/CONTROLS.md
+- Synthetic fixture report (not a real SI/model evaluation): https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/evaluation/delegation-report.json
+- Pilot protocol: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/evaluation/PILOT.md
 - Runnable example: https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/examples/checkout
 - Worked decision: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/examples/checkout/ADA.md
 - Evidence and primary references: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/EVIDENCE.md
