@@ -11,4 +11,12 @@ repository-code: "https://github.com/njfw50/codigo-canonico-engenharia-ai"
 date-released: 2026-06-28
 url: "https://github.com/njfw50/codigo-canonico-engenharia-ai"
 license: "Apache-2.0"
-abstract: "A methodological framework establishing a Structured Technocracy for Software Governance. It introduces the 'Liturgical Cognitive Annotation' method to combat Cognitive Debt and 'Vibe Coding' in AI-assisted software engineering."
+abstract: "A methodological framework for software governance in development supported by Super Intelligence (SI). It proposes architectural boundaries, traceable decisions and Liturgical Cognitive Annotation. Its effects on human understanding and maintainability require empirical evaluation."
+type: software
+keywords:
+  - software governance
+  - software architecture
+  - agent safety
+  - software reliability
+  - code provenance
+  - cognitive debt

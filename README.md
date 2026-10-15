@@ -230,8 +230,12 @@ The [sharing guide](./docs/SHARE.md) has short Portuguese and English introducti
 Licensed under the Apache License, Version 2.0 — see `LICENSE` and `NOTICE` for details.
 
 ## Contact & Academic Collaboration
-For institutional inquiries, academic collaborations, or questions regarding the implementation of the Canonical Protocol, please reach out via LinkedIn:
--   **[Michel Silva de Souza - LinkedIn](https://www.linkedin.com/in/njfw23/)**
+
+**Michel Silva de Souza** — Independent developer and creator of the Canonical Protocol of Engineering & AI. My work connects software architecture, accountable Super Intelligence (SI), and traceable decisions, turning governance principles into controls that people can inspect, test, and improve.
+
+[ORCID: 0009-0006-5209-4477](https://orcid.org/0009-0006-5209-4477) · [Short biography / Biografia](./docs/AUTHOR.md) · [LinkedIn](https://www.linkedin.com/in/njfw23/)
+
+For academic collaboration or questions about implementation, please contact Michel through LinkedIn.
 
 ---
 
