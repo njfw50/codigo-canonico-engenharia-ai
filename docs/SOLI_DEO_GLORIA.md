@@ -23,6 +23,12 @@ Fontes primárias:
 - Bento XVI, [*Caritas in veritate* (2009), §§69–70 e 78](https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html).
 - Bento XVI, [*Deus caritas est* (2005), §28(b)](https://www.vatican.va/content/benedict-xvi/pt/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html).
 
+### Palavra do autor — testemunho original de 17 de outubro de 2026
+
+> “Não é questão de Fé é sim de Dignidade não só humana até os Céus proclamam a Glória de Deus e as pedras também clamam.”
+
+— Michel Silva de Souza, diálogo que deu origem a esta reflexão. Ortografia preservada. A frase explicita o propósito do autor; não é atribuída a Bento XVI.
+
 ### Princípio proposto
 
 **A capacidade é um dom; o serviço é um dever; a glória pertence a Deus.**
