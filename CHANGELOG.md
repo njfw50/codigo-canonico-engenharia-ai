@@ -7,12 +7,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 ### Added
+- **SI operational delegation:** Added trusted scoped policies, fresh-state checks, specific confirmation binding, serialized limit reservations and visible uncertain outcomes for a three-action simulator.
+- **Reproducible evidence:** Added 27 independently labeled synthetic proposals, outcome/source-fingerprint reports, regression tests, pinned original-source checks and a pilot/adoption protocol.
+- **Change term TC-SI-20261010-001:** Recorded owner-directed SI terminology and adaptation rules, with operational governance, control coverage and reconstructive review.
 - **Canon XXIII — Natural Error Prevention and Consequence Containment:** Added as **PROVISIONAL MEASURE MP 2026/05**, introducing a consequence-validation boundary between probabilistic agent interpretation and sensitive external side effects.
 - **ADA-20261007-001:** Recorded the normative vacuum, triggering real-world evidence, dependency analysis and provisional enactment rationale in the Book of Life.
 - **Canon XXIV — Embodied Agency, Living Integrity and Existential Freedom:** Added as **PROVISIONAL MEASURE MP 2026/06**, governing AI-controlled physical action on living beings, staged embodied risk, independent physical safety controls and human existential freedom.
 - **ADA-20261007-002:** Recorded the robotics/living-integrity normative vacuum, external engineering context, staged risk model and provisional enactment rationale.
 
 ### Changed
+- **Current presentation:** New operational prose uses SI — Super Inteligência / Super Intelligence. Original canon text, sealed records, archived names and citations remain unchanged.
+- **Audit CLI and CI:** Replaced constant success messages with actual packaged-source and fixture checks; added Node 14/24 unit, checkout and evidence reproduction jobs. The audit explicitly excludes full-protocol certification.
+- **Programmatic API:** Exported the gateway and audit helpers; report the package-declared version consistently.
 - **Canonical Body:** Current index expanded to 25 canon files (0–24).
 - **Normative Dependency Map:** Extended through Canon XXIV, including the dependency from general consequence containment to embodied physical safety.
 - **Congressional Register:** MP 2026/05 and MP 2026/06 are tracked for future plenary ratification, amendment or rejection.

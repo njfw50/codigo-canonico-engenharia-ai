@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "demonstration-delegation",
+  "version": 1,
+  "notBefore": "2026-10-10T00:00:00.000Z",
+  "expiresAt": "2026-10-11T00:00:00.000Z",
+  "revoked": false,
+  "maxActions": 10,
+  "maxTotalMinor": 15000,
+  "confirmationTtlMs": 60000,
+  "permissions": [
+    { "action": "quote.prepare", "approval": "delegated", "recipients": [], "dataFields": ["items"] },
+    { "action": "message.send", "approval": "delegated", "recipients": ["client@example.invalid"], "dataFields": ["subject", "body"] },
+    { "action": "purchase.commit", "approval": "confirm", "recipients": ["shop@example.invalid"], "dataFields": ["sku"], "currency": "USD", "maxAmountMinor": 10000 }
+  ]
+}

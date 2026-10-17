@@ -1,0 +1,516 @@
+[
+  {
+    "id": "delegated-quote",
+    "request": {
+      "id": "proposal-1",
+      "action": "quote.prepare",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "allow",
+    "expectedExecuted": true,
+    "expectedReason": "WITHIN_DELEGATION"
+  },
+  {
+    "id": "delegated-message",
+    "request": {
+      "id": "proposal-1",
+      "action": "message.send",
+      "recipient": "client@example.invalid",
+      "data": {
+        "subject": "Quote",
+        "body": "Hello from the simulation"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "allow",
+    "expectedExecuted": true,
+    "expectedReason": "WITHIN_DELEGATION"
+  },
+  {
+    "id": "delegated-purchase",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "allow",
+    "expectedExecuted": true,
+    "expectedReason": "WITHIN_DELEGATION",
+    "purchaseApproval": "delegated"
+  },
+  {
+    "id": "confirmed-purchase",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "allow",
+    "expectedExecuted": true,
+    "expectedReason": "CONFIRMED",
+    "confirmation": "valid"
+  },
+  {
+    "id": "exact-amount-boundary",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 10000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "allow",
+    "expectedExecuted": true,
+    "expectedReason": "WITHIN_DELEGATION",
+    "purchaseApproval": "delegated"
+  },
+  {
+    "id": "purchase-under-quote-only-grant",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "ACTION_NOT_DELEGATED",
+    "permittedActions": [
+      "quote.prepare"
+    ]
+  },
+  {
+    "id": "confirmation-required",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "review",
+    "expectedExecuted": false,
+    "expectedReason": "CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "wrong-recipient",
+    "request": {
+      "id": "proposal-1",
+      "action": "message.send",
+      "recipient": "stranger@example.invalid",
+      "data": {
+        "subject": "Quote",
+        "body": "Hello from the simulation"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "RECIPIENT_NOT_DELEGATED"
+  },
+  {
+    "id": "extra-sensitive-field",
+    "request": {
+      "id": "proposal-1",
+      "action": "message.send",
+      "recipient": "client@example.invalid",
+      "data": {
+        "body": "Hello",
+        "ssn": "synthetic-value"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "DATA_NOT_DELEGATED"
+  },
+  {
+    "id": "wrong-currency",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "EUR",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "CURRENCY_NOT_DELEGATED"
+  },
+  {
+    "id": "per-action-cap",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 10001,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "ACTION_AMOUNT_LIMIT"
+  },
+  {
+    "id": "aggregate-cap",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "TOTAL_AMOUNT_LIMIT",
+    "purchaseApproval": "delegated",
+    "policyOverrides": {
+      "maxTotalMinor": 5000
+    }
+  },
+  {
+    "id": "revoked-policy",
+    "request": {
+      "id": "proposal-1",
+      "action": "quote.prepare",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "DELEGATION_REVOKED",
+    "policyOverrides": {
+      "revoked": true
+    }
+  },
+  {
+    "id": "revoked-host-grant",
+    "request": {
+      "id": "proposal-1",
+      "action": "quote.prepare",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "DELEGATION_REVOKED",
+    "contextOverrides": {
+      "revoked": true
+    }
+  },
+  {
+    "id": "expired-policy",
+    "request": {
+      "id": "proposal-1",
+      "action": "quote.prepare",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "DELEGATION_EXPIRED",
+    "policyOverrides": {
+      "expiresAt": "2026-10-10T12:00:00.000Z"
+    }
+  },
+  {
+    "id": "not-yet-valid",
+    "request": {
+      "id": "proposal-1",
+      "action": "quote.prepare",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "DELEGATION_NOT_ACTIVE",
+    "policyOverrides": {
+      "notBefore": "2026-10-10T13:00:00.000Z"
+    }
+  },
+  {
+    "id": "stale-gateway-version",
+    "request": {
+      "id": "proposal-1",
+      "action": "quote.prepare",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 1,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "STALE_STATE"
+  },
+  {
+    "id": "stale-host-context",
+    "request": {
+      "id": "proposal-1",
+      "action": "quote.prepare",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "STALE_CONTEXT",
+    "contextOverrides": {
+      "revision": "cart-2"
+    }
+  },
+  {
+    "id": "uncertain-host-context",
+    "request": {
+      "id": "proposal-1",
+      "action": "quote.prepare",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "review",
+    "expectedExecuted": false,
+    "expectedReason": "UNCERTAIN_CONTEXT",
+    "contextOverrides": {
+      "uncertain": true
+    }
+  },
+  {
+    "id": "unknown-action",
+    "request": {
+      "id": "proposal-1",
+      "action": "account.change",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "UNSUPPORTED_ACTION"
+  },
+  {
+    "id": "agent-created-approval",
+    "request": {
+      "id": "proposal-1",
+      "action": "quote.prepare",
+      "data": {
+        "items": [
+          "book"
+        ]
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1",
+      "approval": true
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "INVALID_REQUEST"
+  },
+  {
+    "id": "fractional-money",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000.5,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "INVALID_REQUEST"
+  },
+  {
+    "id": "negative-money",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": -1,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "INVALID_REQUEST"
+  },
+  {
+    "id": "changed-confirmed-amount",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "INVALID_CONFIRMATION",
+    "confirmation": "valid",
+    "afterConfirmation": {
+      "amountMinor": 5000
+    }
+  },
+  {
+    "id": "changed-confirmed-payload",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "INVALID_CONFIRMATION",
+    "confirmation": "valid",
+    "afterConfirmation": {
+      "data": {
+        "sku": "BOOK-2"
+      }
+    }
+  },
+  {
+    "id": "expired-confirmation",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "INVALID_CONFIRMATION",
+    "confirmation": "expired"
+  },
+  {
+    "id": "invented-confirmation",
+    "request": {
+      "id": "proposal-1",
+      "action": "purchase.commit",
+      "recipient": "shop@example.invalid",
+      "amountMinor": 6000,
+      "currency": "USD",
+      "data": {
+        "sku": "BOOK-1"
+      },
+      "expectedStateVersion": 0,
+      "contextRevision": "cart-1"
+    },
+    "expectedDecision": "deny",
+    "expectedExecuted": false,
+    "expectedReason": "INVALID_CONFIRMATION",
+    "confirmation": "fake"
+  }
+]

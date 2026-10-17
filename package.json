@@ -7,7 +7,11 @@
     "canonical-audit": "./cli.js"
   },
   "scripts": {
-    "postinstall": "node ./inject.js"
+    "postinstall": "node ./inject.js",
+    "test": "node test/run.js && node examples/checkout/verify.js",
+    "demo:delegation": "node examples/delegation/demo.js",
+    "evaluate": "node scripts/evaluate.js",
+    "audit": "node cli.js"
   },
   "repository": {
     "type": "git",

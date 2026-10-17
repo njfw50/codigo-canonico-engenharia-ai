@@ -11,3 +11,7 @@ src/
 ```
 
 To use this template, copy it as the root structure of your new project.
+
+## Operational adoption
+
+[Adoption report](./adoption_report.md) records the concrete delegation, expected and observed consequences, false blocks, human reconstruction and limits. Use it with the [pilot protocol](../docs/evaluation/PILOT.md); do not infer adoption or cognitive benefit from a badge.

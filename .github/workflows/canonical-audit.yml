@@ -1,38 +1,31 @@
-name: Canonical Audit (AI Compliance)
+name: Canonical SI operational checks
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [main]
   push:
-    branches: [ main ]
+    branches: [main]
+
+permissions:
+  contents: read
 
 jobs:
   audit:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['14', '24']
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: '18'
-
-      - name: Run Canonical Structural Check
-        run: |
-          echo "🛡️ Initiating Canonical Protocol Audit..."
-          
-          # Check for basic separation of layers (mock check for demonstration)
-          if grep -rn "SELECT" ./ui/ 2>/dev/null; then
-            echo "❌ CRITICAL VIOLATION (Canon X): SQL Query found in UI layer."
-            exit 1
-          fi
-
-          echo "✅ Layer Segregation Verified."
-          
-          # Enforce Apache License Header (Canon XVIII Compliance)
-          if ! head -n 20 index.js | grep -q "Apache License"; then
-            echo "⚠️ Warning: Missing Legal Sovereignty Header."
-          fi
-          
-          echo "✅ Demonstrative Canonical Audit checks passed. This workflow does not verify the full Canonical Protocol."
+          node-version: ${{ matrix.node }}
+          package-manager-cache: false
+      # No installation: the example and checks use the standard library.
+      - name: Unit and checkout regression tests
+        run: npm test
+      - name: Reproduce the published synthetic evidence
+        run: npm run evaluate -- --check docs/evaluation/delegation-report.json
+      - name: Check pinned sources and delegation fixtures
+        run: npm run audit
