@@ -7,6 +7,7 @@
 - **[Conheça o projeto em português](https://njfw50.github.io/codigo-canonico-engenharia-ia/)**
 - **[Explore the project in English](https://njfw50.github.io/canonical-engineering-ai/)**
 - [Original canonical texts](./laws/) · [Decision record template](./template/ADA_template.md) · [How to cite](./CITATION.cff)
+- [Soli Deo Gloria — dignity, love & responsible SI (non-normative philosophical reflection, PT/EN)](./docs/SOLI_DEO_GLORIA.md)
 
 ### New · October 7, 2026 — AI consequence safety and embodied robotics
 
