@@ -1,0 +1,1 @@
+{"name":"canonical-ai-control-chatgpt","version":"0.2.0","private":true,"type":"commonjs","engines":{"node":">=20"},"scripts":{"start":"node local.js","test":"node tests/smoke.js"}}
