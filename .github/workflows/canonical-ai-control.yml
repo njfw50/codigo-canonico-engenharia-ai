@@ -1,0 +1,30 @@
+name: Canonical AI Control checks
+on:
+  pull_request:
+    paths:
+      - 'integrations/canonical-ai-control/**'
+      - '.github/workflows/canonical-ai-control.yml'
+  push:
+    branches: ['feat/canonical-ai-control-chatgpt']
+    paths:
+      - 'integrations/canonical-ai-control/**'
+      - '.github/workflows/canonical-ai-control.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: integrations/canonical-ai-control
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Test no-dependency Node code
+        run: |
+          node --version
+          npm test
+      - name: Check canonical source isolation
+        run: |
+          git diff --name-only origin/${{ github.base_ref || 'main' }}...HEAD | grep '^laws/' && exit 1 || true

@@ -16,3 +16,7 @@ Use Node >=20; run `npm test` and `npm start`. Local development may use `CANONI
 - For private use, install as a custom MCP plugin where enabled; for public directory publication complete auth, persistence, privacy/security review and platform submission. No automatic public listing is implied by hosting.
 
 The security of local development does not make this a production permission service. **Do not set a flag to unlock serverless writes.**
+
+## Plugin directory draft
+
+`plugin.json` includes a listing identity, an onboarding skill, icons, a provisional privacy disclosure and provisional terms. The latter are **drafts** until reviewed by the publisher. OpenAI submission additionally requires a deployed HTTPS URL, domain proof, five positive and three negative review cases, a demo video and the account owner's verified identity. Nothing in this branch is published to ChatGPT's public plugin directory.

@@ -1,1 +1,45 @@
-{"$schema":"https://agent-plugins.org/schemas/1.0.0/plugin.schema.json","name":"canonical-ai-control","version":"0.2.0","description":"Consulta canônica e governança opcional para agentes integrados. Não altera as leis originais nem controla permissões nativas de outros apps.","author":{"name":"Michel Silva de Souza","url":"https://github.com/njfw50/codigo-canonico-engenharia-ai"},"homepage":"https://github.com/njfw50/codigo-canonico-engenharia-ai","repository":"https://github.com/njfw50/codigo-canonico-engenharia-ai","license":"Apache-2.0","extensions":{"com.openai":{"interface":{"displayName":"Canonical AI Control","shortDescription":"Governança para agentes integrados","longDescription":"Consulte o Código Canônico original e, com integração autenticada e armazenamento durável, gerencie permissões de agentes conectados.","developerName":"Michel Silva de Souza","category":"Developer Tools","capabilities":["Read"],"websiteURL":"https://github.com/njfw50/codigo-canonico-engenharia-ai"}}}}
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "canonical-ai-control",
+  "version": "0.2.0",
+  "description": "Consulta canônica e governança opcional para agentes integrados. Não altera as leis originais nem controla permissões nativas de outros apps.",
+  "author": {
+    "name": "Michel Silva de Souza",
+    "url": "https://github.com/njfw50/codigo-canonico-engenharia-ai"
+  },
+  "homepage": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+  "repository": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+  "license": "Apache-2.0",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Canonical AI Control",
+        "shortDescription": "AI governance for agents",
+        "longDescription": "Consult the original Canonical Engineering & AI Protocol by Michel Silva de Souza. Optional authenticated controls for integrated agents are under development; this preview never changes native permissions in external AI apps or on phones.",
+        "developerName": "Michel Silva de Souza",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+        "supportURL": "https://github.com/njfw50/codigo-canonico-engenharia-ai/issues",
+        "privacyPolicyURL": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/feat/canonical-ai-control-chatgpt/integrations/canonical-ai-control/docs/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/feat/canonical-ai-control-chatgpt/integrations/canonical-ai-control/docs/TERMS.md",
+        "defaultPrompt": [
+          "Show the original Canonical Protocol source and version",
+          "Explain Canon XIV without modifying the original text",
+          "What AI permissions can this plugin actually control?"
+        ],
+        "brandColor": "#223A87",
+        "composerIcon": "./assets/composer-icon.svg",
+        "logo": "./assets/logo.svg",
+        "logoDark": "./assets/logo-dark.svg",
+        "composerIconDark": "./assets/composer-icon-dark.svg"
+      },
+      "onboardingSkill": "./skills/canonical-intro/SKILL.md",
+      "publication": {
+        "release_notes": "Initial read-only canonical consultation preview; all external permission changes remain disabled until secure integrated deployment."
+      }
+    }
+  }
+}
