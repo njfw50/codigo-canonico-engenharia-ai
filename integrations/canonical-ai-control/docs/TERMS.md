@@ -1,5 +1,10 @@
-# Canonical AI Control — service terms (pre-release draft)
+# Terms of Use — Canonical AI Control
+Effective: 2026-11-15
 
-This technical preview makes public Canonical Protocol texts accessible as reference material. It does not impose rules on third-party AI companies, certify legal compliance, or change permissions on devices or accounts. It does not grant permission to bypass provider safeguards or execute harmful actions. Integrated agents must separately obtain lawful authorizations and honor provider and platform policies.
+Canonical AI Control is a technical, read-only reference interface for the 25 original Canonical Engineering & AI Protocol texts authored by Michel Silva de Souza. The canonical source is https://github.com/njfw50/codigo-canonico-engenharia-ai. The connector does not amend or add laws.
 
-The canonical normative source remains https://github.com/njfw50/codigo-canonico-engenharia-ai. Software is provided under the license indicated by the source repository; this text does not amend it. This draft is not a finalized public commercial agreement.
+This preview cannot activate, deactivate, or bypass native permissions in ChatGPT, Gemini, Claude, mobile devices or other third-party services. It does not provide legal certification or public authority. The user must comply with applicable laws, provider rules and platform permissions.
+
+The service is offered as-is for informational and engineering use, subject to its source licensing and service availability. Any future external control feature must be integrated and independently authorized before an actual action can occur. No payment, purchase, or account action is performed by this release.
+
+Support: https://github.com/njfw50/codigo-canonico-engenharia-ai/issues

@@ -1,9 +1,29 @@
 {
   "version": 2,
-  "functions": {"api/mcp.js": {"maxDuration": 30}, "api/gate.js": {"maxDuration": 30}},
+  "functions": {
+    "api/mcp.js": {
+      "maxDuration": 30
+    },
+    "api/gate.js": {
+      "maxDuration": 30
+    }
+  },
   "rewrites": [
-    {"source": "/mcp", "destination": "/api/mcp"},
-    {"source": "/gate", "destination": "/api/gate"},
-    {"source": "/health", "destination": "/api/health"}
+    {
+      "source": "/.well-known/openai-apps-challenge",
+      "destination": "/api/openai-challenge"
+    },
+    {
+      "source": "/mcp",
+      "destination": "/api/mcp"
+    },
+    {
+      "source": "/gate",
+      "destination": "/api/gate"
+    },
+    {
+      "source": "/health",
+      "destination": "/api/health"
+    }
   ]
 }
