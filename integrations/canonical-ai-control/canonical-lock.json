@@ -1,0 +1,33 @@
+{
+  "source": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+  "original_author": "Michel Silva de Souza",
+  "commit": "5de1ca45a60ca0f9e516b6ece54e366d59f0e79c",
+  "note": "25 original, unmodified canonical texts. Software package implements, but does not amend, these documents.",
+  "git_blob_sha1_by_path": {
+    "laws/law00_precedence.md":"17fd0225a46e009c0f0f738a365884cb5a0beeb2",
+    "laws/law01_authority.md":"090bc7746bd0fd770ebd85920ed4ca1119bd7bdb",
+    "laws/law02_classification.md":"f08b93b114db6691a4827f4e08d7f9fbf7cbc740",
+    "laws/law03_change_procedure.md":"e391f4736c03227d49d963b9ac9ff407de0cb2a7",
+    "laws/law04_criticality.md":"68ebbdc97265b95cc926f240e41f84ecc4485195",
+    "laws/law05_book_of_life.md":"f0f968571f593f8114b4e8c214efe91f9de4b719",
+    "laws/law06_architecture.md":"312affbb186e8bb9c79b19bc25c0118905e2a293",
+    "laws/law07_pattern_library.md":"42630676850636fb26027bb22c643a7143c77edc",
+    "laws/law08_pattern_selection.md":"bac6a8e5f30c331a0b2babc5bad3e6709a663354",
+    "laws/law09_no_ornamental_patterns.md":"a3cbae13ef9955d9ed9ad4dde920802cdd79292a",
+    "laws/law10_layer_separation.md":"854578d60a9b165074b68ef41586a3b47b793dd7",
+    "laws/law11_amendments.md":"24413e59e4b7bc59c5085e3c27291c6ba844e3c4",
+    "laws/law12_pattern_implementation.md":"610671cb8479e9c41427b70ff26561f7cc5f032a",
+    "laws/law13_normative_expansion.md":"2209a7dd10a6cc2e1933e2f40bff0bc0bc633db4",
+    "laws/law14_cybersecurity.md":"95049c5d046b7ef440901f3544b435c66a4cdc08",
+    "laws/law15_user_experience.md":"3c121eb564f90e9f4b21159759ba365cdb91ee17",
+    "laws/law16_text_integrity.md":"e89c9f1a3eff1c9d98af1dc50577ecc5e5c9aacc",
+    "laws/law17_justified_complexity.md":"135a2428b9a8dfc853170b178b17386b2edebcfb",
+    "laws/law18_cognitive_sovereignty.md":"82952d6344b76f12142a4df856eb6490b1e5480c",
+    "laws/law19_integrity_of_references.md":"5da64e4f8a8883ad16af17bf77a76ff52b54ca70",
+    "laws/law20_agentic_coordination.md":"1d91cbcfb42e4fadd34094b92d9b1e5e144f1985",
+    "laws/law21_evaluation_driven_development.md":"561dcf214cb3e5d3ba0abf4a7bb38ec6c09eda9d",
+    "laws/law22_code_provenance.md":"5a43cc1ada27a6c3d6c216ffc605f628054b06d3",
+    "laws/law23_natural_error_containment.md":"44d5084c4a809d7e1a36ac25b7f58ebb48cc7c62",
+    "laws/law24_embodied_agency_living_integrity.md":"ebd58e823d84b5aa25b93975406268fb5c5759f5"
+  }
+}

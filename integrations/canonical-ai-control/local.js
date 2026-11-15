@@ -1,1 +1,0 @@
-'use strict';const http=require('node:http');const {handler}=require('./src/server');http.createServer((req,res)=>handler(req,res).catch(()=>{res.statusCode=500;res.end('Internal error')})).listen(process.env.PORT||3000);

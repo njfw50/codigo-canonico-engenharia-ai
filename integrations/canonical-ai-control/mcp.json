@@ -1,1 +1,16 @@
-{"$schema":"https://agent-plugins.org/schemas/1.0.0/mcp.schema.json","mcpServers":{"canonical-ai-control":{"type":"streamable-http","url":"https://SET_AFTER_DEPLOYMENT.vercel.app/mcp"}}}
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "canonical-control": {
+      "type": "streamable-http",
+      "url": "https://SUBSTITUIR-PELO-SEU-DOMINIO.example/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "none"
+          }
+        }
+      }
+    }
+  }
+}
