@@ -9,22 +9,28 @@ on:
     paths:
       - 'integrations/canonical-ai-control/**'
       - '.github/workflows/canonical-ai-control.yml'
+
 permissions:
   contents: read
 jobs:
   test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: integrations/canonical-ai-control
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-        with:
-          persist-credentials: false
+      # The existing repository has a historical orphan gitlink without .gitmodules.
+      # Checkout action's submodule auth-cleanup fails on this shape. Plain git does not recurse.
+      - name: Checkout exact public commit without submodule initialization
+        run: |
+          git init .
+          git remote add origin "https://github.com/$GITHUB_REPOSITORY.git"
+          git fetch --no-tags --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+          git fetch --no-tags --depth=1 origin main:refs/remotes/origin/main
       - name: Test no-dependency Node code
+        working-directory: integrations/canonical-ai-control
         run: |
           node --version
           npm test
-      - name: Check canonical source isolation
+      - name: Ensure original canons were not modified
         run: |
-          git diff --name-only origin/${{ github.base_ref || 'main' }}...HEAD | grep '^laws/' && exit 1 || true
+          git diff --quiet origin/main HEAD -- laws/
