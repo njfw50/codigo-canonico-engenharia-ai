@@ -3,7 +3,7 @@
   "mcpServers": {
     "canonical-control": {
       "type": "streamable-http",
-      "url": "https://SUBSTITUIR-PELO-SEU-DOMINIO.example/mcp",
+      "url": "https://canonical-ai-control.vercel.app/mcp",
       "extensions": {
         "com.openai": {
           "auth": {
