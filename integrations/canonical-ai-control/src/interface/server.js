@@ -13,6 +13,15 @@ function json(res,status,data,headers={}) {
   res.end(body);
 }
 function readBody(req) {
+  // Vercel Node Functions commonly provide an already parsed JSON req.body.
+  // Prefer it when available; a consumed stream must not be read again.
+  if(req.body!==undefined){
+    try{
+      const raw=Buffer.isBuffer(req.body)?req.body.toString('utf8'):typeof req.body==='string'?req.body:JSON.stringify(req.body);
+      if(Buffer.byteLength(raw,'utf8')>64*1024)throw Error('Request body too large');
+      return Promise.resolve(JSON.parse(raw));
+    }catch(e){return Promise.reject(e)}
+  }
   return new Promise((resolve,reject)=>{
     let chunks=[],bytes=0,done=false;
     req.on('data',b=>{
