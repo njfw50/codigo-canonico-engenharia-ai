@@ -1,0 +1,4 @@
+.canonical-data
+.env
+node_modules
+*.zip

@@ -1,0 +1,58 @@
+name: Canonical AI Control — live MCP smoke
+on:
+  push:
+    branches: [feat/canonical-ai-control-chatgpt]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify live HTTPS JSON-RPC, read-only tools and deny gate
+        env:
+          BASE: https://canonical-ai-control.vercel.app
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.error
+          base=os.environ["BASE"]
+          def request(path, payload=None):
+              data=None if payload is None else json.dumps(payload).encode()
+              req=urllib.request.Request(
+                  base+path,
+                  data=data,
+                  headers={
+                      "Content-Type":"application/json",
+                      "Accept":"application/json, text/event-stream",
+                      "User-Agent":"Canonical-AI-Control-CI/1.0"
+                  },
+                  method="GET" if data is None else "POST",
+              )
+              try:
+                  with urllib.request.urlopen(req,timeout=20) as res:
+                      return res.status,json.load(res)
+              except urllib.error.HTTPError as e:
+                  try: body=json.load(e)
+                  except: body={}
+                  return e.code,body
+          status,health=request("/health")
+          assert status==200 and health.get("ok") is True,(status,health)
+          assert health.get("policy_mutations_enabled") is False,health
+          init={"jsonrpc":"2.0","id":1,"method":"initialize","params":{
+              "protocolVersion":"2025-06-18","clientInfo":{"name":"live-smoke","version":"1.0"},"capabilities":{}}}
+          status,response=request("/mcp",init)
+          assert status==200 and response.get("result",{}).get("serverInfo",{}).get("name")=="canonical-ai-control",(status,response)
+          status,response=request("/mcp",{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}})
+          names={t.get("name") for t in response.get("result",{}).get("tools",[])}
+          assert status==200 and names=={"estado_canonico","consultar_canon"},(status,response)
+          status,response=request("/mcp",{"jsonrpc":"2.0","id":3,"method":"tools/call",
+              "params":{"name":"estado_canonico","arguments":{}}})
+          content=response.get("result",{}).get("structuredContent",{})
+          assert status==200 and len(content.get("law_paths",[]))==25,(status,response)
+          status,decision=request("/gate",{"agent_id":"test","capability":"web_read","action_id":"smoke123456789"})
+          assert status==503 and decision.get("decision")=="deny",(status,decision)
+          print("PASS: HTTPS live; initialize; 2 read-only tools; 25 original canons; gate fail-closed")
+          PY

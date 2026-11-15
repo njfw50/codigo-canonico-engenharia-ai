@@ -1,0 +1,36 @@
+name: Canonical AI Control checks
+on:
+  pull_request:
+    paths:
+      - 'integrations/canonical-ai-control/**'
+      - '.github/workflows/canonical-ai-control.yml'
+  push:
+    branches: ['feat/canonical-ai-control-chatgpt']
+    paths:
+      - 'integrations/canonical-ai-control/**'
+      - '.github/workflows/canonical-ai-control.yml'
+
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # The existing repository has a historical orphan gitlink without .gitmodules.
+      # Checkout action's submodule auth-cleanup fails on this shape. Plain git does not recurse.
+      - name: Checkout exact public commit without submodule initialization
+        run: |
+          git init .
+          git remote add origin "https://github.com/$GITHUB_REPOSITORY.git"
+          git fetch --no-tags --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+          git fetch --no-tags --depth=1 origin main:refs/remotes/origin/main
+      - name: Test no-dependency Node code
+        working-directory: integrations/canonical-ai-control
+        run: |
+          node --version
+          npm test
+      - name: Ensure original canons were not modified
+        run: |
+          git diff --quiet origin/main HEAD -- laws/

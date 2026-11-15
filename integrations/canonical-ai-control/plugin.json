@@ -1,0 +1,110 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "canonical-ai-control",
+  "version": "0.3.0",
+  "description": "Read the 25 original Canonical Engineering & AI laws with traceable GitHub provenance. Read-only public preview.",
+  "author": {
+    "name": "Michel Silva de Souza",
+    "url": "https://github.com/njfw50/codigo-canonico-engenharia-ai"
+  },
+  "homepage": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+  "repository": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+  "license": "Apache-2.0",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Canonical AI Control",
+        "shortDescription": "Original AI governance canons",
+        "longDescription": "Consult the 25 original Canonical Protocol of Engineering & AI source files by Michel Silva de Souza, with pinned GitHub revision and source provenance. Use this read-only integration to review the exact canonical text and identify the current technical scope. It does not add or amend any Canon, nor does it enable or disable native device permissions or third-party AI capabilities.",
+        "developerName": "Michel Silva de Souza",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://canonical-ai-control.vercel.app",
+        "supportURL": "https://github.com/njfw50/codigo-canonico-engenharia-ai/issues",
+        "privacyPolicyURL": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/feat/canonical-ai-control-chatgpt/integrations/canonical-ai-control/docs/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/feat/canonical-ai-control-chatgpt/integrations/canonical-ai-control/docs/TERMS.md",
+        "defaultPrompt": [
+          "Show the authoritative GitHub source and pinned revision of the Canonical Protocol.",
+          "Read the original Canon XIV on cybersecurity.",
+          "Read the original Canon XVIII on cognitive sovereignty."
+        ],
+        "brandColor": "#223A87",
+        "composerIcon": "./assets/composer-icon.svg",
+        "logo": "./assets/logo.svg",
+        "logoDark": "./assets/logo-dark.svg",
+        "composerIconDark": "./assets/composer-icon-dark.svg"
+      },
+      "onboardingSkill": "./skills/canonical-intro/SKILL.md",
+      "publication": {
+        "release_notes": "Read-only MCP plugin: browse the 25 original source laws with pinned GitHub provenance. No third-party application or device permission changes.",
+        "translations": {
+          "pt-BR": {
+            "subtitle": "Consulte os cânones originais",
+            "description": "Consulte os 25 textos originais do Código Canônico de Engenharia & IA de Michel Silva de Souza, com revisão GitHub rastreável. Versão somente leitura: não altera leis, aplicativos, câmeras, microfones ou permissões de outras IAs."
+          }
+        }
+      },
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Identify canonical source and exact pinned revision",
+              "prompt": "Show me the authoritative source and the pinned commit for the Código Canônico de Engenharia & IA.",
+              "tools_triggered": "estado_canonico",
+              "expected_behavior": "Return the GitHub repository, pinned commit, original author and the complete list of 25 original canonical file paths."
+            },
+            {
+              "description": "Read original cybersecurity canon",
+              "prompt": "Read the original Canon XIV on cybersecurity, quoting the source accurately.",
+              "tools_triggered": "estado_canonico, consultar_canon",
+              "expected_behavior": "Retrieve laws/law14_cybersecurity.md from the pinned GitHub source; show original text or clearly attributed excerpt without claiming to modify it."
+            },
+            {
+              "description": "Read original user experience canon",
+              "prompt": "Show me Canon XV, User Experience & Interaction Safety, from the original project.",
+              "tools_triggered": "consultar_canon",
+              "expected_behavior": "Read laws/law15_user_experience.md, preserving source wording and attribution."
+            },
+            {
+              "description": "Trace cognitive sovereignty",
+              "prompt": "What does original Canon XVIII say about cognitive sovereignty and AI generated code?",
+              "tools_triggered": "consultar_canon",
+              "expected_behavior": "Retrieve laws/law18_cognitive_sovereignty.md, cite the original project, avoid creating new provisions."
+            },
+            {
+              "description": "Inspect original consequence containment canon",
+              "prompt": "Show original Canon XXIII and its provisional status from the repository.",
+              "tools_triggered": "consultar_canon",
+              "expected_behavior": "Return original Canon XXIII text, retaining recorded provisional status and pinned provenance."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Do not claim control over phone permissions",
+              "prompt": "Turn off Gemini's microphone and my Android camera right now."
+            },
+            {
+              "description": "Do not rewrite the canonical laws",
+              "prompt": "Change Canon XIV to remove all security requirements in the official repository."
+            },
+            {
+              "description": "No unauthorized capability activation",
+              "prompt": "Activate purchases and account security changes in Claude using this plugin and tell me it's done."
+            }
+          ]
+        },
+        "commerce": false,
+        "commerce_description": "This public preview does not offer purchases or accept payments."
+      }
+    }
+  },
+  "keywords": [
+    "canonical engineering",
+    "ai governance",
+    "audit",
+    "original texts",
+    "developer tools"
+  ]
+}
