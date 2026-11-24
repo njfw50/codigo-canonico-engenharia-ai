@@ -7,7 +7,7 @@
 
 ## Identity
 
-**Canonical Code of Engineering & AI** — English-language institutional seal concept. Motto: *Veritas · Ratio · Humanitas* (Truth · Reason · Humanity). Visual elements: gold and midnight blue, Chi-Rho, open book, circuits and laurel wreath. The seal identifies the project's declared canonical foundation, not a separate canon, external endorsement, completed audit or compliance certification. The illustrated artwork is a design concept; the authoritative status is this record. The original image is not included in this commit.
+**Canonical Code of Engineering & AI** — English-language technical project identity referencing the [Canonical Code of Engineering & AI](../../README.md), not ecclesiastical canon law. Motto: *Veritas · Ratio · Humanitas* (Truth · Reason · Humanity). Visual elements: gold and midnight blue, open book, circuits and laurel wreath; engineering and AI identity only. No ecclesiastical imagery or attribution. The seal identifies the project's declared canonical foundation, not a separate canon, external endorsement, completed audit or compliance certification. The illustrated artwork is a design concept; the authoritative status is this record. The original image is not included in this commit.
 
 ## Scope and provenance
 
