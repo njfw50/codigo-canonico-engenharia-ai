@@ -17,4 +17,4 @@
 - Canonical attribution policy: [SHARE.md](../../docs/SHARE.md).
 - Release gates: [RELEASE.md](RELEASE.md).
 
-The seal may be used as an internal identity mark with the qualifier **Pre-release · Canonical reference**. Claims of technical compliance, commercial readiness, NVIDIA integration, independent approval or guaranteed installation require additional documented evidence. Do not use the artwork as a certificate or imply permanent validity. The existing Class C reference badge remains unchanged.
+The seal may be used as an internal identity mark with the qualifier **Pre-release · Canonical reference**. Claims of technical compliance, commercial readiness, third-party integration, independent approval or guaranteed installation require additional documented evidence. Do not use the artwork as a certificate or imply permanent validity. The existing Class C reference badge remains unchanged.
