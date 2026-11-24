@@ -1,0 +1,17 @@
+# CNR-RP-001 — Independent comparative research protocol
+Version 1.0 · 2026-11-24 · Internal prospective protocol, not external preregistration.
+Foundation: [Canonical Code of Engineering & AI](../../../README.md). Product: [CNR Photo Pro](../README.md). No third-party commercial endorsement.
+
+## Research question
+Does adding the canonical editing protocol to an otherwise identical image editor improve fidelity relative to an ordinary enhancement instruction? Hypothesis, not established fact.
+
+## Stage A — exploratory conventional pilot
+Use four bundled reference samples (astronaut, coffee, chelsea, camera; do not redistribute the images), RGB conversion, Gaussian blur 1.2 pixels, additive Gaussian noise sigma 0.025, 0.05, 0.08 on [0,1], seeds 42, 43, 44. Baseline B: median filter size 3 then unsharp mask radius 1.2, percent 150, threshold 3. C: identical baseline blended 60% with 40% degraded source, an explicitly simplified conservative fidelity proxy, not the CNR generative skill. No reference used to select outputs. Measure PSNR and multichannel SSIM against the undegraded reference; report every paired result, means per image and aggregate. Treat the four images, not the 36 degradations, as independent units; descriptive only. Report negative findings and no post-hoc parameter tuning. Stage A cannot prove the value of the full protocol.
+
+## Stage B — confirmatory experiment (not yet executed)
+Freeze editor/model version, settings, resolution, budget and seeds (where exposed). Compare B: ordinary instruction to improve sharpness, lighting and color while preserving identity, versus C: same instruction plus the canonical protocol; optional ablations for source binding, conservative editing, and validation, with equal tool-call budgets. Randomize order and blind raters. Use at least 60 distinct licensed/consented images, balanced across portraits, products, and landscapes; determine final sample size by independent pilot variance and power calculation before opening the holdout. Include synthetic degradations with references and authentic low-quality photos without references. Separate any tuning images from held-out evaluation. Preserve originals and hash inputs, prompts, outputs, and manifest; record failed outputs and retries. Never infer identity of people or publish private images without consent.
+
+Primary endpoint: paired SSIM difference on reference-based images; report paired image-level mean and bootstrap 95% CI. Secondary: PSNR, blinded fidelity/preference, visible identity/geometry/text alterations and artifact rates; no-reference ratings reported separately. Prespecify a practical minimum effect (SSIM +0.02 as a provisional engineering target, to be frozen before confirmatory data); require lower confidence bound >0 and no worsening of critical integrity errors for a superiority claim. Analyze image clusters, report per category, multiplicity-adjust secondary inferential claims; no cherry-picking. If results are mixed or negative, report them as such. Independent replication is required for broad claims.
+
+## Evidence tiers
+Exploratory conventional pilot ≠ AI validation ≠ independent peer review. Do not assert clinical, forensic, universal, or commercial superiority from this study. Release only after separate product gates in [RELEASE.md](../RELEASE.md). Version and preserve protocol, raw results, environment and deviations.
