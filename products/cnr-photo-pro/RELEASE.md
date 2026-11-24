@@ -18,3 +18,6 @@ Status: beta, pré-publicação.
 
 ## Controle de versão
 Versionar pacote, instruções, arte e evidência em conjunto. Não aprovar automaticamente novas alegações tecnológicas. Preservar a licença Apache 2.0 do projeto canônico; validar a licença do produto separado antes de cobrar.
+
+## Scientific acceptance gate — 2026-11-24
+**Release blocked.** See [CNR-RP-001](research/PROTOCOL.md), [measured results](research/PILOT-RESULTS.md) and [acceptance decision](research/ACCEPTANCE.md). The conventional proxy did not meet the proposed practical threshold. Full-skill confirmatory testing is still required; no scientific superiority or commercial certification claim is authorized by the available evidence.
