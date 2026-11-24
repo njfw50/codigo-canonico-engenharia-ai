@@ -16,6 +16,10 @@ Aprimorar nitidez, iluminação, cor, microtextura e percepção de profundidade
 
 O conceito é inspirado em princípios gerais de renderização neural. É um protocolo independente, sem vínculo, certificação ou parceria com fornecedores de tecnologia. A skill fornece instruções ao assistente; não instala um motor GPU.
 
+## Fundamentação: Código Canônico de Engenharia & IA
+
+Referência exclusivamente técnico-científica ao projeto autoral [Canonical Code of Engineering & AI](../../README.md), sem natureza eclesiástica ou vínculo institucional externo. A metodologia CNR aplica seus princípios de fidelidade, rastreabilidade, avaliação e controle humano.
+
 ## Governança
 - SSOT: fonte original preservada; edição em cópia.
 - [Canon VI](../../laws/law06_architecture.md) e [Canon X](../../laws/law10_layer_separation.md): separar política de edição, processamento, avaliação e distribuição.
