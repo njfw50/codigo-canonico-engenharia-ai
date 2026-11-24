@@ -14,4 +14,4 @@ Amostra: Coffee, Rachel Michetti, CC0, via scikit-image. Degradação artificial
 - Registrar modo, versão, provedor, entrada e saída quando autorizado.
 - Separar falhas de instalação, qualidade e aceitação comercial.
 - Não publicar fotografias de clientes sem autorização.
-- Bloquear afirmações de integração NVIDIA e instalação garantida sem evidência.
+- Bloquear afirmações de integração externa e instalação garantida sem evidência.
