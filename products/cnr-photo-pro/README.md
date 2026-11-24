@@ -14,7 +14,7 @@ CNR Photo Pro é uma proposta de aplicação comercial independente do [Código 
 ## Proposta de valor
 Aprimorar nitidez, iluminação, cor, microtextura e percepção de profundidade com preservação da composição e da identidade. Modos propostos: natural, cinematográfico, restauração e produto. A edição generativa pode introduzir alterações; a revisão visual do usuário continua necessária.
 
-O conceito é inspirado em princípios gerais de renderização neural. Não incorpora NVIDIA DLSS, não é produto NVIDIA e não possui certificação ou parceria com NVIDIA ou OpenAI. A skill fornece instruções ao assistente; não instala um motor GPU.
+O conceito é inspirado em princípios gerais de renderização neural. É um protocolo independente, sem vínculo, certificação ou parceria com fornecedores de tecnologia. A skill fornece instruções ao assistente; não instala um motor GPU.
 
 ## Governança
 - SSOT: fonte original preservada; edição em cópia.
@@ -25,7 +25,7 @@ O conceito é inspirado em princípios gerais de renderização neural. Não inc
 - [Canon XXII](../../laws/law22_code_provenance.md) (provisório): registrar versão e origem dos artefatos.
 
 ## Evidência preliminar
-Teste local convencional em uma amostra de café CC0 (Rachel Michetti, via scikit-image), artificialmente degradada: PSNR 26,472 → 27,598 dB; SSIM 0,63039 → 0,74996. Filtro mediano e nitidez Pillow, sem processamento neural. Não é benchmark NVIDIA, teste de retrato, certificação da skill ou validação comercial. Ver [registro de validação](VALIDATION.md).
+Teste local convencional em uma amostra de café CC0 (Rachel Michetti, via scikit-image), artificialmente degradada: PSNR 26,472 → 27,598 dB; SSIM 0,63039 → 0,74996. Filtro mediano e nitidez Pillow, sem processamento neural. Não é benchmark de hardware, teste de retrato, certificação da skill ou validação comercial. Ver [registro de validação](VALIDATION.md).
 
 ## Disponibilidade
 Beta não publicado. Não há checkout, link de instalação oficial, aprovação ou vendas confirmadas. Preço piloto proposto: US$ 9,90 (não validado). O pacote comercial será distribuído separadamente após validação do canal e das condições de licença.
