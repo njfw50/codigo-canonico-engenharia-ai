@@ -5,6 +5,12 @@
 
 CNR Photo Pro é uma proposta de aplicação comercial independente do [Código Canônico de Engenharia & IA](../../README.md) ao aprimoramento de fotografias. O protocolo público mantém sua licença Apache 2.0; a embalagem comercial separada não integra este repositório. Não constitui novo cânone ratificado.
 
+## Canonical Project Seal
+
+[![Reference: Canonical Protocol](../../assets/canonical-reference.svg)](CANONICAL-SEAL.md)
+
+**CCEAI-CNR-0001** — Pre-release · Canonical reference. [Internal seal record](CANONICAL-SEAL.md); not a technical certification.
+
 ## Proposta de valor
 Aprimorar nitidez, iluminação, cor, microtextura e percepção de profundidade com preservação da composição e da identidade. Modos propostos: natural, cinematográfico, restauração e produto. A edição generativa pode introduzir alterações; a revisão visual do usuário continua necessária.
 
