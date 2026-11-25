@@ -1,0 +1,31 @@
+{
+  "scope": "OpticalGuard research increment only; not full-product CDM",
+  "design": "CNR-ADA-003",
+  "runtime": {
+    "language": "Python 3",
+    "externalDependencies": []
+  },
+  "components": [
+    {
+      "path": "optical_guard.py",
+      "layer": "domain",
+      "references": []
+    },
+    {
+      "path": "test_optical_guard.py",
+      "layer": "test",
+      "references": [
+        {
+          "target": "optical_guard.py",
+          "symbol": "assess",
+          "resolution": "local module in research directory"
+        },
+        {
+          "target": "unittest",
+          "resolution": "Python standard library"
+        }
+      ]
+    }
+  ],
+  "integration": "Not yet connected to editor or TextureGuard pipeline"
+}
