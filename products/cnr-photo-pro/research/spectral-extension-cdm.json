@@ -1,0 +1,21 @@
+{
+  "scope": "Research evaluation extension only",
+  "components": [
+    {
+      "path": "validate_spectral_extension.py",
+      "references": [
+        "csv",
+        "hashlib",
+        "concurrent.futures.ProcessPoolExecutor",
+        "numpy",
+        "PIL.Image",
+        "PIL.ImageFilter",
+        "scipy.ndimage.gaussian_filter",
+        "skimage.data",
+        "skimage.metrics",
+        "rescue_texture.py:rescue"
+      ]
+    }
+  ],
+  "resolution": "Existing research dependencies and local module, see spectral-rescue-cdm.json"
+}
