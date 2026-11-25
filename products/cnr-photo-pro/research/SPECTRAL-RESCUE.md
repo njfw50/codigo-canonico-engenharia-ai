@@ -1,0 +1,14 @@
+# CNR spectral texture rescue — targeted development evidence
+2026-11-25 · GPT-6.2, author-directed. Parent bf9764959fbedb5509cb78142d2cc7d79243d9b8.
+Research increment only; frozen candidate, production composition, canonical laws, enforcement, guards and release gate unchanged. No new dependency. Known Gaussian blur sigma 1.2 supplied explicitly for synthetic cases; do not infer this PSF for real photographs. Do not use as general portrait or product adapter without validation. Selection uses existing guards, not clean reference. First preserve prior spectral output exactly when accepted; otherwise search noise penalty in fixed descending order with capped inverse gain 1.5. Never return source or copy source pixels into output. Cap selected using development results after initial cap 2 rescued six cases but one regressed; a wider search timed out, then fixed cap 1.5 rerun completed. Parameters are tuned on the same two reference images; no independent holdout or claim of optimality.
+## Results
+Exactly two reused reference images, three noise levels and three seeds, 18 correlated cases, 30 candidate attempts in final replay. 18 review_required, 18 improved SSIM over fixed median/unsharp baseline, 0 source returns. All 12 previously reviewable output pixel SHA256 hashes exactly preserved. Six previously rejected high-noise cases now reviewable, all selected penalty 1.0. Mean SSIM at noise .08: grass .5018265329410853 -> .5435734958120478; gravel .6238358156951228 -> .6829566624169027. Both guards unchanged (blob IDs 7f1ec355f24126f1fbbce575a86b84c08752ff6d and a8fbc376c0f202b55cac5491605bddb364e06ccd). No semantic acceptance or independent testing. Other images have not been revalidated with rescue. Earlier spectral prototype also tested astronaut, clock, brick and horse but those results do not establish generalization of this rescue. Need independent photographic corpus, known or estimated blur with uncertainty, production adapter review, full CNR-RP-001 and remote verifier. Commercial release blocked.
+## Reproduction
+From research directory: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python validate_rescue.py
+NumPy 2.3.5, SciPy 1.17.0, Pillow 12.3.0, scikit-image 0.26.0.
+SHA256 spectral_texture.py a14ed86455f1c5030ffb5ad63f806c21b45e4326124ba7ba9a0d926396170906
+SHA256 rescue_texture.py 6bd14f0cfa6e8dd769c943e78ad63b72c4e4b116674e2e333fa984272dddeccb
+SHA256 validate_rescue.py 7b60672fbd2aa9c553962099654a29d2179033448bbbcd31d9955a3c0ca6417b
+SHA256 rescue-results.csv 2cf5932df1b7c4fb6fd4ee9c72f07eb53db98f4e325cc02f9358813ba9db860b
+SHA256 rescue-attempts.csv 6629875d2c0102b16d38be38248b1ae92b008f72f0d0e3187902dd495d12f6bf
+CSVs provided separately and reproducible with script. Existing application and composition untouched; this research does not supersede the frozen release candidate.

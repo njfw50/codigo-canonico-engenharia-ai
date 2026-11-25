@@ -1,0 +1,10 @@
+# Frozen CNR research candidate — remote audit submission
+Author explicitly authorized submission on 2026-11-25. Draft PR #22 only; no approval, merge, certification, or release authorized.
+
+The local package was frozen against 28f0450d52a45dfd626fc9724ad7a841b5ede067. This submission builds on aea66ceb5f73a567aa13fe1cbdf7d1d061a6cc78 and preserves the intervening noise and specialized-engine research. The original integrated_engine.py, laws, verifier, dependency manifest path, guards and negative evidence are retained. No changes intended to evade the verifier. The research architecture remains a candidate pending formal approval.
+
+Application orchestration passes each proposed processed candidate through the existing TextureGuard and OpticalGuard; the original image is never returned as processed output. Adapters have no reference-image access. The evaluator alone reads references. No neural checkpoint was executed. Original Git blob IDs: TextureGuard 7f1ec355f24126f1fbbce575a86b84c08752ff6d, OpticalGuard a8fbc376c0f202b55cac5491605bddb364e06ccd.
+
+Local development results (not an independent holdout): 14 previously used images, 126 correlated variants, 102 improved, 24 regressed, 126 reviewable, mean paired SSIM delta +0.09176980934560561 against fixed median/unsharp baseline, no unchanged-source outputs. Negative image-level means: astronaut and horse. Four integration unit tests passed again before submission. See advanced.json. Reproduce in this directory with pinned dependencies: python -m unittest -v test_application; OPENBLAS_NUM_THREADS=1 python evaluate.py. The raw CSV is not committed; it can be regenerated and is in the local package, SHA-256 f17a2c3ea6a460bfd1af28c8d03fc8f93cab17b020c3541a246691e7f66bd83f. Local archive SHA-256 eab337e3ed088d073620f6df3796810ebf9dc6b77317572e80d16b629a0f2bcb.
+
+No semantic identity assessment, blind human review, full generative skill test, formal architecture approval or independent CNR-RP-001 confirmatory validation yet. Retain the existing acceptance target and all release blockers. Remote checks do not by themselves constitute scientific validation.

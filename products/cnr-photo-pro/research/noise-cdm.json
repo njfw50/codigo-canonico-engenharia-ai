@@ -1,0 +1,36 @@
+{
+  "scope": "Research diagnostic only",
+  "components": [
+    {
+      "path": "noise_diagnostic.py",
+      "references": [
+        "numpy",
+        "PIL.Image",
+        "scipy.ndimage.gaussian_filter",
+        "skimage.restoration.calibrate_denoiser",
+        "skimage.restoration.denoise_nl_means",
+        "integrated_engine.py:integrate"
+      ]
+    },
+    {
+      "path": "validate_noise.py",
+      "references": [
+        "csv",
+        "hashlib",
+        "json",
+        "concurrent.futures.ProcessPoolExecutor",
+        "collections.Counter",
+        "numpy",
+        "PIL.Image",
+        "PIL.ImageFilter",
+        "scipy.ndimage.gaussian_filter",
+        "skimage.data",
+        "skimage.metrics",
+        "validate_integration.py:NAMES,SIGMAS,SEEDS",
+        "noise_diagnostic.py:evaluate,shadow_texture",
+        "texture_guard.py:protect"
+      ]
+    }
+  ],
+  "resolution": "Local research modules and existing research packages or Python standard library; no new dependencies."
+}
