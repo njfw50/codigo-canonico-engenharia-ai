@@ -1,0 +1,11 @@
+{
+  "status": "review_required",
+  "method": "spectral_known_blur",
+  "output": "/tmp/cnr-delivery-smoke-1474.png",
+  "dimensions": [
+    256,
+    256
+  ],
+  "source_pixels_sha256": "022629b0aabafa1da7a8b7922ce8c6285def51785034555575741f6a63d668af",
+  "output_pixels_sha256": "df32653a3896fbcca7990cf743d7dbb74b6f5bc9ebf0ce9f56c8d90e5527660d"
+}

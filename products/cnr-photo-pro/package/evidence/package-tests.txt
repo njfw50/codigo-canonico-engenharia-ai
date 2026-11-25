@@ -1,0 +1,12 @@
+test_invalid_mode (test_package.PackageTests.test_invalid_mode) ... ok
+test_refuse_existing_output (test_package.PackageTests.test_refuse_existing_output) ... ok
+test_refuse_source_overwrite (test_package.PackageTests.test_refuse_source_overwrite) ... ok
+test_rejection_writes_no_file (test_package.PackageTests.test_rejection_writes_no_file) ... ok
+test_spectral_real_processing (test_package.PackageTests.test_spectral_real_processing) ... ok
+test_standard_real_processing (test_package.PackageTests.test_standard_real_processing) ... ok
+test_unknown_blur (test_package.PackageTests.test_unknown_blur) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.109s
+
+OK
