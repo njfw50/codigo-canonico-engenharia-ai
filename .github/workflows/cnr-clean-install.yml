@@ -1,0 +1,34 @@
+name: CNR Clean Dependency Installation
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'products/cnr-photo-pro/research/requirements.txt'
+      - 'products/cnr-photo-pro/research/test_environment.py'
+      - '.github/workflows/cnr-clean-install.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  clean-install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: products/cnr-photo-pro/research
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned packages in fresh virtual environment
+        run: |
+          python -m venv "$RUNNER_TEMP/cnr-venv"
+          "$RUNNER_TEMP/cnr-venv/bin/python" -m pip --isolated install --index-url https://pypi.org/simple --no-cache-dir --only-binary=:all: -r requirements.txt
+      - name: Verify dependency consistency and exact versions
+        run: |
+          "$RUNNER_TEMP/cnr-venv/bin/python" -m pip check
+          "$RUNNER_TEMP/cnr-venv/bin/python" -m pip freeze --all
+          "$RUNNER_TEMP/cnr-venv/bin/python" -m unittest -v test_environment
