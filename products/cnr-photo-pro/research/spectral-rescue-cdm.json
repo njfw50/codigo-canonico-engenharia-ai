@@ -1,0 +1,44 @@
+{
+  "scope": "Targeted known-blur development research; not production integration",
+  "components": [
+    {
+      "path": "spectral_texture.py",
+      "references": [
+        "numpy",
+        "PIL.Image",
+        "scipy.fft.dctn",
+        "scipy.fft.idctn",
+        "scipy.ndimage.gaussian_filter"
+      ]
+    },
+    {
+      "path": "rescue_texture.py",
+      "references": [
+        "numpy",
+        "PIL.Image",
+        "scipy.fft.dctn",
+        "scipy.fft.idctn",
+        "scipy.ndimage.gaussian_filter",
+        "spectral_texture.py:propose",
+        "texture_guard.py:protect",
+        "optical_guard.py:assess"
+      ]
+    },
+    {
+      "path": "validate_rescue.py",
+      "references": [
+        "csv",
+        "hashlib",
+        "json",
+        "numpy",
+        "PIL.Image",
+        "PIL.ImageFilter",
+        "scipy.ndimage.gaussian_filter",
+        "skimage.data",
+        "skimage.metrics",
+        "rescue_texture.py:rescue"
+      ]
+    }
+  ],
+  "resolution": "Existing pinned research libraries, standard library, and local files. No core change."
+}
