@@ -34,4 +34,6 @@ Teste local convencional em uma amostra de café CC0 (Rachel Michetti, via sciki
 ## Disponibilidade
 Beta não publicado. Não há checkout, link de instalação oficial, aprovação ou vendas confirmadas. Preço piloto proposto: US$ 9,90 (não validado). O pacote comercial será distribuído separadamente após validação do canal e das condições de licença.
 
-[Prévia da apresentação comercial](index.html) · [Plano de lançamento](RELEASE.md) · [Validação](VALIDATION.md)
+[Plano de lançamento](RELEASE.md) · [Validação](VALIDATION.md)
+
+A interface comercial foi retirada desta proposta técnica e permanece no histórico do Git. Qualquer implementação de apresentação deverá ser submetida separadamente, após aprovação da arquitetura e dos gates de lançamento. Não há certificação nem autorização para publicar.
