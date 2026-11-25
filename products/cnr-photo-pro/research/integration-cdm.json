@@ -1,0 +1,59 @@
+{
+  "scope": "Integrated research backend only",
+  "design": "CNR-ADA-003",
+  "integration": "Conventional propose -> TextureGuard -> OpticalGuard -> review_required or no result",
+  "components": [
+    {
+      "path": "integrated_engine.py",
+      "layer": "research application and conventional adapter",
+      "references": [
+        "numpy",
+        "PIL.Image",
+        "scipy.ndimage",
+        "texture_guard.py:protect",
+        "optical_guard.py:assess"
+      ]
+    },
+    {
+      "path": "validate_integration.py",
+      "layer": "research evaluation",
+      "references": [
+        "csv",
+        "hashlib",
+        "json",
+        "sys",
+        "collections",
+        "numpy",
+        "PIL",
+        "PIL.Image",
+        "PIL.ImageFilter",
+        "scipy",
+        "scipy.ndimage",
+        "skimage",
+        "skimage.data",
+        "skimage.metrics",
+        "integrated_engine.py:propose",
+        "integrated_engine.py:integrate"
+      ]
+    },
+    {
+      "path": "texture_guard.py",
+      "references": [
+        "numpy",
+        "PIL.Image",
+        "scipy.ndimage"
+      ]
+    },
+    {
+      "path": "optical_guard.py",
+      "references": []
+    }
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "scipy": "1.17.0",
+    "skimage": "0.26.0"
+  },
+  "resolution": "Local files in research directory; Python standard library or installed research packages. No production distribution. Supersedes integration status in optical-guard-cdm.json for this research pipeline only."
+}
