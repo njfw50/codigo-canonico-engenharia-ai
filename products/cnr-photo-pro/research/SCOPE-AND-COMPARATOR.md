@@ -2,6 +2,11 @@
 2026-11-25 · Owner-directed decision, recorded by GPT-6.2.
 Baseline commit: 8083e83f8f4f3a3c311ffb43c4387d7ef8453698. Draft PR #22. The owner clarified that universal perfection is not the engineering goal; fitness for a declared use is. This product-level scope decision does not amend any canon, relax existing release gates, constitute external certification, or establish superiority to Samsung.
 
+## Philosophical guidance — Soli Deo Gloria
+Owner-approved, 2026-11-25. "Soli Deo Gloria" (glory to God alone) expresses the author's theological conviction that absolute perfection belongs to God, while human engineering pursues excellence with humility, truthfulness, proportionality and responsibility. Practical implications: seek demonstrable fitness for the declared use; report limitations and failures honestly; avoid unproductive pursuit of universal perfection; serve human needs; never fabricate evidence or waive mandatory safeguards in the name of expediency. This is a product-level philosophical orientation, not a new canon, ratification, technical metric, ecclesiastical endorsement, or replacement for scientific and commercial acceptance criteria. Respect users of all beliefs.
+
+*Soli Deo Gloria. Ad excellentiam, non ad perfectionem absolutam.*
+
 ## Scope and frozen reference
 The proposed initial product scope is ordinary photographic enhancement: noise reduction, controlled sharpness and preservation of visible content. Do not claim forensic restoration, recovery of information absent from the source, universal performance, or guaranteed improvements on every input.
 Keep the layered conventional research candidate documented in RELEASE-CANDIDATE.md frozen. Its previously reported development replay: 102/126 improvements, 24 regressions, 126 reviewable, mean SSIM delta +0.09176980934560561; these are historical development results, not independent confirmation.
